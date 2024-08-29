@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apiculus Doc Site',
+  title: 'Apiculus Documentation',
   tagline: 'For the Service Providers and the Subscribers.',
   favicon: 'img/favicon.ico',
 
@@ -43,8 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+    //      editUrl:
+      //      'https://github.com/imyogeshs/apiculus',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
     //      editUrl:
-      //      'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+      //      'https://github.com/imyogeshs/apiculus',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -74,9 +74,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Apiculus',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Apiculus',
           src: 'img/logo.svg',
         },
         items: [
@@ -84,12 +84,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Service Providers',
           },
     //      {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://apiculus.com',
-            label: 'apiculus',
+            label: 'Apiculus Home',
             position: 'right',
           },
         ],
@@ -101,7 +101,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentation',
+                label: 'Service Providers',
                 to: '/docs/intro',
               },
             ],
@@ -126,10 +126,7 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              
               {
                 label: 'GitHub',
                 href: 'https://github.com',
@@ -137,7 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Apiculuus, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Apiculus, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
@@ -146,4 +143,41 @@ const config = {
     }),
 };
 
-export default config;
+export default {
+  title: 'Apiculus',
+  // ...
+  themes: ['@docusaurus/theme-search-algolia'],
+  themeConfig: {
+    // he application ID provided by Algolia
+      appId: 'YOUR_APP_ID',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'YOUR_SEARCH_API_KEY',
+
+      indexName: 'YOUR_INDEX_NAME',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      externalUrlRegex: 'external\\.com|domain\\.com',
+
+      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      replaceSearchResultPathname: {
+        from: '/docs/', // or as RegExp: /\/docs\//
+        to: '/',
+      },
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: false,
+
+      //... other Algolia params
+    },
+  },
+};

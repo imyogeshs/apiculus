@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Configuration/translate-your-site.md",
+                "file": "docs/intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#__PURE__",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 305.5
   },
   "right": {
     "id": "d1303f5c52f5e51b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Configuration/translate-your-site.md",
+                "file": "docs/intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Configuration/translate-your-site.md",
+                "file": "docs/intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Configuration/translate-your-site.md"
+                "file": "docs/intro.md"
               }
             }
           }
@@ -148,9 +148,18 @@
   },
   "active": "88d868182cd2aa2e",
   "lastOpenFiles": [
+    "docs/StackComponents.png",
+    "docs/StackComponents.drawio",
+    "docs/welcome1.png",
+    "docs/Configuration/translate-your-site.md",
     "docs/Configuration/manage-docs-versions.md",
-    "src/pages/markdown-page.md",
+    "docs/Configuration/img/localeDropdown.png",
+    "docs/Configuration/img/docsVersionDropdown.png",
+    "Untitled.canvas",
+    "2024-08-30.md",
+    "node_modules/@babel/helper-annotate-as-pure/README.md",
     "docs/intro.md",
+    "src/pages/markdown-page.md",
     "build/index.html",
     "build/sitemap.xml",
     "build/assets/js/runtime~main.92cb71a8.js",
@@ -163,14 +172,10 @@
     "build/blog/atom.css",
     "build/blog/rss.css",
     "build/blog/atom.xsl",
-    "build/blog/rss.xsl",
     "build/img/welcome1.png",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/docusaurus.png",
-    "build/img/StackComponents.svg",
-    "build/img/docusaurus-social-card.jpg",
     "docs/Operations/create-a-blog-post.md",
     "docs/Operations/create-a-document.md",
     "docs/Operations/deploy-your-site.md",

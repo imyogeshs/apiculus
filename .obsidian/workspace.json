@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/intro.md",
+                "file": "docs/Introduction/architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/intro.md",
+                "file": "docs/Introduction/architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/intro.md",
+                "file": "docs/Introduction/architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/intro.md"
+                "file": "docs/Introduction/architecture.md"
               }
             }
           }
@@ -148,6 +148,16 @@
   },
   "active": "88d868182cd2aa2e",
   "lastOpenFiles": [
+    "docs/Introduction/billingconcepts.md",
+    "docs/Introduction/supportedpaymentgateways.md",
+    "docs/Introduction/supportedSMSgateways.md",
+    "docs/Introduction/architecture.md",
+    "docs/Introduction/congratulations.md",
+    "docs/Overview/architecturesssss.md",
+    "docs/Overview/congratulations.md",
+    "docs/Overview/deploy-your-site.md",
+    "docs/Overview/create-a-blog-post.md",
+    "docs/intro.md",
     "docs/StackComponents.png",
     "docs/StackComponents.drawio",
     "docs/welcome1.png",
@@ -158,7 +168,6 @@
     "Untitled.canvas",
     "2024-08-30.md",
     "node_modules/@babel/helper-annotate-as-pure/README.md",
-    "docs/intro.md",
     "src/pages/markdown-page.md",
     "build/index.html",
     "build/sitemap.xml",
@@ -175,7 +184,6 @@
     "build/img/welcome1.png",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
     "docs/Operations/create-a-blog-post.md",
     "docs/Operations/create-a-document.md",
     "docs/Operations/deploy-your-site.md",
@@ -186,10 +194,6 @@
     "docs/Business Functions/create-a-page.md",
     "docs/Business Functions/create-a-blog-post.md",
     "docs/Business Functions/congratulations.md",
-    "docs/Classroom Management/create-a-blog-post.md",
-    "docs/Classroom Management/create-a-page.md",
-    "docs/Classroom Management/deploy-your-site.md",
-    "docs/Classroom Management/create-a-document.md",
-    "docs/Classroom Management/congratulations.md"
+    "docs/Classroom Management/create-a-blog-post.md"
   ]
 }

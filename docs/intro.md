@@ -20,7 +20,7 @@ Apiculus enables:
 ## Stack Components
 _Items in_ **_blue_** _are Apiculus software capabilities; items in_ **_grey_** _are services and extensions that can be monetised; items in_ **_green_** _are service provider’s assets._
 
-![Stack Components](/img/StackComponents.svg)
+![Stack Components](/img/StackComponents.png)
 
 ## Features and Specifications
 ### Self-service and Administration
@@ -39,6 +39,9 @@ Apiculus brings a powerful layer of self-service along with a multitude of confi
 |Self-service Platform Configurations|Configure the end-user experience, right from branding to policy documentation, custom links and platform default behaviours.|
 |Role-based Admin Access|Onboard various functional personnel with our customisable role-based access system.|
 
+|Features|Description|
+| --- | --- |
+|**Self Service**||
 
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 

@@ -16,7 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Subsribers',
+    title: 'Subscribers',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>

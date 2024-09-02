@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8c83522a567ced0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Services and System Requirements/Configurations/architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Services and System Requirements/Configurations/architecture.md",
+                "file": "docs/Introduction/architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Services and System Requirements/Configurations/architecture.md",
+                "file": "docs/Introduction/architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Services and System Requirements/Configurations/architecture.md"
+                "file": "docs/Introduction/architecture.md"
               }
             }
           }
@@ -159,42 +146,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c83522a567ced0a",
+  "active": "88d868182cd2aa2e",
   "lastOpenFiles": [
-    "build/sitemap.xml",
-    "build/markdown-page/index.html",
-    "build/markdown-page",
-    "build/docs/Services and System Requirements/Configurations/architecture/index.html",
-    "build/docs/Services and System Requirements/Configurations/architecture",
-    "build/docs/Services and System Requirements/architecture/index.html",
+    "docs/Services and System Requirements/architecture.md",
+    "docs/Operations/code.md",
     "build/docs/Overview/architecture/index.html",
+    "build/docs/Overview/architecture",
+    "build/docs/Overview",
+    "build/docs/Configuration/architecture/index.html",
+    "build/docs/Configuration/architecture",
+    "build/docs/Operations/code/index.html",
     "build/docs/Operations/architecture/index.html",
-    "build/docs/Introduction/signingup/index.html",
-    "build/docs/Introduction/supportedSMSgateways/index.html",
-    "build/docs/Introduction/supportedpaymentgateways/index.html",
-    "build/img/undraw_docusaurus_react.svg",
+    "build/docs/Operations/code",
+    "build/docs/Operations/architecture",
+    "build/docs/Operations",
     "build/img/undraw_docusaurus_tree.svg",
+    "build/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg",
+    "build/assets/images/ApiculusCentral-4f68b8b24dcc8373d2a4fb1622b686fb.png",
+    "build/assets/images/welcome1-6e3be18745798496266369edd4691e10.png",
+    "build/assets/images/StackComponents-21b3d2dc5482f0a7a8bbf2148c7d8586.png",
     "build/img/undraw_docusaurus_mountain.svg",
+    "build/img/undraw_docusaurus_react.svg",
     "build/img/logo.svg",
     "build/img/docusaurus.png",
     "build/img/docusaurus-social-card.jpg",
+    "docs/Operations/architecture.md",
+    "docs/Services and System Requirements/Configurations/architecture.md",
     "docs/Configuration/architecture.md",
     "docs/Overview/architecture.md",
-    "docs/Services and System Requirements/Configurations/architecture.md",
-    "docs/Services and System Requirements/architecture.md",
     "docs/Services and System Requirements/Configurations/manage-docs-versions.md",
     "docs/Services and System Requirements/manage-docs-versions.md",
     "docs/Overview/architectures.md",
-    "docs/Operations/architecture.md",
     "docs/Operations/deploy-your-site.md",
     "docs/Introduction/architecture.md",
-    "docs/Introduction/ApiculusCentral.png",
-    "docs/Services and System Requirements/Configurations/img/localeDropdown.png",
-    "docs/Services and System Requirements/Configurations/img/docsVersionDropdown.png",
     "docs/Services and System Requirements/Configurations/translate-your-site.md",
     "docs/Configuration/manage-docs-versions.md",
     "docs/Configuration/translate-your-site.md",
-    "docs/StackComponents.png",
     "docs/intro.md",
     "docs/Overview/deploy-your-site.md",
     "docs/Overview/create-a-document.md",
@@ -206,7 +193,6 @@
     "docs/Operations/create-a-blog-post.md",
     "docs/Introduction/ApiculusAccessCentral.md",
     "docs/Introduction/supportedSMSgateways.md",
-    "docs/Introduction/supportedpaymentgateways.md",
     "Untitled.canvas"
   ]
 }

@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apiculus Documentation',
+  title: 'Apiculus',
   tagline: 'For the Service Providers and the Subscribers.',
   favicon: 'img/favicon.ico',
 
@@ -71,6 +71,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+		docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+		hideable: true,
+
+      },
+	  
+    },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -85,7 +93,9 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Service Providers',
+			position: "left",
           },
+		  
     //      {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://apiculus.com',
@@ -136,6 +146,20 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Apiculus, Inc.`,
       },
+	  
+	  
+	  // Algolia Search is here.
+	  
+	  algolia: {
+      appId: "LR4IO8TKPQ",
+      apiKey: "86496eb0535959e8d78cff40e68ba3b8",
+      indexName: "apiculus",
+      contextualSearch: true,
+      searchParameters: {
+      facetFilters: ["keywords"]
+      }
+    },
+	
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

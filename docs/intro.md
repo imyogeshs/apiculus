@@ -19,7 +19,9 @@ Apiculus enables:
 ## Stack Components
 _Items in_ **_blue_** _are Apiculus software capabilities; items in_ **_grey_** _are services and extensions that can be monetised; items in_ **_green_** _are service provider’s assets._
 
-![Stack Components](StackComponents.png)
+import DocusaurusSvg from './StackComponents.svg'; 
+
+<DocusaurusSvg />;
 
 ## Features and Specifications
 ### Self-service and Administration

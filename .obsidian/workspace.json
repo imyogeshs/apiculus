@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Configuration/Advanced Configurations/EnablingResellerModule.md",
+                "file": "docs/Administration/SupportManagement/ManagingBillingforResellers.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 406.5
   },
   "right": {
     "id": "d1303f5c52f5e51b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Configuration/Advanced Configurations/EnablingResellerModule.md",
+                "file": "docs/Administration/SupportManagement/ManagingBillingforResellers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Configuration/Advanced Configurations/EnablingResellerModule.md",
+                "file": "docs/Administration/SupportManagement/ManagingBillingforResellers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Configuration/Advanced Configurations/EnablingResellerModule.md"
+                "file": "docs/Administration/SupportManagement/ManagingBillingforResellers.md"
               }
             }
           }
@@ -146,54 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef7415b37c790712",
+  "active": "88d868182cd2aa2e",
   "lastOpenFiles": [
-    "docs/Services and System Requirements/Platform Adminstration/img/docsVersionDropdown.png",
-    "docs/Services and System Requirements/Platform Adminstration/img/localeDropdown.png",
-    "docs/Services and System Requirements/Platform Adminstration/img",
-    "docs/Services and System Requirements/Platform Adminstration/_category_.json",
-    "docs/Services and System Requirements/Platform Adminstration/ManagingQuickPlanCategories.md",
-    "docs/Services and System Requirements/Platform Adminstration/EnablingResellerModule.md",
-    "docs/Services and System Requirements/Platform Adminstration/CurrencyLocalisation.md",
-    "docs/Services and System Requirements/Platform Adminstration/AddingCustomScripts.md",
-    "docs/Services and System Requirements/Platform Adminstration",
-    "docs/Services and System Requirements/Signup Configurations/img/docsVersionDropdown.png",
-    "docs/Services and System Requirements/Signup Configurations/img/localeDropdown.png",
-    "docs/Services and System Requirements/Signup Configurations/img",
-    "docs/Services and System Requirements/Signup Configurations/RestrictingFreeEmailDomains.md",
-    "docs/Services and System Requirements/Signup Configurations/_category_.json",
-    "docs/Services and System Requirements/Signup Configurations/SignupSettings.md",
-    "docs/Services and System Requirements/Signup Configurations/ConfiguringAccountDefaults.md",
-    "docs/Services and System Requirements/Signup Configurations",
-    "docs/Services and System Requirements/Platform Administration/img/localeDropdown.png",
-    "docs/Services and System Requirements/Platform Administration/img/docsVersionDropdown.png",
-    "docs/Services and System Requirements/Platform Administration/_category_.json",
-    "docs/Services and System Requirements/Platform Administration/ManagingSPAdminUsers.md",
-    "docs/Services and System Requirements/Platform Administration/ManagingServiceProviderProfile.md",
-    "docs/Services and System Requirements/Platform Administration/img",
-    "docs/Services and System Requirements/Platform Administration/GeneralPlatformSettings.md",
-    "docs/Services and System Requirements/Platform Administration/ConfiguringAutomationPolicies.md",
-    "docs/Services and System Requirements/Platform Administration",
-    "docs/Services and System Requirements/Login Configurations/img/localeDropdown.png",
-    "docs/Services and System Requirements/Login Configurations/img/docsVersionDropdown.png",
-    "docs/Services and System Requirements/Login Configurations/LoginSecurityand2FA.md",
-    "docs/Services and System Requirements/Login Configurations/_category_.json",
-    "docs/Services and System Requirements/Login Configurations/ConfiguringPasswordPolicies.md",
-    "docs/Services and System Requirements/In Built Apps/img/localeDropdown.png",
-    "docs/Services and System Requirements/In Built Apps/img/docsVersionDropdown.png",
-    "docs/Services and System Requirements/In Built Apps/ManagingPaymentGateways.md",
-    "docs/Services and System Requirements/In Built Apps/ManagingGooglereCAPTCHAandTagManager.md",
-    "docs/Services and System Requirements/In Built Apps/ConfiguringSystemEmailsusingSMTP.md",
-    "docs/Services and System Requirements/In Built Apps/ConfiguringSMSGateway.md",
-    "docs/Services and System Requirements/Branding and Content/img/docsVersionDropdown.png",
-    "docs/Services and System Requirements/Branding and Content/PublishingStandardStaticContent.md",
-    "docs/Services and System Requirements/Branding and Content/CustomisingBrandandGraphicAssets.md",
-    "docs/Services and System Requirements/Branding and Content/ConfiguringCustomLinks.md",
-    "docs/Services and System Requirements/Billing and Financials/Configuring Tax Deductions.md",
-    "docs/Services and System Requirements/Billing and Financials/ConfiguringBasicBilling.md",
-    "docs/Services and System Requirements/Billing and Financials/Configuring Additional Fields.md",
-    "docs/Services and System Requirements/Advanced Configurations/ManagingQuickPlanCategories.md",
-    "docs/Services and System Requirements/Advanced Configurations/CurrencyLocalisation.md",
+    "docs/Administration/SupportManagement/ManagingReseller-taggedAccounts.md",
+    "docs/Administration/SupportManagement/CreatingandUpdatingResellers.md",
+    "docs/Administration/SupportManagement/ManagingBillingforResellers.md",
+    "docs/Administration/MarketingManagement/WorkingwithCoupons.md",
+    "docs/Administration/SupportManagement/ConfiguringAutomationPolicies.md",
+    "docs/Administration/MarketingManagement/WorkingwithDiscountCodes.md",
+    "docs/Administration/MarketplaceManagement/Topic2.md",
+    "docs/Administration/MarketplaceManagement/Topic1.md",
+    "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
+    "docs/Administration/BillingandFinancials/RecordingTaxDeductions.md",
+    "docs/Administration/BillingandFinancials/ViewingReceiptsandAcknowledgments.md",
+    "docs/Administration/BillingandFinancials/ReversingTransactions.md",
+    "docs/Administration/BillingandFinancials/ResendinganInvoice.md",
+    "docs/Administration/BillingandFinancials/ResendingCreditNotes.md",
+    "docs/Administration/BillingandFinancials/ViewingTransactionDetails.md",
+    "docs/Administration/BillingandFinancials/RecordingTransactionsandOfflinePayments.md",
+    "docs/Administration/BillingandFinancials/ViewingandDownloadingCreditNotes.md",
+    "docs/Administration/BillingandFinancials/CreatingCreditNotesinBulk.md",
+    "docs/Administration/BillingandFinancials/CreatingaCreditNoteAgainstanInvoice.md",
+    "docs/Administration/BillingandFinancials/AddingOne-timeChargesandDiscounts.md",
+    "docs/Administration/BillingandFinancials/DeactivatingaSubscription.md",
+    "docs/Administration/BillingandFinancials/Overview.md",
+    "docs/Administration/BillingandFinancials/UpdatingSubscriptionCharges.md",
+    "docs/Administration/BillingandFinancials/ViewingInvoices.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/img/docsVersionDropdown.png",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/img/localeDropdown.png",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/_category_.json",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/img",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances",
+    "docs/ServicesandSystemRequirements/AWSLinkage/img/docsVersionDropdown.png",
+    "docs/ServicesandSystemRequirements/AWSLinkage/img/localeDropdown.png",
+    "docs/ServicesandSystemRequirements/AWSLinkage/_category_.json",
+    "docs/ServicesandSystemRequirements/AWSLinkage/img",
+    "docs/ServicesandSystemRequirements/AWSLinkage",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/img/localeDropdown.png",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/img/docsVersionDropdown.png",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/_category_.json",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/img",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/img/localeDropdown.png",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/img/docsVersionDropdown.png",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/_category_.json",
+    "docs/Configuration/SignupConfigurations/img/docsVersionDropdown.png",
+    "docs/Configuration/SignupConfigurations/img/localeDropdown.png",
     "Untitled.canvas"
   ]
 }

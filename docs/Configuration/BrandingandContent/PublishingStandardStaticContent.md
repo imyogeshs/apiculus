@@ -3,17 +3,20 @@ sidebar_position: 2
 ---
 # Publishing Standard Static Content
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+The static content that the user can view from his portal is configured from content settings. This content is helpful in information and lets the user know about the service provider’s EULA, SLA, privacy policy, etc. The admins need to type or can paste the content into the respective section and update it. If some policy is updated or a newer version is uploaded, then the updated date and time are captured, and this information is sent to the end-users via email.
 
-In short, the building blocks of Apiculus are:
+![Publishing](img/Publishing1.png)
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+Apiculus includes a built-in content versioning and management system. Each time a static content document is updated, the system triggers an acceptance from all subscribers and admin users.
+
+## Updating Standard Documents/Policies
+
+Admins need to perform the following steps for updating the policy
+
+1. Navigate to > content> SLA | Privacy Policy > Update > Select policy update type (Modified or Newer version)> Select document update date.
+2. Then click on save so that the changes are saved.
+3. Then click on Publish settings for publishing the updated settings.
+![Publishing](img/Publishing2.png)
+
+4.  Once the policy type is updated, all admins and customers will be sent an email informing them about the policy update changes, along with the link to the updated policy._
+5.  Whenever a customer logs in after the policy update, the customer needs to accept the updated policy by clicking on the acceptance checkbox; otherwise, they won’t be able to do anything on the portal.

@@ -3,17 +3,12 @@ sidebar_position: 1
 ---
 # Signup Settings
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Signup settings can be customised as per the service providers’ need; if they wish on account signup, they want to be notified, i.e., they should receive an email, or their customer’s account id should start with some particular choice of sequence. All the configurations regarding account signup that include both self-signup and admin-assisted accounts can be made from signup settings.
 
-In short, the building blocks of Apiculus are:
+![signup settings](img/signupsettings.png)
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+1. **Account ID Prefix**: _You can specify the prefix for the accounts. By default, all account IDs will start with this defined prefix._
+2. **Admin Approval Required**: _If this switch is on, that means all account signup requests will show up as draft accounts and will be published only after admin approval._
+3. **Admin-only Mode**: _If this is enabled, it means the self-signup form will be disabled and only admins will be able to create the subscriber accounts._
+4. **Send to Admins and Account Managers**: _If this option is selected, an email will be sent to admins and account managers whenever signup for a new account happens._
+5. **Send to Other IDs**: _If this option is selected, all the specified email ids will receive an email whenever a new account signup happens._

@@ -3,12 +3,22 @@ sidebar_position: 7
 ---
 # Logging In
 
-Apiculus offers a single login page for subscribers and admins alike and redirects based on the type of user who is logging in (subscriber, reseller, admin).
+Any user with a valid username/email and password can log in to Apiculus and will automatically be navigated to their respective control panel based on their user type.
 
-Access Central can be accessed via the cloud URL configured for the service provider's cloud deployment.
-![Apiculus Central](ApiculusCentral.png)
-Users, from this page, can:
+Upon successful login, the navigation is as below:
 
-- [Login to Apiculus](https://docs.apiculus.com/hc/en-in/articles/13028491740061)
-- [Signup for a new subscriber account](https://docs.apiculus.com/hc/en-in/articles/13028552796189)
-- [Reset a forgotten password](https://docs.apiculus.com/hc/en-in/articles/13028544886429)
+- Subscriber users (admin and children) - to Apiculus CloudConsole
+- Reseller users - to Apiculus admin console in the 'reseller' view
+- Admin users - to Apiculus admin console
+
+Apiculus stores certain essential and non-third party cookies that are needed for account identification. These are:
+
+- Access token to authenticate session
+- User information like ID, email, type, state and first/last name
+- Other metadata like user's billing currency and payment currency
+
+_Additionally, if Google Tag Manager is being used, the connected apps may inject their own cookies into the session. These will be treated as third party cookies and may be blocked by privacy-focused browsers, ad blockers etc._
+
+:::note
+Login attempts and passwords can be managed via setting up strong [password policies](https://docs.apiculus.com/hc/en-in/articles/12614590756637) using platform configurations.
+:::

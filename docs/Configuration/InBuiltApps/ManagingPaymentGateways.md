@@ -3,17 +3,22 @@ sidebar_position: 4
 ---
 # Managing Payment Gateways
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus admin console allows service providers to use any of the available payment gateways to receive payments in their preferred currency. Payments is an in-built app that allows one or more payment gateways to be enabled if the service provider wishes to offer multiple options to their subscriber users.
 
-In short, the building blocks of Apiculus are:
+## Enabling and Disabling Payment Gateways
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+To enable a payment gateway from the list of available gateways, navigate to **Settings >Financials & Business > Payment Gateways** from the user menu on the top right in the admin console. By default the payment gateway switch will be disabled. Once enabled, the available options will get enabled and can be selectively switched ON or OFF.
+
+![Enabling and Disabling Payment Gateways](img/ManagingPaymentGateways1.png)
+
+:::note
+Apiculus only supports payment gateways as integrations. Obtaining the correct credentials is the service provider's responsibility.
+:::
+
+The subscriber users will see a list of all enabled gateways to choose from.
+
+![Enabling and Disabling Payment Gateways](img/ManagingPaymentGateways2.png)
+
+:::note
+Click [here](/docs/Introduction/supportedpaymentgateways) for the list of supported payment gateways.
+:::

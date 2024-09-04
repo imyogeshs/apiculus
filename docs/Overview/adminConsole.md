@@ -1,19 +1,19 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Admin Console
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus admin console is the top-most experience management layer on the Apiculus solution stack. This is the control panel where service providers' Product, Marketing and Business teams will spend most of their time and manage various facets of the cloud delivery and management experience for the end customers.
 
-In short, the building blocks of Apiculus are:
+![Admin Console](img/adminConsole.png)
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+Other than a high-level techno-commercial landing dashboard, the admin console offers powerful features and capabilities around:
+
+- [Subscriber account management](https://docs.apiculus.com/hc/en-in/articles/12872654390813)
+- [Trial management](https://docs.apiculus.com/hc/en-in/articles/12879969761949)
+- [Billing and financials](https://docs.apiculus.com/hc/en-in/articles/12890262392861)
+- Services and catalogue management
+- [Marketing management](https://docs.apiculus.com/hc/en-in/articles/12926939919901)
+- [Support and basic operations](https://docs.apiculus.com/hc/en-in/articles/12996954557981)
+- [Reseller management](https://docs.apiculus.com/hc/en-in/articles/12996293409949)
+- [Platform configurations and experience management](https://docs.apiculus.com/hc/en-in/categories/12587585419421-Platform-Configurations)

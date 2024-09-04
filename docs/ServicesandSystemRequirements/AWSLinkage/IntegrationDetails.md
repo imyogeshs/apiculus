@@ -1,19 +1,16 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 # Integration Details
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+AWS Linkage is delivered as an integration with Amazon Web Services. The integration functions using API-driven checkpoints.
 
-In short, the building blocks of Apiculus are:
+## Standard Integration Touchpoints
+- **Account Creation**-  As end-users opt for the AWS Linkage, the user's AWS account is linked to the service provider's AWS Organisation account. This allows the service provider to raise invoices to the end-users.
+- **Cataloguing** - This service will be part of the catalogue, i.e., the service provider configures from where to deliver the service and what price to deliver the service.
+- **Account-level Billing -** All the usage generated on AWS will be available as an invoice on Apiculus, with the service provider as the biller.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+## Specific Integration Touchpoints
+- **Create EC2 Instances** - Users can create EC2 Instances in a 'quick create' mode using standard Amazon Machine Images (AMI) available to them in any of AWS' availability zones enabled for them on AWS.
+- **Manage EC2 Instances** -  Users can add view details of their EC2 Instances, access their consoles, and manage the Instance's power states (start/stop/restart).
+- **Manage Service on AWS** -  AWS account can be used and accessed from the AWS Console as usual. From Apiculus, a redirect is provided to the AWS Console.

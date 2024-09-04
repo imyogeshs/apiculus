@@ -3,17 +3,20 @@ sidebar_position: 4
 ---
 # Adding Custom Scripts
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus supports adding custom `<script>` elements to the platform's HTML `<head>` components to execute during rendering of the platform UI on browsers. This can be useful in a number of cases:
 
-In short, the building blocks of Apiculus are:
+- you want to integrate a clickstream, marketing or analytics tool without using Google Tag Manager due to cross-border restrictions (for example, some countries restrict moving data out to Google);
+- you want to write a custom function or logic to affect how and what elements render on the web page; or,
+- you don't want ad-blockers or privacy-focused browsers to flag external scripts (for example, Google Analytics, Tag Manager etc.) as ads.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+Custom scripts can be added individually to Apiculus CloudConsole and to the admin console. To add a custom script, navigate to **Settings > Custom Scripts** from the user menu on the top right of the Apiculus admin console and paste the script in either of the text boxes as suitable.
+
+:::note
+The script should be wrapped between `<script>` and `</script>` tags.
+:::
+
+![Adding Custom Scripts](img/AddingCustomScripts.png)
+
+:::warning 
+This is an experimental feature and may end up breaking the platform UI if used incorrectly. **Use this feature with utmost caution**.
+:::

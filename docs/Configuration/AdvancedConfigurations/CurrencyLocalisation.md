@@ -3,17 +3,22 @@ sidebar_position: 1
 ---
 # Currency Localisation
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+All currencies can be localised for display and financial logic, and this can be controlled from Settings > Currencies on the Apiculus admin console. This can help deliver localised experiences based on local and cultural considerations.
 
-In short, the building blocks of Apiculus are:
+:::note
+This section does not support adding new currencies. These settings are only for localisation of the currencies that are already set up. If you wish to add more currencies to your cloud setup, you’ll need to get in touch with IndiQus Support.
+:::
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+The following settings can be controlled for configured currencies:
+
+1. Currency: _The configured currency_
+2. ISO Code: _Specify the ISO code for the currency, e.g., USD, GBP, etc._
+3. Name: _Specify the currency name as singular, e.g., Dollar, Pound, etc_.
+4. Subunit: _Specify the currency name as singular, e.g., Cent, Pence, etc._
+5. Subunit Conversion:  _The conversion subunit value._
+6. Thousand Separator: _Select the separator;  it can be (. )and (,)_
+7. Decimal: _Select the decimal place; it can be (. )and (,)_
+8. Precision: _Select the precision value with values 0,1,2,3, and as required_
+9. Vedic: _Select if Vedic is needed (x,xx,xxx vs x,xxx,xxx)_
+
+![Currency Localisation](img/CurrencyLocalisation.png)

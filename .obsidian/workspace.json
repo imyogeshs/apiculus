@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Configuration/SignupConfigurations/RestrictingFreeEmailDomains.md",
+                "file": "docs/Administration/ConfiguringSections/ConfiguringLinuxInstances.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 380.5
   },
   "right": {
     "id": "d1303f5c52f5e51b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Configuration/SignupConfigurations/RestrictingFreeEmailDomains.md",
+                "file": "docs/Administration/ConfiguringSections/ConfiguringLinuxInstances.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Configuration/SignupConfigurations/RestrictingFreeEmailDomains.md",
+                "file": "docs/Administration/ConfiguringSections/ConfiguringLinuxInstances.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Configuration/SignupConfigurations/RestrictingFreeEmailDomains.md"
+                "file": "docs/Administration/ConfiguringSections/ConfiguringLinuxInstances.md"
               }
             }
           }
@@ -148,52 +148,52 @@
   },
   "active": "88d868182cd2aa2e",
   "lastOpenFiles": [
-    "docs/Configuration/SignupConfigurations/img/restrictfreeemails.png",
-    "docs/Configuration/SignupConfigurations/img/restrictfreeemails.png.crdownload",
-    "docs/Configuration/SignupConfigurations/ConfiguringAccountDefaults.md",
-    "docs/Configuration/SignupConfigurations/img/configaccountdetails.png",
-    "docs/Configuration/SignupConfigurations/img/configaccountdetails.png.crdownload",
-    "docs/Configuration/SignupConfigurations/SignupSettings.md",
-    "docs/Configuration/SignupConfigurations/img/signupsettings.png",
-    "docs/Configuration/SignupConfigurations/img/signupsettings.png.crdownload",
-    "docs/Configuration/BrandingandContent/CustomisingBrandandGraphicAssets.md",
-    "docs/Configuration/SignupConfigurations/img",
-    "docs/Configuration/SignupConfigurations/New folder",
-    "docs/Configuration/BrandingandContent/ConfiguringCustomLinks.md",
-    "docs/Configuration/BrandingandContent/img/customlinks.png",
-    "docs/Configuration/BrandingandContent/img/customlinks.png.crdownload",
-    "docs/Configuration/BrandingandContent/PublishingStandardStaticContent.md",
-    "docs/Configuration/BrandingandContent/img/Publishing2.png",
-    "docs/Configuration/BrandingandContent/img/Publishing2.png.crdownload",
-    "docs/Configuration/BrandingandContent/img/Publishing1.png",
-    "docs/Configuration/BrandingandContent/img/Publishing1.png.crdownload",
-    "docs/Configuration/BrandingandContent/img/brand2.png",
-    "docs/Configuration/BrandingandContent/img/brand2.png.crdownload",
-    "docs/Configuration/BrandingandContent/img/brand1.png",
-    "docs/Configuration/BrandingandContent/img/brand1.png.crdownload",
-    "docs/Configuration/PlatformAdministration/ConfiguringAutomationPolicies.md",
-    "docs/Configuration/PlatformAdministration/img/ConfiguringAutomationPolicies1.png",
-    "docs/Configuration/PlatformAdministration/img/ConfiguringAutomationPolicies8.png",
-    "docs/Configuration/PlatformAdministration/img/ConfiguringAutomationPolicies7.png",
-    "docs/Configuration/PlatformAdministration/GeneralPlatformSettings.md",
-    "docs/Configuration/PlatformAdministration/ManagingServiceProviderProfile.md",
-    "docs/Configuration/PlatformAdministration/ManagingSPAdminUsers.md",
-    "docs/Sample.md",
-    "img/Managing-SP-Admin-Users1.md",
-    "docs/Introduction/ApiculusAccessCentral.md",
-    "docs/Administration/SupportManagement/ManagingBillingforResellers.md",
-    "docs/Administration/SupportManagement/ManagingReseller-taggedAccounts.md",
-    "docs/Administration/SupportManagement/CreatingandUpdatingResellers.md",
-    "docs/Administration/MarketingManagement/WorkingwithCoupons.md",
-    "docs/Administration/SupportManagement/ConfiguringAutomationPolicies.md",
-    "docs/Administration/MarketingManagement/WorkingwithDiscountCodes.md",
-    "docs/Administration/MarketplaceManagement/Topic2.md",
-    "docs/Administration/MarketplaceManagement/Topic1.md",
-    "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
-    "docs/Administration/BillingandFinancials/RecordingTaxDeductions.md",
-    "docs/Administration/BillingandFinancials/ViewingReceiptsandAcknowledgments.md",
-    "docs/Administration/BillingandFinancials/ReversingTransactions.md",
-    "docs/Administration/BillingandFinancials/ResendinganInvoice.md",
+    "docs/Administration/ConfiguringSections/img/linux8.png",
+    "docs/Administration/ConfiguringSections/img/linux8.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/linux7.png",
+    "docs/Administration/ConfiguringSections/img/linux7.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/linux6.png",
+    "docs/Administration/ConfiguringSections/img/linux6.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/linux5.png",
+    "docs/Administration/ConfiguringSections/img/linux5.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/linux4.png",
+    "docs/Administration/ConfiguringSections/img/linux4.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/linux3.png",
+    "docs/Administration/ConfiguringSections/img/linux3.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/linux2.png",
+    "docs/Administration/ConfiguringSections/img/linux2.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/linux1.png",
+    "docs/Administration/ConfiguringSections/img/linux1.png.crdownload",
+    "docs/Administration/ConfiguringSections/ConfiguringWindowsInstances.md",
+    "docs/Administration/ConfiguringSections/img/windows7.png",
+    "docs/Administration/ConfiguringSections/img/windows7.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/windows6.png",
+    "docs/Administration/ConfiguringSections/img/windows6.png.crdownload",
+    "docs/Administration/ConfiguringSections/img/windows5.png",
+    "docs/Administration/ConfiguringSections/ConfiguringKubernetesService.md",
+    "docs/Administration/ConfiguringSections/ConfiguringVirtualFirewallInstances.md",
+    "docs/Administration/ConfiguringSections/ConfiguringBlockVolumes.md",
+    "docs/Administration/ConfiguringSections/ConfiguringIPv4Addresses.md",
+    "docs/Administration/ConfiguringSections/ConfiguringObjectStorage.md",
+    "docs/Administration/ConfiguringSections/ConfiguringInstanceProtection.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList.md",
+    "docs/Administration/ConfiguringSections/ConfiguringLinuxInstances.md",
+    "docs/Administration/ConfiguringSections/ConfiguringAppOverlays.md",
+    "docs/Administration/Configuring Sections/ConfiguringWindowsInstances.md",
+    "docs/Administration/Configuring Sections/ConfiguringVirtualFirewallInstances.md",
+    "docs/Administration/Configuring Sections/ConfiguringLinuxInstances.md",
+    "docs/Administration/Configuring Sections/ConfiguringKubernetesService.md",
+    "docs/Administration/Configuring Sections/ConfiguringBlockVolumes.md",
+    "docs/Administration/Configuring Sections/ConfiguringInstanceProtection.md",
+    "docs/Administration/Configuring Sections/ConfiguringAppOverlays.md",
+    "docs/Administration/Configuring Sections/ConfigureIPv4Addresses.md",
+    "docs/Administration/Configuring Sections/Configuring Object Storage.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/About.md",
+    "docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails.md",
+    "docs/ServicesandSystemRequirements/AWSLinkage/Prerequisites.md",
+    "docs/ServicesandSystemRequirements/AWSLinkage/About.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/SupportedRecordTypes.md",
     "Untitled.canvas"
   ]
 }

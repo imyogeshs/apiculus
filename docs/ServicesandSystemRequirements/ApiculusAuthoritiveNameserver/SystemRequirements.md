@@ -1,19 +1,18 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # System Requirements
+A53 is installed on a separate virtual machine in the Apiculus management stack.
+## Software Version
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+The recommended versions for the underlying software are:
 
-In short, the building blocks of Apiculus are:
+- PowerDNS - version 4.2.1 and above
+- Poweradmin - version 2.1.7 and above
+## Software License
+[PowerDNS is distributed](https://doc.powerdns.com/authoritative/common/license.html) under the GNU General Public License. [Poweradmin is also distributed](https://poweradmin.org/) under the GNU General Public License.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+## Networking and VM Requirements
+A VM with minimum 4 vCPU cores and 4GB or RAM running any supported version of Ubuntu is recommended.
+
+The VM should be accessible publicly (via port forwarding or static NAT) using UDP on port 53.

@@ -3,17 +3,18 @@ sidebar_position: 3
 ---
 # Enabling Reseller Module
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus ships with an experimental Reseller Module which allows service providers to onboard subscribers/customers via a reseller partner. This is a limited-functionality partner module which enables the following:
 
-In short, the building blocks of Apiculus are:
+1. Adding resellers to the system and assigning unique 'reseller codes' to each;
+2. End customer signup using a valid reseller code to associate the account with the corresponding reseller;
+3. Viewing basic reports for reseller-tagged accounts.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+To enable the reseller module, navigate to **Settings > Reseller** and switch the setting to ON. The  'default reseller code' can be left blank to associate all signups directly with the service provider, or  any existing/available reseller code (active reseller on the system) be used as default.
+
+_Switching this module ON will enable the 'Resellers' menu item in the main navigation menu._
+
+![# Enabling Reseller Module](img/EnablingResellerModule.png)
+
+:::note
+This will not change anything on the end customer/subscriber experience.
+:::

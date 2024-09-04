@@ -1,19 +1,27 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 # Metabase Business Intelligence Dashboards
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+The Apiculus solution stack includes the open-source BI tool [Metabase](https://metabase.com/), which can be configured to deliver powerful business and commercial reporting information. Service providers' techno-commercial teams (Product, Operations, Business, Upper Management, C-Suite) can configure  and access highly customisable visual dashboards to get visibility into how the cloud business is being operated using Apiculus.
 
-In short, the building blocks of Apiculus are:
+By default, the following dashboards are set up and integrated with the Apiculus admin console:
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+- Accounts dashboard
+- Billing dashboard
+- Marketing dashboard
+- Marketplace dashboard
+- Cloud usage dashboard
+- Cloud resources dashboard
+- Support dashboard
+
+![Metabase Business Intelligence Dashboards](img/MetabaseBusinessIntelligenceDashboards.png)
+
+Additionally, the following dashboards are available directly on Metabase and not integrated with the Apiculus admin console:
+
+- Reseller dashboard
+- Downloadable data dumps
+
+:::note
+Metabase is highly configurable and can be used to configure alerts on reports, daily notifications on data, and visually engaging views and reports. For any assistance, a support ticket may be created with IndiQus Support.
+:::

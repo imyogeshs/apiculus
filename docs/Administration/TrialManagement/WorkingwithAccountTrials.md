@@ -1,19 +1,44 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Working with Account Trials
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+## Creating a New Account Trial Programme
 
-In short, the building blocks of Apiculus are:
+To create a new trial programme, click on **+ ADD NEW ACCOUNT TRIAL** and enter the below-mentioned details.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+- _Name of the programme-_ Specify the name of the trial programme.
+- _Description-_ You can add details or explanations about the trial programme.
+- _Trial Benefit_- Discount % is offered to the account that will enrol in this particular trial programme.
+- _Duration_ -This is the time of the trial programme; Admins need to specify the days.
+
+![Working with Account Trials](img/AccountTrials1.png)
+
+To create the trial programme click on the **CREATE** button.
+
+## Enrolling Accounts into Trial Programme
+
+To add accounts in the created trial Programme, click on the edit button to go inside the trial programme.
+
+**_Trial programme > Edit > Accounts > +ADD ACCOUNTS > select account > Click on CONFIRM > Select Yes to pop over message_**
+
+![Working with Account Trials](img/AccountTrials2.png)
+
+Apiculus automatically takes care of overlapping trials and prompts the admin to take the most appropriate action while enrolling them.
+
+## Editing Enrollment Options
+
+Admins have various options to edit enrolled accounts like end trial now, end with billing cycle, end on custom date, end with the previous month, cancel trial etc.
+
+![Working with Account Trials](img/AccountTrials3.png)
+
+- End trial now - this will un-enroll the account from the trial immediately and retain the benefits accumulated till now.
+- End with billing cycle - this will keep the account enrolled till the end of the current billing cycle and not carry the enrollment into the next billing cycle.
+- End on custom date - this will un-enroll the account from the trial on a specified date in the future.
+- Change dates - this can be used to edit the trial start and end dates.
+- End with previous month - this option can be used if the account needs to be un-enrolled in the current billing cycle.
+- Cancel trial - this will remove the account from the trial and remove any accumulated benefits.
+
+:::note
+None of the above options will have any impact on benefits that have been applied and invoiced in previous months.
+:::

@@ -3,17 +3,29 @@ sidebar_position: 6
 ---
 # Changing Subscriber’s Primary Email
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus admin console gives the option of changing the customer’s primary email ID. The customer's primary email ID can be changed anytime in simple and verifiable steps, and the notification will go to both the new and old email IDs.
 
-In short, the building blocks of Apiculus are:
+## Steps for Changing the Primary Email
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+1. Navigate to Account Management > Select Account> Edit Account > Account details > Primary Email Change
+
+![Changing Subscriber’s Primary Email](img/changingemail.png)
+
+2. Click on Primary Email Change, enter the new email ID, and click on Update.
+3. An email will be sent to the updated email ID.
+
+![Changing Subscriber’s Primary Email](img/changingemail2.png)
+
+Admins can cancel this process by clicking on the _Cancel verification_ link; this will cancel the email change process. They also can resend the verification link by clicking on _Resend link_.
+
+The subscribers need to click the **link** or **Confirm** button they received on the new email ID and enter the **verification code** received in the email.
+
+End-users will be able to login into the platform with the updated email ID and the password.
+
+:::note
+Once the primary email transfer is completed, an email will be delivered to the new and old addresses.
+:::
+
+## Subscriber-initiated Primary Email Change
+
+Subscriber admins can initiate this action from their [organisation/account profile section in Account Centre](https://docs.apiculus.com/hc/en-in/articles/12844188566685).

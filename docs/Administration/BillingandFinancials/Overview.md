@@ -3,17 +3,97 @@ sidebar_position: 1
 ---
 # Overview
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+The Billing and Financials section (BnF) is designed to give complete details of the Apiculus billing system. The BnF section gives administrators of Apiculus complete access to customers’ billing records, invoices, transactions, and other financial items supported on Apiculus.
 
-In short, the building blocks of Apiculus are:
+:::note
+All sections allow downloading of data as a .csv file.
+:::
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+## Subscriptions
+
+This section shows records of all customers’ subscriptions. A subscription is created whenever a resource is purchased (or service is activated) on the Apiculus CloudConsole.
+
+Available actions:
+
+- [Deactivating a subscription](https://docs.apiculus.com/hc/en-in/articles/13015987542429)
+- _Adding a subscription to an Order (to be deprecated)_
+- [Updating subscription charges](https://docs.apiculus.com/hc/en-in/articles/13011256935965)
+- [Adding a one-time charge or discount](https://docs.apiculus.com/hc/en-in/articles/12890416812445)
+
+![Billing and Financials Overview](img/Overview1.png)
+
+## Invoices
+
+Invoices are generated on Apiculus for the previous month’s usage on the 1st of each new month. These invoices are automatically generated and emailed to the customers.
+
+Available actions:
+
+- [View/download invoice](https://docs.apiculus.com/hc/en-in/articles/13016113944477)
+- [Resend invoice](https://docs.apiculus.com/hc/en-in/articles/13016214507933)
+- [Create credit note against an invoice](https://docs.apiculus.com/hc/en-in/articles/13016443126301)
+
+![Billing and Financials Overview](img/Overview2.png)
+
+_**Note** - the invoice template is customisable via a support request to the IndiQus Support team. However, certain information, such as the prefix for the invoice numbering, payment period, and dunning rules are customisable from the Apiculus admin console._
+
+## Credit Notes
+
+Unlike invoices that are generated automatically, a credit note is a supplementary invoice that needs to be manually created. The Credit Notes section lists all such manually created supplementary invoices, along with offering a way for admins to create these credit notes.
+
+Available actions:
+
+- [Creating credit notes](https://docs.apiculus.com/hc/en-in/articles/13016693145885)
+- [Viewing/downloading credit notes](https://docs.apiculus.com/hc/en-in/articles/13016755482141)
+- [Resending a credit note](https://docs.apiculus.com/hc/en-in/articles/13016788546205)
+
+:::note
+A credit note can be created by downloading the .xls or .ods template and uploading it back to the UI.
+:::
+
+![Billing and Financials Overview](img/Overview3.png)_
+
+## Transactions
+
+All customer transaction records (successful, failed, and pending) are displayed in the Transactions section. For transactions done using an online payment gateway via Apiculus, the records are automatically fetched.
+
+Available actions:
+
+- [Adding/recording transactions](https://docs.apiculus.com/hc/en-in/articles/13020998718237)
+- [Viewing transaction details](https://docs.apiculus.com/hc/en-in/articles/13021035907101)
+- [Reversing a transaction](https://docs.apiculus.com/hc/en-in/articles/13021103380637)
+- [Viewing acknowledgment receipt](https://docs.apiculus.com/hc/en-in/articles/13021219659165)
+
+![Billing and Financials Overview](img/Overview4.png)
+
+## Tax Deductions
+
+Apiculus supports recording quarterly tax deductions for all customer invoices. The Tax Deductions section lists all such tax deductions and also allows for adding new items. The Tax Deductions feature is optional and needs to be enabled from the global settings, where admins also get the ability to define their country’s fiscal period and fiscal quarters.
+
+Available actions:
+
+- [Adding tax deductions](https://docs.apiculus.com/hc/en-in/articles/12890520108189)
+- [Viewing recorded deductions](https://docs.apiculus.com/hc/en-in/articles/13021318782109)
+
+![Billing and Financials Overview](img/Overview5.png)
+
+## Unbilled Charges
+
+The Unbilled Charges show details of the current month’s billing, i.e., all the billing data from the generation of the previous invoice till the generation of the next invoice.
+
+Available actions:
+
+- _None; list view-only_
+
+![Billing and Financials Overview](img/Overview6.png)
+
+Unbilled Charges may also show some negative line items, which indicate a pro-rated subscription exit, or credit or discount that’s applied for a customer. 
+
+## Usage Feed
+
+The Usage Feed shows the total units of each service or resource consumed in the previous month. This is a view-only section that shows each subscription line item, it's unit of measurement, charge type, and the total units consumed in the chosen billing cycle.
+
+Available actions:
+
+- _None; list view-only_
+
+![Billing and Financials Overview](img/Overview7.png)

@@ -1,5 +1,8 @@
 ---
 sidebar_position: 8
+slug: ConfiguringLinuxInstances
+authors:
+  - Yogesh Sharma
 ---
 # Configuring Linux Instances
 

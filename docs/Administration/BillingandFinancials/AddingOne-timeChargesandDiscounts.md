@@ -3,17 +3,36 @@ sidebar_position: 4
 ---
 # Adding One-time Charges and Discounts
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Administrators can add charges and discounts manually as one-time subscriptions. It is beneficial for the use cases; if the invoice is generated and some discount or charge needs to be recorded for a customer, then admins can do the same. This is an excellent boost to billing-related workflows.
 
-In short, the building blocks of Apiculus are:
+## From Global Subscriptions
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+Admins need to perform the following steps on the admin portal to add charges and discounts from the global subscriptions section.
+
+1. Navigate to Billing & Financial > Subscription > +ADD ONE TIME CHARGE.
+2. Enter the following details:
+    - _Name_ 
+    - _Description_
+    - _Select Charge Type (Charge or discount)_
+    - _Enter the amount_
+    - _Select a customer from the list of accounts_
+3. Click on **add**.
+
+![Adding One-time Charges and Discounts](img/AddingOne-timeChargesandDiscounts.png)
+
+## From Account Subscriptions
+
+Admins need to perform the following steps on the admin portal to add charges and discounts from the account level subscription section.
+
+1. Navigate to Account Management> Select Account> Edit Account> Subscriptions> +ADD ONE TIME CHARGE.
+2. Enter the following details:
+    - _Name_ 
+    - _Description_
+    - _Select Charge Type (Charge or discount)_
+    - _Enter the amount_
+3. Click on **add**.
+
+:::note
+- _Manually added charges will be recorded as one-time subscriptions and reflected in the next invoice._
+- _Multiple charges and discounts can be added._
+:::

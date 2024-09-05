@@ -3,17 +3,12 @@ sidebar_position: 3
 ---
 # Updating Subscription Charges
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus admin console offers an easy means of handling subscription price changes. Admins can update subscription prices after a resource has been created and bring the new prices in effect from the current billing cycle.
 
-In short, the building blocks of Apiculus are:
+Subscription price updates can be done from the subscriptions listing under an account's details or from the global list under Billing and Financials.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+![Updating Subscription Charges](img/UpdatingSubscriptionCharges.png)
+
+Entering a new price will make the components visible and the distribution of charges across components can de defined. _The sum of component prices should add up to the total target price._
+
+Once updated, the subscriber will be notified over email (and SMS, if enabled).

@@ -3,17 +3,18 @@ sidebar_position: 1
 ---
 # Account Management Overview
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus allows service providers to manage their subscriber/customer life cycles end to end. On Apiculus, a suscriber account is one of the key entities that the entire solution is designed for. While the Apiculus solution supports many features that impact the subscriber life cycles and can be managed from various sections of the solution, this section only focuses on actions that can be performed from the **Accounts** section of the Apiculus service provider admin panel.
 
-In short, the building blocks of Apiculus are:
+## Viewing Subscriber Accounts
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+All subscriber accounts can be viewed as a list by navigating to **Accounts > Account Management**.
+
+![Account Management Overview](img/AccountManagementOverview.png)
+
+The following operations are available at this level:
+
+- Searching for accounts
+- Filtering accounts by their states (_active, restricted, disabled, terminated_)
+- Switching between published, drafts, accounts awaiting confirmation and accounts pending profile completion
+- Viewing subscriber account details
+- Creating new subscriber accounts

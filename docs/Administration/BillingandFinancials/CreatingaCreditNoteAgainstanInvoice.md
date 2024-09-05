@@ -3,17 +3,19 @@ sidebar_position: 7
 ---
 # Creating a Credit Note Against an Invoice
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Admins can create credit notes against paid or unpaid invoices. A credit note only requires an invoice to be generated and present in the system. Credit notes can be used in cases such as disputed invoices, disputed charges, refunds etc., where editing an invoice is not financially possible.
 
-In short, the building blocks of Apiculus are:
+Credit notes can be created against any invoice that's present in the account-level or global list of invoices.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+![Creating a Credit Note Against an Invoice](img/CreatingaCreditNoteAgainstanInvoice.png)
+
+Credit notes can be created for _(in increasing order of levels of control offered)_:
+
+- **Complete invoice amount** - generated with a single line item for the complete invoice amount.
+- **Partial amount** - generated with a custom amount that can also include a custom/specified tax component.
+- **Custom line items** - generated with custom/specified line items with optional tax fields for each line item.
+- **Select line items** - generated with line items, taxes and other charges/discounts selected from the linked invoice, with the option to edit individual items.
+
+:::note
+The above options are only available when creating credit notes from the Apiculus UI for credit notes created against a single invoice.
+:::

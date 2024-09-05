@@ -3,17 +3,30 @@ sidebar_position: 7
 ---
 # Updating a Subscriber's Taxation Category
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Service provider admins on Apiculus can change customers' taxation categories. Organisations acquiring special tax status, exemption status, or incorrect classification while creating an account are covered.
 
-In short, the building blocks of Apiculus are:
+The following steps outline this action:
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+1. **_Admin Login > Account Management_** **_>_** **_Account Details_** **_>_** **_Basic section > Taxation Type field > Update Taxation Type_**
+
+![Updating a Subscriber's Taxation Category](img/Taxation1.png)
+
+2. Once the Confirm button is clicked, a verification email will be sent to the customer, valid for seven days. Also, the Update button will be changed to Withdraw. If admins click the Cancel button, the action will be canceled.
+
+![Updating a Subscriber's Taxation Category](img/Taxation2.png)_
+
+3. If the admin selects the ‘Also Require Document’ option, the account will go back to being Unverified, which means that the user will now have to upload documents from the Profile > Documents section.
+4. A verification email will be sent to the customer, valid for seven days; the update button will be changed to withdraw.
+5. If the admins click on the Withdraw button, then an email will be sent to the customer.
+
+![Updating a Subscriber's Taxation Category](img/Taxation3.png)_
+
+6. Once the customer verifies this by clicking on the **URL** or the Confirm Tax Update button from the email they have received, the tax category will be successfully updated.
+7. Once the customer verifies the change, a confirmation email should be sent to the admin(s) and the customer.
+
+:::note
+
+- _The tax category change will be reflected in the current billing cycle._
+- _Tax category can be changed multiple times in a billing cycle by following the same standard process._
+- _Any billing generated before the current billing cycle will not be changed and will follow the previously-defined tax category._
+:::

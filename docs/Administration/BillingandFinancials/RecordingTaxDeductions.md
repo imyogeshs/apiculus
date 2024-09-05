@@ -3,17 +3,64 @@ sidebar_position: 15
 ---
 # Recording Tax Deductions
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Admins can configure tax deductions via a new section under Settings called Tax Deductions. _This involves taxes deducted by the customers while making a payment and is different from taxation on services which involves taxes charged on the services delivered_. Admins can record quarterly tax deductions for all customer invoices. The Tax Deductions section lists all such tax deductions and also allows for adding new items. The Tax Deductions feature is optional and needs to be enabled from the global settings, where admins also get the ability to define their country’s fiscal period and fiscal quarters.
 
-In short, the building blocks of Apiculus are:
+## Configuring Tax deductions
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+Admins need to perform the following steps for [configuring the Tax deductions](https://docs.apiculus.com/hc/en-in/articles/12614903992349).
+
+1. Navigate to **Global Settings > Tax Deduction > Enable the Tax Deductions Switch**.
+2. Enter the Tax Name as applicable.
+3. Enter the Tax Account ID Name
+4. Select the quarter from the list of Fiscal/Financial years.
+5. Click on Save and proceed with the publish settings.
+
+## Accessing and Adding Tax Deductions 
+
+Tax Deductions can be accessed and added in two ways, i.e., in the Global Tax deduction section and from the account level.
+
+### Global Tax Deductions Section
+
+1. _Navigate to the Tax Deduction under the Billing and Financial section in the main navigation panel._
+2. _It will list down all the accounts posting that have been recorded. It will include the following details:_
+    1. _Account ID_
+    2. _Date of Posting_
+    3. _Amount_
+    4. _Fiscal/Financial Year_
+    5. _Fiscal/Financial Quarter_
+    6. _Status_
+
+![Recording Tax Deductions](img/RecordingTaxDeductions1.png)
+
+3. _Admins can view the details by clicking on the Eye icon._
+4. _Admins can also reverse the transaction by clicking on the arrow icon_.
+5. _Admins can also filter using the options available above the table_.
+
+For adding the tax deduction from the global section, click on the **+ Add Tax Deduction** and then download the template and upload the template by filling in the required details.
+
+![Recording Tax Deductions](img/RecordingTaxDeductions2.png)
+
+![Recording Tax Deductions](img/RecordingTaxDeductions3.png)
+
+![Recording Tax Deductions](img/RecordingTaxDeductions4.png)
+
+### Account Level Tax Deductions Section
+
+1. _Navigate to the_ **_Accounts Management > Select Account > Edit Account > Tax Deductions._**
+2. _It will list down all the accounts posting that have been recorded. It will include the following details:_
+    1. _Account ID_
+    2. _Date of Posting_
+    3. _Amount_
+    4. _Fiscal/Financial Year_
+    5. _Fiscal/Financial Quarter_
+    6. _Status_
+
+![Recording Tax Deductions](img/RecordingTaxDeductions5.png)
+
+3. _Admins can view the details by clicking on the Eye icon._
+4. _Admins can also reverse the transaction by clicking on the arrow icon_.
+5. _Admins can also filter using the options available above the table_.
+
+For adding the tax deduction, click on the **+ Add Tax Deduction**, and then a pop-over dialogue box will open. Fill in the required details and click on **Submit**.
+
+![Recording Tax Deductions](img/RecordingTaxDeductions6.png)

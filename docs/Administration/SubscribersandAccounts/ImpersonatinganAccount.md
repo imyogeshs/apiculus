@@ -3,17 +3,17 @@ sidebar_position: 4
 ---
 # Impersonating an Account
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Apiculus provides a means for service provider support teams to login to a customer account and impersonate the subscriber. This is a useful tool for providing instant/on-call support.
 
-In short, the building blocks of Apiculus are:
+To impersonate an account, follow these steps:
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+1. Navigate to the target account and enter its details view.
+2. Click on the **IMPERSONATE** button on top-left of the account details pane.
+3. Afterward, a prompt will appear requesting your password. Please enter the password associated with your administrator account, the one you are currently logged in with.
+4. A one-time password (OTP) will be sent to the subscriber's primary email ID. The support personnel on task can obtain this OTP from the customer. _This also acts as explicit consent from the customer for the support personnel to login into their account._
+5. If SMS is enabled, the customer will receive the OTP on their registered mobile number as well.
+6. A one-time session will be created for the support personnel who can login with the customer's primary email ID and the OTP obtained as above.
+
+:::note
+If the customer logs in while an impersonated session is going on, the support personnel will get logged out and will have to generate and obtain the OTP again.
+:::

@@ -3,17 +3,22 @@ sidebar_position: 11
 ---
 # Recording Transactions and Offline Payments
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Payments received outside the Apiculus system can be recorded as Transactions using the Apiculus admin console. These payments may be against invoices that are open or may be 'advance' payments that adjust against invoices generated in future.
 
-In short, the building blocks of Apiculus are:
+Transactions can be recorded at the account level or from the **Billing and Financials > Transactions** section of admin console.
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+## Recording Single Transactions
+
+Single transactions can be recorded at the account level by navigating into the target customer account and clicking the **+ Add Transaction** link in the **Transactions** section/tab. This will list all open invoices (fully open and partially open) and allow for specifying the transaction amount, date, mode, reference, narration, and information on apportioning the amount between all open invoices. Any remainder amount that is not apportioned against an invoice will be recorded as an advance, and will reflect in the next invoice.
+
+![Recording Transactions](img/RecordingTransactions.png)
+
+## Recording Bulk Transactions
+
+Bulk transactions can be recorded using the spreadsheet template available (as .ods and .xlsx) on clicking on **+ Add Payments** in the global list of transactions. Bulk upload allows recording transactions for multiple customers against multiple invoices at once.
+
+---
+
+:::note
+On transaction recording, all target customers will be notified on email. All recorded [transactions are visible to subscribers/customers](https://docs.apiculus.com/hc/en-in/articles/12844407671965) in their Account Centre.
+:::

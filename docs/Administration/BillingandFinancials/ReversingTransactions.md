@@ -3,17 +3,10 @@ sidebar_position: 13
 ---
 # Reversing Transactions
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Transactions and payments, once received and recorded, can not be edited. In case of refunds or cancellations, a 'reverse' entry needs to be made in the accounting books. All online and offline transactions (with the exception of credit notes) can be reversed by clicking on the _reverse_ icon in an account-level or global transactions listing, or by clicking on the **Reverse** action while [viewing transaction details](https://docs.apiculus.com/hc/en-in/articles/13021035907101).
 
-In short, the building blocks of Apiculus are:
+![Reversing Transactions](img/ReversingTransactions.png)
 
-- [Apiculus CloudConsole and Admin Console](https://apiculus.com/) - service provider administration, subscriber CMP, billing, service catalogues, platform administration
-- [Apache CloudStack](https://cloudstack.apache.org/) - orchestrator to facilitate virtual infrastructure and asset provisioning
-- [Zabbix](https://zabbix.com/) - monitoring of guest and management clusters, physical asset monitoring
-- [OTRS](https://otrs.com/) - support and ticket operations with ITIL v5 compliance
-- [Metabase](https://metabase.com/) - business intelligence and reporting dashboards
-- [StorPool](https://storpool.com/) - software-defined storage solution for reliability and underlying performance
-- [Cloudian HyperStore](https://cloudian.com/products/hyperstore/) - S3-compatible object storage
-- Hypervisors - [KVM virtualisation](https://www.linux-kvm.org/page/Main_Page) with support for [ESXi](https://www.vmware.com/in/products/esxi-and-esx.html) and [Xenserver](https://www.citrix.com/products/citrix-hypervisor/)
-- Networking - firewalls, switches and routers from industry-leading providers
-- High-performance Servers - [HPE preference hardware](https://www.hpe.com/greenlake), with support for other leading (Dell, Huawei etc.) or commodity providers
+:::note 
+Reverse transactions show in red colour in the transactions listing and carry a negative (-) amount. All recorded [transactions are visible to subscribers/customers](https://docs.apiculus.com/hc/en-in/articles/12844407671965) in their Account Centre.
+:::

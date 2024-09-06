@@ -20,5 +20,5 @@ Apiculus stores certain essential and non-third party cookies that are needed fo
 _Additionally, if Google Tag Manager is being used, the connected apps may inject their own cookies into the session. These will be treated as third party cookies and may be blocked by privacy-focused browsers, ad blockers etc._
 
 :::note
-Login attempts and passwords can be managed via setting up strong [password policies](https://docs.apiculus.com/hc/en-in/articles/12614590756637) using platform configurations.
+Login attempts and passwords can be managed via setting up strong [password policies](\docs\Configuration\LoginConfigurations\ConfiguringPasswordPolicies.md) using platform configurations.
 :::

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
+                "file": "docs/Introduction/LoggingIn.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
+                "file": "docs/Introduction/LoggingIn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
+                "file": "docs/Introduction/LoggingIn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md"
+                "file": "docs/Introduction/LoggingIn.md"
               }
             }
           }
@@ -149,30 +149,31 @@
   },
   "active": "c6c61132ddbab54c",
   "lastOpenFiles": [
-    "build/sitemap.xml",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/SystemRequirements/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FeatureListandIntegrationDetails/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/AboutApiculusObjectStorage/index.html",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions/index.html",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList/index.html",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/About/index.html",
     "build/docs/ServicesandSystemRequirements/AWSLinkage/Prerequisites/index.html",
-    "build/docs/ServicesandSystemRequirements/AWSLinkage/About/index.html",
     "build/docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails/index.html",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FeatureListandIntegrationDetails/index.html",
+    "build/docs/ServicesandSystemRequirements/AWSLinkage/About/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/SystemRequirements/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/AboutApiculusObjectStorage/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/SystemRequirements/index.html",
+    "build/img/undraw_docusaurus_tree.svg",
+    "build/img/undraw_docusaurus_mountain.svg",
+    "build/img/logo.svg",
+    "build/img/undraw_docusaurus_react.svg",
+    "build/img/docusaurus.png",
+    "build/img/docusaurus-social-card.jpg",
+    "build/assets/images/AccountManagementOverview-ba32f084b696ab5e45a6af6928d719ab.png",
+    "build/assets/images/AddingCustomScripts-cc2931f65b72ee19b474fd2d61a1fa6c.png",
+    "build/assets/images/AddingOne-timeChargesandDiscounts-d2e7c09a6346712aaf8be3c6165866ce.png",
+    "build/assets/images/ApiculusCentral-3ef994b8d6ba1e8b9aef9a662f789754.png",
     "docs/Overview/AdminConsole.md",
-    "build/assets/images/brand2-2ba0043f82936779665669bc452570de.png",
-    "build/assets/images/adminConsole-35773d529151f0e078d68d489c0b2910.png",
-    "build/assets/images/brand1-7901e6117e564b51c61c3427c9398418.png",
-    "build/assets/images/ConfiguringTaxDeductions-14d33887265483e6e646a139b222a733.png",
-    "build/assets/images/Coupons4-128f42ba69ef0edc009d63db84480c39.png",
-    "build/assets/images/Coupons2-736729996865d7f592a960bb4d7d6bf9.png",
-    "build/assets/images/Coupons1-2fb49b6caaa6b94422c416acb7344cc2.png",
-    "build/assets/images/Coupons3-b73d319d26d4cc802ecded32ba12119f.png",
-    "build/assets/images/2FA-30de6ee9a31ef219d99cdc73cbd62276.png",
-    "build/assets/images/Overview2-6356af326f946e8895faad43a32f0fa5.png",
+    "docs/Overview/AboutServiceProviderAdministration.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements.md",
     "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
     "docs/Administration/ResellerManagement/ManagingBillingforResellers.md",
     "docs/Administration/ResellerManagement/CreatingandUpdatingResellers.md",
@@ -194,7 +195,6 @@
     "docs/Administration/BillingandFinancials/ResendinganInvoice.md",
     "docs/Administration/BillingandFinancials/ViewingandDownloadingCreditNotes.md",
     "docs/Administration/BillingandFinancials/ViewingInvoices.md",
-    "docs/Administration/BillingandFinancials/Overview.md",
     "Untitled.canvas"
   ]
 }

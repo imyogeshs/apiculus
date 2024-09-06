@@ -6,7 +6,7 @@ sidebar_position: 6
 Follow the below steps to configure the Kubernetes Service:
 
 1. Navigate to the _Default Services_ in the primary menu.
-2. Choose "**Kubernetes** " within the _Compute_ section.
+2. Choose "**Kubernetes**" within the _Compute_ section.
 
 ![Configuring Kubernetes Service](img/Kubernetes1.png)
 

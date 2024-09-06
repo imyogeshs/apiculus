@@ -11,7 +11,9 @@ Apiculus ships with an experimental Reseller Module which allows service provide
 
 To enable the reseller module, navigate to **Settings > Reseller** and switch the setting to ON. The  'default reseller code' can be left blank to associate all signups directly with the service provider, or  any existing/available reseller code (active reseller on the system) be used as default.
 
-_Switching this module ON will enable the 'Resellers' menu item in the main navigation menu._
+:::note
+Switching this module ON will enable the 'Resellers' menu item in the main navigation menu.
+:::
 
 ![# Enabling Reseller Module](img/EnablingResellerModule.png)
 

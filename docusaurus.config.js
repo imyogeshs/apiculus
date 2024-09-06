@@ -102,7 +102,12 @@ const config = {
             label: 'Apiculus Home',
             position: 'right',
           },
-        ],
+		  {
+            href: 'https://try.apiculus.io',
+            label: 'Try Apiculus',
+            position: 'right',
+          },
+		  ],
       },
       footer: {
         style: 'dark',

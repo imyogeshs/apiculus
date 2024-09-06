@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # ISV Consoles
 
-The [Apiculus solution is built](https://docs.apiculus.com/hc/en-in/articles/12870859473309) using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
+The [Apiculus solution](/docs/Introduction/BuildingBlocks.md) is built using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
 
 A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
 

@@ -20,5 +20,5 @@ The subscriber users will see a list of all enabled gateways to choose from.
 ![Enabling and Disabling Payment Gateways](img/ManagingPaymentGateways2.png)
 
 :::note
-Click [here](/docs/Introduction/supportedpaymentgateways) for the list of supported payment gateways.
+Refer [list of supported payment gateways](/docs/Introduction/SupportedPaymentGateways.md).
 :::

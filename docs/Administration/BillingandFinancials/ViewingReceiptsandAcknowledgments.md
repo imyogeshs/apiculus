@@ -7,4 +7,6 @@ Transaction receipts can be viewed for any transaction in an account-level or gl
 
 ![Viewing Receipts and Acknowledgments](img/ViewingReceiptsandAcknowledgments.png)
 
-_**Note** - this receipt is a valid financial instrument and can be saved for auditing and reporting by taking a screenshot._
+:::note
+This receipt is a valid financial instrument and can be saved for auditing and reporting by taking a screenshot.
+:::

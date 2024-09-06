@@ -9,11 +9,9 @@ Apiculus is an end-to-end cloud-as-a-service solution that addresses the technol
 
 Apiculus enables:
 
--  New service providers to launch and operate independent, green-field public clouds with 100% data localisation.
--  Established IaaS providers to transform and scale their VPS service into a full-fledged multi-service public cloud offering.
--  Service providers to offer a standardised service delivery and user experience.
-
-
+- New service providers to launch and operate independent, green-field public clouds with 100% data localisation.
+- Established IaaS providers to transform and scale their VPS service into a full-fledged multi-service public cloud offering.
+- Service providers to offer a standardised service delivery and user experience.
 - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 ## Stack Components

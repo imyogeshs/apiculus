@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5cdebd6e2b47b6dd",
+        "id": "d733fc7176c17fe1",
         "type": "tabs",
         "children": [
           {
-            "id": "88d868182cd2aa2e",
+            "id": "c6c61132ddbab54c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md",
+                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#__PURE__",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md",
+                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md",
+                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md"
+                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,13 +147,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88d868182cd2aa2e",
+  "active": "c6c61132ddbab54c",
   "lastOpenFiles": [
-    "docs/Administration/SubscribersandAccounts/ChangingSubscribersPrimaryEmail.md",
     "docs/Administration/ResellerManagement/ManagingBillingforResellers.md",
-    "Sample.md",
     "docs/Administration/ResellerManagement/CreatingandUpdatingResellers.md",
     "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
+    "docs/Administration/ResellerManagement/Overview.md",
+    "docs/Administration/SupportManagement/End-to-endSupportUsingOTRS.md",
+    "docs/Administration/SupportManagement/Overview.md",
+    "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md",
+    "docs/Administration/SupportManagement/ViewingActivityLogs.md",
+    "docs/Administration/MarketingManagement/Overview.md",
+    "docs/Administration/MarketingManagement/WorkingwithDiscountCodes.md",
+    "docs/Administration/MarketingManagement/WorkingwithCoupons.md",
+    "docs/Administration/BillingandFinancials/ViewingTransactionDetails.md",
+    "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
+    "docs/Administration/BillingandFinancials/RecordingTaxDeductions.md",
+    "docs/Administration/BillingandFinancials/ViewingReceiptsandAcknowledgments.md",
+    "MarketplaceManagement/img/localeDropdown.png",
+    "MarketplaceManagement/img/docsVersionDropdown.png",
+    "MarketplaceManagement/_category_.json",
+    "MarketplaceManagement/img",
+    "MarketplaceManagement/Topic1.md",
+    "MarketplaceManagement/Topic2.md",
+    "MarketplaceManagement",
+    "docs/Administration/BillingandFinancials/ResendingCreditNotes.md",
+    "docs/Administration/BillingandFinancials/ResendinganInvoice.md",
+    "docs/Administration/BillingandFinancials/ViewingandDownloadingCreditNotes.md",
+    "docs/Administration/BillingandFinancials/ViewingInvoices.md",
+    "docs/Administration/BillingandFinancials/Overview.md",
+    "docs/Administration/BillingandFinancials/CreatingaCreditNoteAgainstanInvoice.md",
+    "docs/Administration/BillingandFinancials/AddingOne-timeChargesandDiscounts.md",
+    "docs/Administration/BillingandFinancials/UpdatingSubscriptionCharges.md",
+    "docs/Administration/BillingandFinancials/DeactivatingaSubscription.md",
+    "docs/Introduction/ApiculusCentral.png",
+    "Untitled.canvas",
+    "Untitled",
     "docs/Administration/ResellerManagement/img/Reseller-taggedAc3.png",
     "docs/Administration/ResellerManagement/img/Reseller-taggedAc3.png.crdownload",
     "docs/Administration/ResellerManagement/img/Reseller-taggedAc2.png",
@@ -161,39 +191,10 @@
     "docs/Administration/ResellerManagement/img/Reseller-taggedAc1.png.crdownload",
     "docs/Administration/ResellerManagement/img/reseller1.png",
     "docs/Administration/ResellerManagement/img/reseller1.png.crdownload",
-    "docs/Administration/ResellerManagement/Overview.md",
-    "docs/Sample.md",
     "docs/Administration/ResellerManagement/img/overview.png",
     "docs/Administration/ResellerManagement/img/overview.png.crdownload",
-    "docs/Administration/SupportManagement/End-to-endSupportUsingOTRS.md",
-    "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md",
-    "docs/Administration/SupportManagement/ViewingActivityLogs.md",
     "docs/Administration/SupportManagement/img/PurchaseRequests.png",
     "docs/Administration/SupportManagement/img/PurchaseRequests.png.crdownload",
-    "docs/Administration/SupportManagement/img/Logs.png",
-    "docs/Administration/SupportManagement/img/Logs.png.crdownload",
-    "docs/Administration/SupportManagement/Overview.md",
-    "docs/Administration/MarketingManagement/WorkingwithCoupons.md",
-    "docs/Administration/MarketingManagement/WorkingwithDiscountCodes.md",
-    "docs/Administration/MarketingManagement/img/Coupons7.png",
-    "docs/Administration/MarketingManagement/img/Coupons7.png.crdownload",
-    "docs/Administration/MarketingManagement/img/Coupons6.png",
-    "docs/Administration/MarketingManagement/img/Coupons6.png.crdownload",
-    "docs/Administration/MarketingManagement/img/Coupons5.png",
-    "docs/Administration/MarketingManagement/img/Coupons5.png.crdownload",
-    "docs/Administration/MarketingManagement/Overview.md",
-    "docs/Administration/BillingandFinancials/RecordingTransactionsandOfflinePayments.md",
-    "docs/Administration/BillingandFinancials/RecordingTaxDeductions.md",
-    "docs/Administration/BillingandFinancials/Overview.md",
-    "docs/Administration/BillingandFinancials/DeactivatingaSubscription.md",
-    "docs/Administration/BillingandFinancials/CreatingCreditNotesinBulk.md",
-    "docs/Administration/BillingandFinancials/CreatingaCreditNoteAgainstanInvoice.md",
-    "docs/Administration/BillingandFinancials/AddingOne-timeChargesandDiscounts.md",
-    "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
-    "docs/Administration/BillingandFinancials/ViewingReceiptsandAcknowledgments.md",
-    "docs/Administration/BillingandFinancials/ReversingTransactions.md",
-    "docs/Administration/BillingandFinancials/ViewingTransactionDetails.md",
-    "docs/Administration/BillingandFinancials/ResendingCreditNotes.md",
-    "Untitled.canvas"
+    "docs/Administration/SupportManagement/img/Logs.png"
   ]
 }

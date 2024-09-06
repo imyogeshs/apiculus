@@ -15,10 +15,10 @@ This section shows records of all customers’ subscriptions. A subscription is 
 
 Available actions:
 
-- [Deactivating a subscription](https://docs.apiculus.com/hc/en-in/articles/13015987542429)
+- [Deactivating a subscription](DeactivatingaSubscription)
 - _Adding a subscription to an Order (to be deprecated)_
-- [Updating subscription charges](https://docs.apiculus.com/hc/en-in/articles/13011256935965)
-- [Adding a one-time charge or discount](https://docs.apiculus.com/hc/en-in/articles/12890416812445)
+- [Updating subscription charges](UpdatingSubscriptionCharges)
+- [Adding a one-time charge or discount](AddingOne-timeChargesandDiscounts)
 
 ![Billing and Financials Overview](img/Overview1.png)
 
@@ -28,9 +28,9 @@ Invoices are generated on Apiculus for the previous month’s usage on the 1st o
 
 Available actions:
 
-- [View/download invoice](https://docs.apiculus.com/hc/en-in/articles/13016113944477)
-- [Resend invoice](https://docs.apiculus.com/hc/en-in/articles/13016214507933)
-- [Create credit note against an invoice](https://docs.apiculus.com/hc/en-in/articles/13016443126301)
+- [View/download invoice](ViewingInvoices)
+- [Resend invoice](ResendinganInvoice)
+- [Create credit note against an invoice](CreatingaCreditNoteAgainstanInvoice)
 
 ![Billing and Financials Overview](img/Overview2.png)
 

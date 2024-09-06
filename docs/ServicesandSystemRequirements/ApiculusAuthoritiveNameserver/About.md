@@ -11,6 +11,6 @@ Before enabling A53 on your cloud, note that A53 is only intended to be used as 
 
 The following sections outline the scope of the system:
 
-- [System requirements](https://docs.apiculus.com/hc/en-in/articles/13556031953949)
-- [DNS requirements](https://docs.apiculus.com/hc/en-in/articles/13556136044829)
-- [Types of records supported](https://docs.apiculus.com/hc/en-in/articles/13556296805021)
+- [System requirements](SystemRequirements)
+- [DNS requirements](DNSrequirements)
+- [Types of records supported](SupportedRecordTypes)

@@ -26,4 +26,4 @@ _**Note** - a subscription needs to be created first before getting added to a 
 
 ## Updating Subscription Enrollments
 
-Subscription enrollments can be updated in the same manner as [updating account trial enrollments](https://docs.apiculus.com/hc/en-in/articles/12880077124893).
+Subscription enrollments can be updated in the same manner as [updating account trial enrollments](WorkingwithAccountTrials).

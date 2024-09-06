@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Follow these steps to configure Block Volumes:
 
-1. Access the **_Default Services_** in the main navigation menu.
+1. Access the **_Default Services_** in the main navigation menu.
 2. Choose "**Block Volumes** " within the Storage section.
 3. Turn on the switch at the top to make this service available as part of the default services. This action will enable all associated sections.
 4. Move to the **_Availability section_**. Choose the availability zone from which you want to offer the service, then click "_**Save & Update**._" 

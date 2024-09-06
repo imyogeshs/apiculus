@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Managing Reseller-tagged Accounts
 :::note
-[_This feature requires the reseller module to be enabled._](https://docs.apiculus.com/hc/en-in/articles/12992373471645)
+[_This feature requires the reseller module to be enabled._](\docs\Configuration\AdvancedConfigurations\EnablingResellerModule.md)
 :::
 
 ## Creating Reseller-tagged Accounts
@@ -28,7 +28,7 @@ Reseller-tagged accounts can be viewed by navigating to the details of a reselle
 
 ## Updating Reseller-tagged Accounts
 
-Reseller-tagged [accounts can be managed and updated](https://docs.apiculus.com/hc/en-in/articles/12874800118941) in the same way as regular subscriber accounts.
+Reseller-tagged [accounts can be managed and updated](\docs\Administration\SubscribersandAccounts\CreatingandUpdatingSubscriberAccounts.md) in the same way as regular subscriber accounts.
 
 :::note
 Reseller tags can not be updated via the UI. In order to do so, please raise a request to Apiculus Support.

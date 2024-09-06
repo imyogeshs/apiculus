@@ -3,8 +3,6 @@ sidebar_position: 7
 ---
 # Configuring Windows Instances
 
-Configuring Window Instances
-
 Follow these steps to configure Windows Instances :
 
 1. Go to the **Default Services** in the primary navigation menu.

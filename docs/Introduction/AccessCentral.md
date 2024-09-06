@@ -9,6 +9,6 @@ Access Central can be accessed via the cloud URL configured for the service prov
 ![Apiculus Central](ApiculusCentral.png)
 Users, from this page, can:
 
-- [Login to Apiculus](https://docs.apiculus.com/hc/en-in/articles/13028491740061)
-- [Signup for a new subscriber account](https://docs.apiculus.com/hc/en-in/articles/13028552796189)
-- [Reset a forgotten password](https://docs.apiculus.com/hc/en-in/articles/13028544886429)
+- [Signup for a new subscriber account](SigningUp.md)
+- [Login to Apiculus](LoggingIn.md)
+- [Reset a forgotten password](ResettingPassword.md)

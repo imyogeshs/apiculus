@@ -12,7 +12,7 @@ Other than a high-level techno-commercial landing dashboard, the admin console o
 - [Subscriber account management](\docs\Administration\SubscribersandAccounts\AccountManagementOverview.md)
 - [Trial management](\docs\Administration\TrialManagement\AboutTrials.md)
 - [Billing and financials](\docs\Administration\BillingandFinancials\Overview.md)
-- [Services and catalogue management](\docs\Administration\ServicesManagement\OverviewofServiceCatalogues.md)
+- [Services and catalogue management](\docs\Administration\ServicesManagement\Overview.md)
 - [Marketing management](\docs\Administration\MarketingManagement\Overview.md)
 - [Support and basic operations](\docs\Administration\SupportManagement\Overview.md)
 - [Reseller management](\docs\Administration\ResellerManagement\Overview.md)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
+                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
+                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
+                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md"
+                "file": "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md"
               }
             }
           }
@@ -149,9 +149,33 @@
   },
   "active": "c6c61132ddbab54c",
   "lastOpenFiles": [
+    "build/sitemap.xml",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/SystemRequirements/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FeatureListandIntegrationDetails/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/AboutApiculusObjectStorage/index.html",
+    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements/index.html",
+    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList/index.html",
+    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/About/index.html",
+    "build/docs/ServicesandSystemRequirements/AWSLinkage/Prerequisites/index.html",
+    "build/docs/ServicesandSystemRequirements/AWSLinkage/About/index.html",
+    "build/docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails/index.html",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
+    "docs/Overview/AdminConsole.md",
+    "build/assets/images/brand2-2ba0043f82936779665669bc452570de.png",
+    "build/assets/images/adminConsole-35773d529151f0e078d68d489c0b2910.png",
+    "build/assets/images/brand1-7901e6117e564b51c61c3427c9398418.png",
+    "build/assets/images/ConfiguringTaxDeductions-14d33887265483e6e646a139b222a733.png",
+    "build/assets/images/Coupons4-128f42ba69ef0edc009d63db84480c39.png",
+    "build/assets/images/Coupons2-736729996865d7f592a960bb4d7d6bf9.png",
+    "build/assets/images/Coupons1-2fb49b6caaa6b94422c416acb7344cc2.png",
+    "build/assets/images/Coupons3-b73d319d26d4cc802ecded32ba12119f.png",
+    "build/assets/images/2FA-30de6ee9a31ef219d99cdc73cbd62276.png",
+    "build/assets/images/Overview2-6356af326f946e8895faad43a32f0fa5.png",
+    "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
     "docs/Administration/ResellerManagement/ManagingBillingforResellers.md",
     "docs/Administration/ResellerManagement/CreatingandUpdatingResellers.md",
-    "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
     "docs/Administration/ResellerManagement/Overview.md",
     "docs/Administration/SupportManagement/End-to-endSupportUsingOTRS.md",
     "docs/Administration/SupportManagement/Overview.md",
@@ -164,37 +188,13 @@
     "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
     "docs/Administration/BillingandFinancials/RecordingTaxDeductions.md",
     "docs/Administration/BillingandFinancials/ViewingReceiptsandAcknowledgments.md",
-    "MarketplaceManagement/img/localeDropdown.png",
-    "MarketplaceManagement/img/docsVersionDropdown.png",
-    "MarketplaceManagement/_category_.json",
-    "MarketplaceManagement/img",
     "MarketplaceManagement/Topic1.md",
     "MarketplaceManagement/Topic2.md",
-    "MarketplaceManagement",
     "docs/Administration/BillingandFinancials/ResendingCreditNotes.md",
     "docs/Administration/BillingandFinancials/ResendinganInvoice.md",
     "docs/Administration/BillingandFinancials/ViewingandDownloadingCreditNotes.md",
     "docs/Administration/BillingandFinancials/ViewingInvoices.md",
     "docs/Administration/BillingandFinancials/Overview.md",
-    "docs/Administration/BillingandFinancials/CreatingaCreditNoteAgainstanInvoice.md",
-    "docs/Administration/BillingandFinancials/AddingOne-timeChargesandDiscounts.md",
-    "docs/Administration/BillingandFinancials/UpdatingSubscriptionCharges.md",
-    "docs/Administration/BillingandFinancials/DeactivatingaSubscription.md",
-    "docs/Introduction/ApiculusCentral.png",
-    "Untitled.canvas",
-    "Untitled",
-    "docs/Administration/ResellerManagement/img/Reseller-taggedAc3.png",
-    "docs/Administration/ResellerManagement/img/Reseller-taggedAc3.png.crdownload",
-    "docs/Administration/ResellerManagement/img/Reseller-taggedAc2.png",
-    "docs/Administration/ResellerManagement/img/Reseller-taggedAc2.png.crdownload",
-    "docs/Administration/ResellerManagement/img/Reseller-taggedAc1.png",
-    "docs/Administration/ResellerManagement/img/Reseller-taggedAc1.png.crdownload",
-    "docs/Administration/ResellerManagement/img/reseller1.png",
-    "docs/Administration/ResellerManagement/img/reseller1.png.crdownload",
-    "docs/Administration/ResellerManagement/img/overview.png",
-    "docs/Administration/ResellerManagement/img/overview.png.crdownload",
-    "docs/Administration/SupportManagement/img/PurchaseRequests.png",
-    "docs/Administration/SupportManagement/img/PurchaseRequests.png.crdownload",
-    "docs/Administration/SupportManagement/img/Logs.png"
+    "Untitled.canvas"
   ]
 }

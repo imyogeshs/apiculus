@@ -12,5 +12,5 @@ Before enabling A53 on your cloud, note that A53 is only intended to be used as 
 The following sections outline the scope of the system:
 
 - [System requirements](SystemRequirements)
-- [DNS requirements](DNSrequirements)
+- [DNS requirements](DNSRequirements)
 - [Types of records supported](SupportedRecordTypes)

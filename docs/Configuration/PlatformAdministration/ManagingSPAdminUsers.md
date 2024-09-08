@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Managing SP Admin Users
 
-The **Settings > Users** section will list down all the administrators with their roles. In addition, specific SP teams can be onboarded with restricted administrative access using [SP admin RBAC](\docs\Overview\Role-basedAccessonAdminConsole). RBAC is a highly flexible access management system that can be configured differently for each service provider. Service providers can specify the actions allowed for different user types, and the entire setup can be configured accordingly.
+The **Settings > Users** section will list down all the administrators with their roles. In addition, specific SP teams can be onboarded with restricted administrative access using [SP admin RBAC](/docs/Overview/Role-basedAccessonAdminConsole). RBAC is a highly flexible access management system that can be configured differently for each service provider. Service providers can specify the actions allowed for different user types, and the entire setup can be configured accordingly.
 
 ![Managing SP Admin Users](img/Managing-SP-Admin-Users1.png)
 

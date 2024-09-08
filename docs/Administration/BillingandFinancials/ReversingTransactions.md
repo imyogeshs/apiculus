@@ -3,7 +3,7 @@ sidebar_position: 13
 ---
 # Reversing Transactions
 
-Transactions and payments, once received and recorded, can not be edited. In case of refunds or cancellations, a 'reverse' entry needs to be made in the accounting books. All online and offline transactions (with the exception of credit notes) can be reversed by clicking on the _reverse_ icon in an account-level or global transactions listing, or by clicking on the **Reverse** action while [viewing transaction details](https://docs.apiculus.com/hc/en-in/articles/13021035907101).
+Transactions and payments, once received and recorded, can not be edited. In case of refunds or cancellations, a 'reverse' entry needs to be made in the accounting books. All online and offline transactions (with the exception of credit notes) can be reversed by clicking on the _reverse_ icon in an account-level or global transactions listing, or by clicking on the **Reverse** action while [viewing transaction details](ViewingTransactionDetails).
 
 ![Reversing Transactions](img/ReversingTransactions.png)
 

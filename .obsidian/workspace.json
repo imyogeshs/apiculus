@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d733fc7176c17fe1",
+        "id": "bc1c2ef1ea4a53a3",
         "type": "tabs",
         "children": [
           {
-            "id": "c6c61132ddbab54c",
+            "id": "0328d498bc8a7e1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Introduction/LoggingIn.md",
+                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Introduction/LoggingIn.md",
+                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Introduction/LoggingIn.md",
+                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Introduction/LoggingIn.md"
+                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md"
               }
             }
           }
@@ -147,36 +147,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6c61132ddbab54c",
+  "active": "0328d498bc8a7e1d",
   "lastOpenFiles": [
-    "docs/Administration/BillingandFinancials/Overview.md",
-    "docs/Administration/BillingandFinancials/DeactivatingaSubscription.md",
-    "docs/Administration/BillingandFinancials/CreatingCreditNotesinBulk.md",
-    "docs/Administration/BillingandFinancials/CreatingaCreditNoteAgainstanInvoice.md",
-    "docs/Administration/BillingandFinancials/AddingOne-timeChargesandDiscounts.md",
-    "docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements.md",
-    "docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList.md",
-    "docs/ServicesandSystemRequirements/LoadBalancerInstances/About.md",
-    "docs/ServicesandSystemRequirements/AWSLinkage/Prerequisites.md",
-    "docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails.md",
-    "docs/ServicesandSystemRequirements/AWSLinkage/About.md",
-    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/SystemRequirements.md",
-    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions.md",
-    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/FeatureListandIntegrationDetails.md",
+    "docs/Configuration/AdvancedConfigurations/CurrencyLocalisation.md",
+    "docs/Configuration/AdvancedConfigurations/AddingCustomScripts.md",
+    "docs/Administration/ManagingQuickPlans.md",
+    "docs/Administration/TrialManagement/WorkingwithSubscriptionTrials.md",
+    "docs/Administration/TrialManagement/WorkingwithAccountTrials.md",
+    "docs/Administration/TrialManagement/AutomatingTrialEnrollments.md",
+    "docs/Administration/TrialManagement/AboutTrials.md",
+    "docs/Administration/SupportManagement/ViewingActivityLogs.md",
+    "docs/Administration/SupportManagement/Overview.md",
+    "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md",
+    "docs/Administration/SupportManagement/End-to-endSupportUsingOTRS.md",
+    "docs/Administration/SubscribersandAccounts/WorkingwithKYCandAccountVerification.md",
+    "docs/Administration/SubscribersandAccounts/WorkingwithAccountStates.md",
+    "docs/Administration/SubscribersandAccounts/UpdatingCreditLimitandOtherBillingInformation.md",
+    "docs/Administration/SubscribersandAccounts/UpdatingaSubscribersTaxationCategory.md",
+    "docs/Administration/SubscribersandAccounts/MaintainingRelationshipPersonnelInformation.md",
+    "docs/Administration/SubscribersandAccounts/ImpersonatinganAccount.md",
+    "docs/Administration/SubscribersandAccounts/CreatingandUpdatingSubscriberAccounts.md",
+    "docs/Administration/SubscribersandAccounts/ChangingSubscribersPrimaryEmail.md",
+    "docs/Administration/SubscribersandAccounts/ChangingResourceLimitsforSubscribers.md",
+    "docs/Administration/SubscribersandAccounts/AccountManagementOverview.md",
+    "docs/Administration/ServicesManagement/WorkingwithDefaultServices.md",
+    "docs/Administration/ServicesManagement/WorkingwithCustomCatalogues.md",
+    "docs/Administration/ServicesManagement/WorkingwithCloudCollections.md",
+    "docs/Administration/ServicesManagement/WorkingwithAvailabilityZones.md",
+    "docs/Administration/ServicesManagement/UpdatingPricesonCatalogues.md",
     "docs/ServicesandSystemRequirements/ApiculusObjectStorage/ApiculusObjectStorage.png",
-    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/AboutApiculusObjectStorage.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/SystemRequirements.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/SupportedRecordTypes.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
-    "docs/Introduction/BillingConcepts.md",
     "docs/Introduction/ApiculusCentral.png",
-    "docs/Introduction/AccessCentral.md",
-    "docs/Configuration/SignupConfigurations/SignupSettings.md",
-    "docs/Configuration/SignupConfigurations/RestrictingFreeEmailDomains.md",
-    "docs/Configuration/SignupConfigurations/ConfiguringAccountDefaults.md",
-    "docs/Configuration/PlatformAdministration/ManagingSPAdminUsers.md",
-    "docs/Configuration/PlatformAdministration/ManagingServiceProviderProfile.md",
     "build/docs/Overview/MetabaseBusinessIntelligenceDashboards/index.html",
     "build/docs/Overview/ZabbixDashboardandNMS/index.html",
     "build/docs/Overview/Role-basedAccessonAdminConsole/index.html",

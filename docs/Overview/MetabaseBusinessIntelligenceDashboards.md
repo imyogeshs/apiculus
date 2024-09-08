@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Metabase Business Intelligence Dashboards
 
-The Apiculus solution stack includes the open-source BI tool [Metabase](https://metabase.com/), which can be configured to deliver powerful business and commercial reporting information. Service providers' techno-commercial teams (Product, Operations, Business, Upper Management, C-Suite) can configure  and access highly customisable visual dashboards to get visibility into how the cloud business is being operated using Apiculus.
+The Apiculus solution stack includes the open-source BI tool [Metabase](https://metabase.com), which can be configured to deliver powerful business and commercial reporting information. Service providers' techno-commercial teams (Product, Operations, Business, Upper Management, C-Suite) can configure  and access highly customisable visual dashboards to get visibility into how the cloud business is being operated using Apiculus.
 
 By default, the following dashboards are set up and integrated with the Apiculus admin console:
 

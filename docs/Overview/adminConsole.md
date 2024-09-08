@@ -9,11 +9,11 @@ Apiculus admin console is the top-most experience management layer on the Apicul
 
 Other than a high-level techno-commercial landing dashboard, the admin console offers powerful features and capabilities around:
 
-- [Subscriber account management](\docs\Administration\SubscribersandAccounts\AccountManagementOverview)
-- [Trial management](\docs\Administration\TrialManagement\AboutTrials)
-- [Billing and financials](\docs\Administration\BillingandFinancials\Overview)
-- [Services and catalogue management](\docs\Administration\ServicesManagement\Overview)
-- [Marketing management](\docs\Administration\MarketingManagement\Overview)
-- [Support and basic operations](\docs\Administration\SupportManagement\Overview)
-- [Reseller management](\docs\Administration\ResellerManagement\Overview)
+- [Subscriber account management](/docs/Administration/SubscribersandAccounts/AccountManagementOverview)
+- [Trial management](/docs/Administration/TrialManagement/AboutTrials)
+- [Billing and financials](/docs/Administration/BillingandFinancials/Overview)
+- [Services and catalogue management](/docs/Administration/ServicesManagement/Overview)
+- [Marketing management](/docs/Administration/MarketingManagement/Overview)
+- [Support and basic operations](/docs/Administration/SupportManagement/Overview)
+- [Reseller management](/docs/Administration/ResellerManagement/Overview)
 - [Platform configurations and experience management](/docs/category/configuration)

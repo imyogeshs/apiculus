@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Managing Reseller-tagged Accounts
 :::note
-[_This feature requires the reseller module to be enabled._](\docs\Configuration\AdvancedConfigurations\EnablingResellerModule.md)
+[This feature requires the reseller module to be enabled.](/docs/Configuration/AdvancedConfigurations/EnablingResellerModule)
 :::
 
 ## Creating Reseller-tagged Accounts

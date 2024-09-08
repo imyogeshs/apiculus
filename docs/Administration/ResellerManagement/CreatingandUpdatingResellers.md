@@ -4,7 +4,7 @@ sidebar_position: 2
 # Creating and Updating Resellers
 
 :::note
-[_This feature requires the reseller module to be enabled._](\docs\Configuration\AdvancedConfigurations\EnablingResellerModule.md)
+[This feature requires the reseller module to be enabled.](/docs/Configuration/AdvancedConfigurations/EnablingResellerModule.md)
 :::
 
 Resellers can be created by navigating to the **Resellers** section on the main navigation panel. Apiculus lets admins create custom reseller codes for each reseller, which can be used during subscriber account creation.

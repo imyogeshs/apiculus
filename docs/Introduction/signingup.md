@@ -3,10 +3,10 @@ sidebar_position: 6
 ---
 # Signing Up
 
-Apiculus offers an easy way of signing up for a subscriber cloud account. Clicking on the **Sign Up** link on [Access Central](AccessCentral.md) will navigate to the signup form. Users can simply fill up this form and follow the next steps to get access to their account.
+Apiculus offers an easy way of signing up for a subscriber cloud account. Clicking on the **Sign Up** link on [Access Central](AccessCentral) will navigate to the signup form. Users can simply fill up this form and follow the next steps to get access to their account.
 
 :::note
-Account signup is governed by the [Signup Mode](\docs\Configuration\SignupConfigurations\SignupSettings) as defined under platform configurations.
+Account signup is governed by the [Signup Mode](/docs/Configuration/SignupConfigurations/SignupSettings) as defined under platform configurations.
 :::
 
 
@@ -37,7 +37,7 @@ Admin-assisted signups are semi-automated and require basic intervention from ad
 Admin-initiated signups are manual and require the maximum intervention from admins. These are governed by configurations and rules defined under platform configurations, and take up default values from there. However, admins need to initiate the entire signup process from filling the form on behalf of the subscribers. The flow of information is as below:
 
 1. If 'admin-initiated' mode is enabled, the **Sign Up** link will not be shown on Access Central.
-2. Admin users can log in to the admin console and proceed to [create a new subscriber account](\docs\Administration\SubscribersandAccounts\CreatingandUpdatingSubscriberAccounts.md).
+2. Admin users can log in to the admin console and proceed to [create a new subscriber account](/docs/Administration/SubscribersandAccounts/CreatingandUpdatingSubscriberAccounts).
 3. Once 'published', a verification email is sent to the subscriber; at this stage, the admin console will show this account as 'awaiting confirmation'.
 4. Subscriber follows the instructions in the email and verifies their email.
 5. Additionally, if mobile verification is enabled (SMS gateway required), the subscriber verifies their mobile phone details.

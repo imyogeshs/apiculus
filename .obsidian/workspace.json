@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
+                "file": "docs/Administration/ResellerManagement/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
+                "file": "docs/Administration/ResellerManagement/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
+                "file": "docs/Administration/ResellerManagement/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md"
+                "file": "docs/Administration/ResellerManagement/Overview.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "0328d498bc8a7e1d",
   "lastOpenFiles": [
+    "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
+    "docs/Administration/SubscribersandAccounts/CreatingandUpdatingSubscriberAccounts.md",
+    "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
     "docs/Configuration/AdvancedConfigurations/CurrencyLocalisation.md",
     "docs/Configuration/AdvancedConfigurations/AddingCustomScripts.md",
     "docs/Administration/ManagingQuickPlans.md",
@@ -166,15 +169,12 @@
     "docs/Administration/SubscribersandAccounts/UpdatingaSubscribersTaxationCategory.md",
     "docs/Administration/SubscribersandAccounts/MaintainingRelationshipPersonnelInformation.md",
     "docs/Administration/SubscribersandAccounts/ImpersonatinganAccount.md",
-    "docs/Administration/SubscribersandAccounts/CreatingandUpdatingSubscriberAccounts.md",
     "docs/Administration/SubscribersandAccounts/ChangingSubscribersPrimaryEmail.md",
     "docs/Administration/SubscribersandAccounts/ChangingResourceLimitsforSubscribers.md",
     "docs/Administration/SubscribersandAccounts/AccountManagementOverview.md",
     "docs/Administration/ServicesManagement/WorkingwithDefaultServices.md",
     "docs/Administration/ServicesManagement/WorkingwithCustomCatalogues.md",
     "docs/Administration/ServicesManagement/WorkingwithCloudCollections.md",
-    "docs/Administration/ServicesManagement/WorkingwithAvailabilityZones.md",
-    "docs/Administration/ServicesManagement/UpdatingPricesonCatalogues.md",
     "docs/ServicesandSystemRequirements/ApiculusObjectStorage/ApiculusObjectStorage.png",
     "docs/Introduction/ApiculusCentral.png",
     "build/docs/Overview/MetabaseBusinessIntelligenceDashboards/index.html",

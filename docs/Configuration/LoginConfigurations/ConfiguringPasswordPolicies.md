@@ -10,7 +10,7 @@ Apiculus platform admins can set up password policies from **Settings >Platform
 - Rotation (last-used passwords that can not be reused)
 - Recovery mode (email and mobile, mobile available if SMS gateway is set up)
 
-![PasswordPolicies.png](img\PasswordPolicies.png)
+![PasswordPolicies.png](img/PasswordPolicies.png)
 
 :::note 
 All passwords will accept at least one lowercase, one uppercase, one numeric, and one special character (_, &, @, #, $, %, or !).

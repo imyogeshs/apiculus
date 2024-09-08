@@ -42,9 +42,9 @@ Unlike invoices that are generated automatically, a credit note is a supplementa
 
 Available actions:
 
-- [Creating credit notes](https://docs.apiculus.com/hc/en-in/articles/13016693145885)
-- [Viewing/downloading credit notes](https://docs.apiculus.com/hc/en-in/articles/13016755482141)
-- [Resending a credit note](https://docs.apiculus.com/hc/en-in/articles/13016788546205)
+- [Creating credit notes](\docs\Administration\BillingandFinancials\CreatingCreditNotesinBulk)
+- [Viewing/downloading credit notes](\docs\Administration\BillingandFinancials\ViewingandDownloadingCreditNotes)
+- [Resending a credit note](\docs\Administration\BillingandFinancials\ResendingCreditNotes)
 
 :::note
 A credit note can be created by downloading the .xls or .ods template and uploading it back to the UI.
@@ -58,10 +58,10 @@ All customer transaction records (successful, failed, and pending) are displayed
 
 Available actions:
 
-- [Adding/recording transactions](https://docs.apiculus.com/hc/en-in/articles/13020998718237)
-- [Viewing transaction details](https://docs.apiculus.com/hc/en-in/articles/13021035907101)
-- [Reversing a transaction](https://docs.apiculus.com/hc/en-in/articles/13021103380637)
-- [Viewing acknowledgment receipt](https://docs.apiculus.com/hc/en-in/articles/13021219659165)
+- [Adding/recording transactions](\docs\Administration\BillingandFinancials\RecordingTransactionsandOfflinePayments)
+- [Viewing transaction details](\docs\Administration\BillingandFinancials\ViewingTransactionDetails)
+- [Reversing a transaction](\docs\Administration\BillingandFinancials\ReversingTransactions)
+- [Viewing acknowledgment receipt](\docs\Administration\BillingandFinancials\ViewingReceiptsandAcknowledgments)
 
 ![Billing and Financials Overview](img/Overview4.png)
 

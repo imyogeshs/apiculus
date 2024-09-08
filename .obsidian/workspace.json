@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Introduction/ResettingPassword.md",
+                "file": "docs/Introduction/LoggingIn.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Introduction/ResettingPassword.md",
+                "file": "docs/Introduction/LoggingIn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Introduction/ResettingPassword.md",
+                "file": "docs/Introduction/LoggingIn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Introduction/ResettingPassword.md"
+                "file": "docs/Introduction/LoggingIn.md"
               }
             }
           }
@@ -149,6 +149,34 @@
   },
   "active": "c6c61132ddbab54c",
   "lastOpenFiles": [
+    "docs/Administration/BillingandFinancials/Overview.md",
+    "docs/Administration/BillingandFinancials/DeactivatingaSubscription.md",
+    "docs/Administration/BillingandFinancials/CreatingCreditNotesinBulk.md",
+    "docs/Administration/BillingandFinancials/CreatingaCreditNoteAgainstanInvoice.md",
+    "docs/Administration/BillingandFinancials/AddingOne-timeChargesandDiscounts.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList.md",
+    "docs/ServicesandSystemRequirements/LoadBalancerInstances/About.md",
+    "docs/ServicesandSystemRequirements/AWSLinkage/Prerequisites.md",
+    "docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails.md",
+    "docs/ServicesandSystemRequirements/AWSLinkage/About.md",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/SystemRequirements.md",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions.md",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/FeatureListandIntegrationDetails.md",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/ApiculusObjectStorage.png",
+    "docs/ServicesandSystemRequirements/ApiculusObjectStorage/AboutApiculusObjectStorage.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/SystemRequirements.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/SupportedRecordTypes.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements.md",
+    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
+    "docs/Introduction/BillingConcepts.md",
+    "docs/Introduction/ApiculusCentral.png",
+    "docs/Introduction/AccessCentral.md",
+    "docs/Configuration/SignupConfigurations/SignupSettings.md",
+    "docs/Configuration/SignupConfigurations/RestrictingFreeEmailDomains.md",
+    "docs/Configuration/SignupConfigurations/ConfiguringAccountDefaults.md",
+    "docs/Configuration/PlatformAdministration/ManagingSPAdminUsers.md",
+    "docs/Configuration/PlatformAdministration/ManagingServiceProviderProfile.md",
     "build/docs/Overview/MetabaseBusinessIntelligenceDashboards/index.html",
     "build/docs/Overview/ZabbixDashboardandNMS/index.html",
     "build/docs/Overview/Role-basedAccessonAdminConsole/index.html",
@@ -159,8 +187,6 @@
     "build/docs/Overview/AboutServiceProviderAdministration/index.html",
     "build/docs/Overview/ZabbixDashboardandNMS",
     "build/docs/Overview/Role-basedAccessonAdminConsole",
-    "build/docs/Overview/OTRSTicketingandServiceInterface",
-    "docs/Configuration/LoginConfigurations/LoginSecurityand2FA.md",
     "build/assets/images/ConfiguringInstanceProtection4-8019a9f69c99264850034c9770d9bd68.png",
     "build/assets/images/ConfiguringVirtualFirewallInstances1-c399c072f8a9b337d58ace2ff8fdce82.png",
     "build/assets/images/ConfiguringVirtualFirewallInstances2-2e8c2e16e63b75256bbf85aca4ab4a3e.png",
@@ -169,32 +195,6 @@
     "build/assets/images/ConfiguringVirtualFirewallInstances5-334eeba91d3af19950be26f3dbe429c7.png",
     "build/assets/images/ConfiguringVirtualFirewallInstances6-52eef09c0367e3e4d3baf475588c3de6.png",
     "build/assets/images/ConfiguringVirtualFirewallInstances7-6e6dc8ebc6092013cb1c7318711e0480.png",
-    "build/assets/images/ConfiguringVirtualFirewallInstances8-8019a9f69c99264850034c9770d9bd68.png",
-    "build/assets/images/Coupons5-b2d47e148e2e23bae9be4644705a0225.png",
-    "docs/Configuration/LoginConfigurations/ConfiguringPasswordPolicies.md",
-    "docs/Introduction/LoggingIn.md",
-    "docs/Overview/AdminConsole.md",
-    "docs/Overview/AboutServiceProviderAdministration.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements.md",
-    "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
-    "docs/Administration/ResellerManagement/ManagingBillingforResellers.md",
-    "docs/Administration/ResellerManagement/CreatingandUpdatingResellers.md",
-    "docs/Administration/ResellerManagement/Overview.md",
-    "docs/Administration/SupportManagement/End-to-endSupportUsingOTRS.md",
-    "docs/Administration/SupportManagement/Overview.md",
-    "docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests.md",
-    "docs/Administration/SupportManagement/ViewingActivityLogs.md",
-    "docs/Administration/MarketingManagement/Overview.md",
-    "docs/Administration/MarketingManagement/WorkingwithDiscountCodes.md",
-    "docs/Administration/MarketingManagement/WorkingwithCoupons.md",
-    "docs/Administration/BillingandFinancials/ViewingTransactionDetails.md",
-    "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
-    "docs/Administration/BillingandFinancials/RecordingTaxDeductions.md",
-    "docs/Administration/BillingandFinancials/ViewingReceiptsandAcknowledgments.md",
-    "MarketplaceManagement/Topic1.md",
-    "MarketplaceManagement/Topic2.md",
-    "docs/Administration/BillingandFinancials/ResendingCreditNotes.md",
     "Untitled.canvas"
   ]
 }

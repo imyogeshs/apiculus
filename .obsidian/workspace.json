@@ -149,6 +149,7 @@
   },
   "active": "0328d498bc8a7e1d",
   "lastOpenFiles": [
+    "build/assets/js/main.8d5e0150.js",
     "build/blog/rss.xml",
     "build/blog/atom.xml",
     "build/blog/rss.css",
@@ -159,7 +160,6 @@
     "build/sitemap.xml",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements/index.html",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList/index.html",
-    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/About/index.html",
     "build/img/undraw_docusaurus_tree.svg",
     "build/assets/images/SubscriptionTrials-4ef48ef04ced5a24d80ebe6bc9f2e195.png",
     "build/img/logo.svg",

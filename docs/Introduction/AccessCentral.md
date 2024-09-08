@@ -7,8 +7,3 @@ Apiculus offers a single login page for subscribers and admins alike and redirec
 
 Access Central can be accessed via the cloud URL configured for the service provider's cloud deployment.
 ![Apiculus Central](ApiculusCentral.png)
-Users, from this page, can:
-
-- [Signup for a new subscriber account](SigningUp)
-- [Login to Apiculus](LoggingIn)
-- [Reset a forgotten password](ResettingPassword)

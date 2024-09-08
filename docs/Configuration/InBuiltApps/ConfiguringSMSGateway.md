@@ -7,6 +7,3 @@ The SMS gateway is an in-built Apiculus application that enables messages and no
 
 ![Configuring SMS Gateway](img/ConfiguringSMSGateway.png)
 
-:::note
-Refer [list of supported SMS gateways](/docs/Introduction/SupportedSMSGateways.md).
-:::

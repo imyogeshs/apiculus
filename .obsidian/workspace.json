@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Configuration/InBuiltApps/ConfiguringSMSGateway.md",
+                "file": "docs/Overview/Role-basedAccessonAdminConsole.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Configuration/InBuiltApps/ConfiguringSMSGateway.md",
+                "file": "docs/Overview/Role-basedAccessonAdminConsole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Configuration/InBuiltApps/ConfiguringSMSGateway.md",
+                "file": "docs/Overview/Role-basedAccessonAdminConsole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Configuration/InBuiltApps/ConfiguringSMSGateway.md"
+                "file": "docs/Overview/Role-basedAccessonAdminConsole.md"
               }
             }
           }
@@ -149,8 +149,13 @@
   },
   "active": "0328d498bc8a7e1d",
   "lastOpenFiles": [
-    "docs/Configuration/InBuiltApps/ManagingPaymentGateways.md",
+    "docs/Overview/ISVConsoles.md",
+    "docs/Overview/Role-basedAccessonAdminConsole.md",
+    "docs/Overview/AdminConsole.md",
+    "docs/Overview/AboutServiceProviderAdministration.md",
+    "docs/Introduction/AccessCentral.md",
     "docs/Configuration/InBuiltApps/ConfiguringSMSGateway.md",
+    "docs/Configuration/InBuiltApps/ManagingPaymentGateways.md",
     "build/assets/js/main.8d5e0150.js",
     "build/blog/rss.xml",
     "build/blog/atom.xml",
@@ -171,10 +176,7 @@
     "docs/Configuration/InBuiltApps/ManagingGooglereCAPTCHAandTagManager.md",
     "docs/Introduction/SupportedSMSGateways.md",
     "docs/Configuration/InBuiltApps/ConfiguringSystemEmailsusingSMTP.md",
-    "docs/Introduction/AccessCentral.md",
     "docs/Introduction/ApiculusCentral.png",
-    "docs/Overview/AboutServiceProviderAdministration.md",
-    "docs/Overview/Role-basedAccessonAdminConsole.md",
     "docs/Administration/ServicesManagement/Overview.md",
     "docs/Administration/BillingandFinancials/Overview.md",
     "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
@@ -191,7 +193,6 @@
     "docs/Administration/TrialManagement/AutomatingTrialEnrollments.md",
     "docs/Administration/TrialManagement/AboutTrials.md",
     "docs/Administration/SupportManagement/ViewingActivityLogs.md",
-    "docs/Administration/SupportManagement/Overview.md",
     "docs/ServicesandSystemRequirements/ApiculusObjectStorage/ApiculusObjectStorage.png",
     "build/assets/images/ConfiguringInstanceProtection4-8019a9f69c99264850034c9770d9bd68.png",
     "Untitled.canvas"

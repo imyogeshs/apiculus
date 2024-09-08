@@ -98,5 +98,5 @@ RW = Read & Write / Option visible and can take action
 Partial = Limited access available  
 
 :::note
-the above blueprint only applies to the [Apiculus admin console UI](AdminConsole) and not to any other [ISV console](ISVConsoles).
+the above blueprint only applies to the **Admin Console** and not to any other **ISV consoles** .
 :::

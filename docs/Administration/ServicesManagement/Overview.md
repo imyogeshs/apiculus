@@ -13,5 +13,5 @@ The **Services** section on the Apiculus admin console gives service providers
 - [Custom Catalogues](WorkingwithCustomCatalogues)
 
 :::note
-Refer to the [Apiculus Datasheet](docs/intro) for a [complete list of Service modules](docs/intro#services-catalogue).
+Refer to the [Apiculus Datasheet](/docs/intro) for a complete list of Service modules.
 :::

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Administration/ResellerManagement/Overview.md",
+                "file": "docs/Administration/ServicesManagement/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Administration/ResellerManagement/Overview.md",
+                "file": "docs/Administration/ServicesManagement/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Administration/ResellerManagement/Overview.md",
+                "file": "docs/Administration/ServicesManagement/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Administration/ResellerManagement/Overview.md"
+                "file": "docs/Administration/ServicesManagement/Overview.md"
               }
             }
           }
@@ -149,6 +149,23 @@
   },
   "active": "0328d498bc8a7e1d",
   "lastOpenFiles": [
+    "build/docs/Administration/TrialManagement/AutomatingTrialEnrollments/index.html",
+    "build/docs/Administration/TrialManagement/WorkingwithSubscriptionTrials/index.html",
+    "build/docs/Administration/TrialManagement/WorkingwithAccountTrials/index.html",
+    "build/docs/Administration/TrialManagement/AboutTrials/index.html",
+    "build/docs/Administration/SupportManagement/ViewingActivityLogs/index.html",
+    "build/docs/Administration/SupportManagement/Overview/index.html",
+    "build/docs/Administration/SupportManagement/End-to-endSupportUsingOTRS/index.html",
+    "build/docs/Administration/SupportManagement/HandlingPurchaseandProvisioningRequests/index.html",
+    "build/docs/Administration/SubscribersandAccounts/WorkingwithKYCandAccountVerification/index.html",
+    "build/docs/Administration/SubscribersandAccounts/WorkingwithAccountStates/index.html",
+    "build/docs/Administration/SubscribersandAccounts/UpdatingCreditLimitandOtherBillingInformation/index.html",
+    "docs/Configuration/InBuiltApps/ConfiguringSMSGateway.md",
+    "docs/Overview/Role-basedAccessonAdminConsole.md",
+    "docs/Administration/BillingandFinancials/Overview.md",
+    "docs/Administration/BillingandFinancials/ViewingTaxDeductions.md",
+    "docs/Administration/BillingandFinancials/RecordingTaxDeductions.md",
+    "docs/Administration/ResellerManagement/Overview.md",
     "docs/Administration/ResellerManagement/ManagingReseller-taggedAccounts.md",
     "docs/Administration/SubscribersandAccounts/CreatingandUpdatingSubscriberAccounts.md",
     "docs/Configuration/BillingandFinancials/ConfiguringBasicBilling.md",
@@ -168,25 +185,8 @@
     "docs/Administration/SubscribersandAccounts/UpdatingCreditLimitandOtherBillingInformation.md",
     "docs/Administration/SubscribersandAccounts/UpdatingaSubscribersTaxationCategory.md",
     "docs/Administration/SubscribersandAccounts/MaintainingRelationshipPersonnelInformation.md",
-    "docs/Administration/SubscribersandAccounts/ImpersonatinganAccount.md",
-    "docs/Administration/SubscribersandAccounts/ChangingSubscribersPrimaryEmail.md",
-    "docs/Administration/SubscribersandAccounts/ChangingResourceLimitsforSubscribers.md",
-    "docs/Administration/SubscribersandAccounts/AccountManagementOverview.md",
-    "docs/Administration/ServicesManagement/WorkingwithDefaultServices.md",
-    "docs/Administration/ServicesManagement/WorkingwithCustomCatalogues.md",
-    "docs/Administration/ServicesManagement/WorkingwithCloudCollections.md",
     "docs/ServicesandSystemRequirements/ApiculusObjectStorage/ApiculusObjectStorage.png",
     "docs/Introduction/ApiculusCentral.png",
-    "build/docs/Overview/MetabaseBusinessIntelligenceDashboards/index.html",
-    "build/docs/Overview/ZabbixDashboardandNMS/index.html",
-    "build/docs/Overview/Role-basedAccessonAdminConsole/index.html",
-    "build/docs/Overview/OTRSTicketingandServiceInterface/index.html",
-    "build/docs/Overview/ISVConsoles/index.html",
-    "build/docs/Overview/AdminConsole/index.html",
-    "build/docs/Overview/ManagingSupportTickets/index.html",
-    "build/docs/Overview/AboutServiceProviderAdministration/index.html",
-    "build/docs/Overview/ZabbixDashboardandNMS",
-    "build/docs/Overview/Role-basedAccessonAdminConsole",
     "build/assets/images/ConfiguringInstanceProtection4-8019a9f69c99264850034c9770d9bd68.png",
     "build/assets/images/ConfiguringVirtualFirewallInstances1-c399c072f8a9b337d58ace2ff8fdce82.png",
     "build/assets/images/ConfiguringVirtualFirewallInstances2-2e8c2e16e63b75256bbf85aca4ab4a3e.png",

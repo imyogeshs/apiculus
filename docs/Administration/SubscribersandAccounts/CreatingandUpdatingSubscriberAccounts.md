@@ -11,7 +11,7 @@ General account creation flow is:
 `Draft > Awaiting Confirmation > Active > Pending Profile Completion`
 
 :::note
-Admins can create accounts from the admin console regardless of the [signup mode](/docs/Configuration/SignupConfigurations/SignupSettings) specified under platform configurations.
+Admins can create accounts from the admin console regardless of the [signup mode](/docs/GettingStarted/SignupConfigurations/SignupSettings) specified under platform configurations.
 :::
 
 ### Managing self-signups
@@ -23,7 +23,7 @@ Self-signup accounts are treated as 'retail' accounts, are created with **R** 
 
 ### Managing admin-assisted and admin-initiated signups
 
-The only difference between admin-assisted and admin-initiated signups is that if admin-assisted the active [signup mode](/docs/Configuration/SignupConfigurations/SignupSettings), a form will be displayed to the subscriber who is signing up, which will land into the account management **Drafts** queue as a semi-filled up form. Admin-initiated signups, on the other hand, need to be started from scratch from the account management section.
+The only difference between admin-assisted and admin-initiated signups is that if admin-assisted the active [signup mode](/docs/GettingStarted/SignupConfigurations/SignupSettings), a form will be displayed to the subscriber who is signing up, which will land into the account management **Drafts** queue as a semi-filled up form. Admin-initiated signups, on the other hand, need to be started from scratch from the account management section.
 
 :::note
 Admin-assisted and admin-initiated accounts are treated as 'enterprise' accounts, are created with **E** in their account IDs and take all the configurations and rules applied for admin-assisted accounts.

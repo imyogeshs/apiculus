@@ -20,5 +20,5 @@ The reseller management features include:
 ![Reseller Management Overview](img/overview.png)
 
 :::note
-To use this feature, the [Reseller Module should be enabled](/docs/Configuration/AdvancedConfigurations/EnablingResellerModule) on the platform. 
+To use this feature, the [Reseller Module should be enabled](/docs/GettingStarted/AdvancedConfigurations/EnablingResellerModule) on the platform. 
 :::

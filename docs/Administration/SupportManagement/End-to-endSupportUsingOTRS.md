@@ -8,7 +8,7 @@ sidebar_position: 4
 Apiculus integrates with OTRS in the following ways:
 
 1. OTRS is deployed along with the Apiculus solution and can be accessed via a unique URL (typically, `otrs.<cloud-url>` ).
-2. [Service provider agents get their dedicated accounts on OTRS](/docs/Overview/OTRSTicketingandServiceInterface).
+2. [Service provider agents get their dedicated accounts on OTRS](/docs/AboutServiceProviderAdministration/OTRSTicketingandServiceInterface).
 3. All customer/subscriber accounts created on Apiculus get created on OTRS as customer organisations.
 4. Tickets created on Apiculus get created on OTRS.
 5. Agent replies are relayed to the customer via Apiculus CloudConsole, and customer replies are relayed to the agent on OTRS.

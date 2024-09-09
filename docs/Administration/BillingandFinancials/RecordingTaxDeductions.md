@@ -7,7 +7,7 @@ Admins can configure tax deductions via a new section under Settings called Tax 
 
 ## Configuring Tax deductions
 
-Admins need to perform the following steps for [configuring the Tax deductions](/docs/Configuration/BillingandFinancials/ConfiguringTaxDeductions).
+Admins need to perform the following steps for [configuring the Tax deductions](/docs/GettingStarted/BillingandFinancials/ConfiguringTaxDeductions).
 
 1. Navigate to **Global Settings > Tax Deduction > Enable the Tax Deductions Switch**.
 2. Enter the Tax Name as applicable.

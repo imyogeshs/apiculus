@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ReleaseNotes/Ver1711.md",
+                "file": "docs/ReleaseNotes/Ver2300.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ReleaseNotes/Ver1711.md",
+                "file": "docs/ReleaseNotes/Ver2300.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ReleaseNotes/Ver1711.md",
+                "file": "docs/ReleaseNotes/Ver2300.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ReleaseNotes/Ver1711.md"
+                "file": "docs/ReleaseNotes/Ver2300.md"
               }
             }
           }
@@ -149,6 +149,14 @@
   },
   "active": "09972bd1690376f7",
   "lastOpenFiles": [
+    "sidebars - Copy.js",
+    "docusaurus.config - Copy.js",
+    "static/img/apiculus-social-card.png",
+    "docs/ReleaseNotes/Ver2310.md",
+    "docs/ReleaseNotes/Ver2311.md",
+    "docs/ReleaseNotes/Ver2312.md",
+    "docs/ReleaseNotes/Ver2300.md",
+    "docs/ReleaseNotes/Ver1711.md",
     "build/docs/SigningUp/index.html",
     "build/docs/SigningUp",
     "build/docs/ReleaseNotes/Ver2210/index.html",
@@ -158,10 +166,7 @@
     "build/docs/Introduction/SupportedSMSGateways/index.html",
     "build/docs/Introduction/BuildingBlocks/index.html",
     "build/docs/Introduction/AccessCentral/index.html",
-    "build/docs/Introduction/BillingConcepts",
-    "build/docs/Introduction/SupportedPaymentGateways",
     "docs/ReleaseNotes/Ver1710.md",
-    "docs/ReleaseNotes/Ver1711.md",
     "docs/ReleaseNotes/Ver1720.md",
     "docs/ReleaseNotes/Ver1800.md",
     "docs/ReleaseNotes/Ver1900.md",
@@ -174,7 +179,6 @@
     "docs/ReleaseNotes/Ver11200.md",
     "docs/ReleaseNotes/Ver11210.md",
     "docs/ReleaseNotes/Ver11300.md",
-    "docs/ReleaseNotes/Ver2300.md",
     "docs/ReleaseNotes/Ver11400.md",
     "docs/ReleaseNotes/Ver11500.md",
     "docs/ReleaseNotes/Ver11510.md",
@@ -182,9 +186,6 @@
     "docs/ReleaseNotes/Ver11610.md",
     "docs/ReleaseNotes/Ver11620.md",
     "docs/ReleaseNotes/Ver11700.md",
-    "docs/ReleaseNotes/Ver11710.md",
-    "docs/ReleaseNotes/Ver11720.md",
-    "docs/ReleaseNotes/Ver11730.md",
     "docs/ReleaseNotes/img/20006.png",
     "docs/ReleaseNotes/img/20005.png",
     "docs/ReleaseNotes/img/20004.png",
@@ -194,7 +195,6 @@
     "docs/ReleaseNotes/img/22003.png",
     "docs/ReleaseNotes/img/22002.png",
     "docs/ReleaseNotes/img/22001.png",
-    "build/img/undraw_docusaurus_tree.svg",
     "Untitled.canvas"
   ]
 }

@@ -34,6 +34,7 @@ const config = {
     locales: ['en'],
   },
 
+
   presets: [
     [
       'classic',
@@ -41,7 +42,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
+		  // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
     //      editUrl:
       //      'https://github.com/imyogeshs/apiculus',
@@ -89,18 +90,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-       {
-          type: "doc",
-          label: "Subscribers",
-          docId: "intro",
-          position: "left",
-        },
-		{
-          type: "doc",
-          label: "Release Notes",
-          docId: "ReleaseNotes/Ver2310",
-          position: "left",
-        },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Service Providers',
+			position: "left",
+          },
 		  
     //      {to: '/blog', label: 'Blog', position: 'left'},
           {

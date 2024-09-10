@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+
 # Welcome
 
 Apiculus is an end-to-end cloud-as-a-service solution that addresses the technology, business enablement and customer experience needs of regional, domestic and edge cloud service providers. Apiculus presents itself as an all-in-one technology platform that combines cloud service monetisation, infrastructure management and customer life cycle management, and offers an integrated solution for cloud providers in edge markets.
@@ -15,7 +16,7 @@ Apiculus enables:
 - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 ## Stack Components
-_Items in_ **_blue_** _are Apiculus software capabilities; items in_ **_grey_** _are services and extensions that can be monetised; items in_ **_green_** _are service provider’s assets._
+Items in *blue* are Apiculus software capabilities; items in *grey* are services and extensions that can be monetised; items in *green* are service provider’s assets.
 
 import DocusaurusSvg from './StackComponents.svg'; 
 

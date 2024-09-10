@@ -13,6 +13,7 @@
   --ifm-color-primary-light: #00468d;
   --ifm-color-primary-lighter: #004a93;
   --ifm-color-primary-lightest: #0053a6;
+  --ifm-h1-font-size: 12;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -26,4 +27,44 @@
   --ifm-color-primary-lightest: #ffffff;
   --ifm-background-color: #0d1449;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom CSS for Docusaurus Fonts and Styles */
+
+/* Set Montserrat font for all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Set Open Sans font for all body text */
+body {
+  font-family: 'Open Sans Medium', sans-serif;
+}
+
+/* Set H1 color to navy and font size to 40px */
+h1 {
+  color: navy;
+  font-size: 40px;
+}
+
+/* Set H2 font size to 32px */
+h2 {
+  font-size: 32px;
+}
+
+/* Set H3 font size to 26px */
+h3 {
+  font-size: 24px;
+}
+
+a {
+   /* text-decoration: none;  Removes underline from links */
+    color: navy; /* Default link color */
+  /* transition: color 0.3s ease;  Smooth transition for color change */
+
+  transition: text-shadow 0.3s ease; /* Smooth transition for glow effect */
+}
+
+a:hover {
+  text-shadow: 0 0 1px rgba(0, 0, 255, 0.8); /* Creates a blue glow effect */
 }

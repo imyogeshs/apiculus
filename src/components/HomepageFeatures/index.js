@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: (
-	<a href="/docs/docs/intro" target="_self" rel="noopener noreferrer">
+	<a href="/docs/intro" target="_self" rel="noopener noreferrer">
 	Service Providers
 	</a>
 	),
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        <a href="/docs/docs/intro" target="_self" rel="noopener noreferrer">
+        <a href="/docs/intro" target="_self" rel="noopener noreferrer">
           Click here
         </a> to read the documents that offer guidance on platform setup, user management, billing, and customer support, and much more to deliver efficient and high-quality services.
 
@@ -52,7 +52,7 @@ const FeatureList = [
     
 	description: (
       <>
-        <a href="/docs/category/release-notes" target="_self" rel="noopener noreferrer">
+        <a href="/docs/releaseNotes" target="_self" rel="noopener noreferrer">
           Click here 
         </a> for the information on all the releases till date.
       </>

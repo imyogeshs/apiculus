@@ -41,7 +41,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+         sidebarPath: require.resolve('./sidebars.js'),
 		  // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
     //      editUrl:
@@ -84,7 +84,7 @@ const config = {
       image: 'img/apiculus-social-card.png',
       navbar: {
         title: '',
-		hideOnScroll: true,
+		// hideOnScroll: true,
         logo: {
           alt: 'Apiculus',
           src: 'img/logo.svg',
@@ -92,9 +92,16 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'sidebar1',
             position: 'left',
             label: 'Service Providers',
+			position: "left",
+          },
+		  {
+            type: 'docSidebar',
+            sidebarId: 'sidebar2',
+            position: 'left',
+            label: 'Subscribers',
 			position: "left",
           },
 		  

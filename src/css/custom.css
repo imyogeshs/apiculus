@@ -33,7 +33,7 @@
 
 /* Set Montserrat font for all headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 /* Set Open Sans font for all body text */
@@ -67,4 +67,24 @@ a {
 
 a:hover {
   text-shadow: 0 0 1px rgba(0, 0, 255, 0.8); /* Creates a blue glow effect */
+}
+
+
+/* Custom CSS for Image Zoom Effect */
+
+/* Apply zoom effect to all images when clicked */
+
+img {
+  cursor: zoom-in; /* Show zoom-in cursor */
+  transition: transform 0.5s ease; /* Smooth transition effect for scaling */
+  position: relative; /* Allows z-index to work */
+  z-index: 1; /* Base z-index for all images */
+}
+
+/* Zoom effect on click */
+img:active {
+  transform: scale(1.5); /* Zoom in the image on click */
+  cursor: zoom-out; /* Change cursor to zoom-out */
+  z-index: 1000; /* Bring zoomed image above all other elements */
+  
 }

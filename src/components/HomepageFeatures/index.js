@@ -4,31 +4,63 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Service Providers',
+    title: (
+	<a href="/docs/docs/intro" target="_self" rel="noopener noreferrer">
+	Service Providers
+	</a>
+	),
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-	  </>
+        <a href="/docs/docs/intro" target="_self" rel="noopener noreferrer">
+          Click here
+        </a> to read the documents that offer guidance on platform setup, user management, billing, and customer support, and much more to deliver efficient and high-quality services.
+
+		
+		</>
 	
 	   
     ),
   },
   {
-    title: 'Subscribers',
+    title: (
+	<a href="/docs/Subscribers/intro" target="_self" rel="noopener noreferrer">
+	Subscribers
+	</a>
+	),
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       <a href="/docs/Subscribers/intro" target="_self" rel="noopener noreferrer">
+          Click here
+        </a> to access detailed documentation on all services supported and deliverable via the Apiculus CloudConsole.
+
+.
       </>
 	 
 
     ),
   },
   {
-    title: 'Everyone Else',
+    title: (
+	<a href="/docs/category/release-notes" target="_self" rel="noopener noreferrer">
+	Release Notes
+	</a>
+	),
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+	
+    
+	description: (
+      <>
+        <a href="/docs/category/release-notes" target="_self" rel="noopener noreferrer">
+          Click here 
+        </a> for the information on all the releases till date.
+      </>
+    ),
+  },
+  
+  /* {
+    title: 'API Documentation',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -36,8 +68,8 @@ const FeatureList = [
         be extended while reusing the same header and footer.
       </>
     ),
-  },
-  
+  }, 
+  */
 ];
 
 function Feature({Svg, title, description}) {

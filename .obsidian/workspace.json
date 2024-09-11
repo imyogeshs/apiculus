@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Administration/ConfiguringSections/ConfiguringObjectStorage.md",
+                "file": "docs/APIs/Account/listAccounts.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Administration/ConfiguringSections/ConfiguringObjectStorage.md",
+                "file": "docs/APIs/Account/listAccounts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Administration/ConfiguringSections/ConfiguringObjectStorage.md",
+                "file": "docs/APIs/Account/listAccounts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Administration/ConfiguringSections/ConfiguringObjectStorage.md"
+                "file": "docs/APIs/Account/listAccounts.md"
               }
             }
           }
@@ -149,52 +149,51 @@
   },
   "active": "09972bd1690376f7",
   "lastOpenFiles": [
-    "build/blog/tags/hello/index.html",
-    "build/blog/tags/hola/index.html",
-    "build/blog/tags/facebook/index.html",
-    "build/blog/tags/docusaurus/index.html",
-    "build/blog/authors/all-sebastien-lorber-articles/index.html",
-    "build/blog/authors/yangshun/index.html",
-    "build/blog/welcome/index.html",
-    "build/blog/tags/hello",
-    "build/blog/tags/index.html",
-    "build/blog/long-blog-post/index.html",
-    "build/blog/tags/hola",
+    "docs/APIs/Address/listPublicIpAddresses.md",
+    "docs/APIs/Address/disassociateIpAddress.md",
+    "docs/APIs/Address/associateIpAddress.md",
+    "docs/APIs/Account/listAccounts.md",
+    "docs/APIs/intro.md",
+    "build/docs/ReleaseNotes/Ver11200/index.html",
+    "build/docs/ReleaseNotes/Ver11200",
+    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements/index.html",
+    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList/index.html",
+    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/About/index.html",
+    "build/docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails/index.html",
+    "build/docs/ServicesandSystemRequirements/AWSLinkage/Prerequisites/index.html",
+    "build/docs/ServicesandSystemRequirements/AWSLinkage/AboutAWSLinkage/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/SystemRequirements/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions/index.html",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
     "build/img/logo.svg",
+    "build/img/undraw_docusaurus_mountain.svg",
     "build/img/apiculus-social-card.png",
-    "build/assets/images/Managing-SP-Admin-Users1-fd877f25c829eb777a28173cadf18b43.png",
-    "build/assets/images/Managing-SP-Admin-Users2-f2c718353646aacc4bd9f337c1c7e9e6.png",
-    "build/assets/images/Publishing1-d79c9c79f835e6978bd75fb54c3cfce1.png",
-    "build/assets/images/Publishing2-146188e21c71e7141fe28a9f7e976963.png",
-    "build/assets/images/ManagingQuickPlanCategories-9fe15651cd43fa16fa147fb61a7c391a.png",
+    "build/assets/images/ZabbixDashboardandNMS-c2527f0b200a02597ac742e94af5a959.png",
+    "build/assets/images/ConfiguringAutomationPolicies7-4c9b890041a2741750cda4572e0bec41.png",
+    "build/assets/images/ConfiguringAutomationPolicies8-59c6ecc56186c3040c366f520cd85fc5.png",
+    "build/assets/images/ConfiguringAutomationPolicies6-b1eea12d54cb4c0d5655c22e06b72f1b.png",
+    "build/assets/images/ConfiguringAutomationPolicies4-80bb2f3669cc2a0f52fe238c417d5642.png",
+    "docs/Subscribers/AboutServiceProviderAdministration/ZabbixDashboardandNMS.md",
+    "docs/Subscribers/AboutServiceProviderAdministration/Role-basedAccessonAdminConsole.md",
+    "docs/Subscribers/AboutServiceProviderAdministration/OTRSTicketingandServiceInterface.md",
+    "docs/Subscribers/AboutServiceProviderAdministration/MetabaseBusinessIntelligenceDashboards.md",
+    "docs/Subscribers/AboutServiceProviderAdministration/ManagingSupportTickets.md",
+    "docs/Subscribers/AboutServiceProviderAdministration/ISVConsoles.md",
+    "docs/Subscribers/AboutServiceProviderAdministration/AdminConsole.md",
+    "docs/APIs/Address/ZabbixDashboardandNMS.md",
+    "docs/APIs/Address/OTRSTicketingandServiceInterface.md",
+    "docs/APIs/Address/MetabaseBusinessIntelligenceDashboards.md",
+    "docs/APIs/Address/ManagingSupportTickets.md",
+    "docs/APIs/Account/SupportedPaymentGateways.md",
+    "docs/APIs/Account/BillingConcepts.md",
+    "docs/APIs/Account/SupportedSMSGateways.md",
+    "docs/Administration/ConfiguringSections/ConfiguringObjectStorage.md",
+    "docs/APIs/Account/AccessCentral.md",
     "docs/Administration/ConfiguringSections/ConfiguringAppOverlays.md",
     "docs/Administration/ConfiguringSections/ConfiguringInstanceProtection.md",
     "docs/Administration/ManagingQuickPlans.md",
     "docs/GettingStarted/AdvancedConfigurations/EnablingResellerModule.md",
-    "docs/GettingStarted/AdvancedConfigurations/CurrencyLocalisation.md",
-    "docs/GettingStarted/InBuiltApps/ManagingGooglereCAPTCHAandTagManager.md",
-    "docs/GettingStarted/BillingandFinancials/ConfiguringTaxDeductions.md",
-    "docs/GettingStarted/BillingandFinancials/ConfiguringBasicBilling.md",
-    "docs/GettingStarted/BillingandFinancials/ConfiguringAdditionalFields.md",
-    "docs/GettingStarted/SignupConfigurations/ConfiguringAccountDefaults.md",
-    "docs/GettingStarted/SignupConfigurations/SignupSettings.md",
-    "docs/GettingStarted/PlatformAdministration/ManagingSPAdminUsers.md",
-    "docs/GettingStarted/PlatformAdministration/ManagingServiceProviderProfile.md",
-    "docs/GettingStarted/PlatformAdministration/GeneralPlatformSettings.md",
-    "docs/GettingStarted/PlatformAdministration/ConfiguringAutomationPolicies.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About.md",
-    "docs/ServicesandSystemRequirements/LoadBalancerInstances/About.md",
-    "docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements.md",
-    "docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails.md",
-    "docs/ServicesandSystemRequirements/AWSLinkage/AboutAWSLinkage.md",
-    "docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements.md",
-    "docs/GettingStarted/BrandingandContent/CustomisingBrandandGraphicAssets.md",
-    "docs/GettingStarted/BrandingandContent/ConfiguringCustomLinks.md",
-    "docs/GettingStarted/BrandingandContent/PublishingStandardStaticContent.md",
-    "docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList.md",
     "Untitled.canvas"
   ]
 }

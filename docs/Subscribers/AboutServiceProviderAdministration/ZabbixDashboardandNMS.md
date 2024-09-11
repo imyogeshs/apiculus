@@ -11,5 +11,3 @@ Apiculus uses Zabbix for the following:
 - Alert configurations using Apiculus CloudConsole
 - System-level alerting for capacity utilisation
 - Parametric monitoring of the entire cloud infrastructure
-
-![Zabbix Dashboard and NMS](img/ZabbixDashboardandNMS.png)

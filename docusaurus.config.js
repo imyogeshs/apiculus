@@ -99,23 +99,37 @@ const config = {
           },
 		  {
             type: 'docSidebar',
-            sidebarId: 'sidebar2',
+            sidebarId: 'sidebar4',
             position: 'left',
-            label: 'Subscribers',
+            label: 'Release Notes',
 			position: "left",
           },
-		  
+		   {
+            type: 'docSidebar',
+            sidebarId: 'sidebar3',
+            position: 'left',
+            label: 'Management APIs',
+			position: "left",
+          },
+		   {
+            type: 'docSidebar',
+            sidebarId: 'sidebar2',
+            position: 'right',
+            label: 'Subscribers',
+			position: "right",
+          },
     //      {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://apiculus.com',
-            label: 'Apiculus Home',
-            position: 'right',
+            href: 'https://swagger.apiculus.io',
+            label: 'Global APIs',
+            position: 'left',
           },
 		  {
             href: 'https://try.apiculus.io',
             label: 'Try Apiculus',
             position: 'right',
           },
+		  	  
 		  ],
       },
       footer: {
@@ -139,16 +153,13 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'LinkedIn',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',

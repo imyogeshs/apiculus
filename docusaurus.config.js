@@ -128,6 +128,14 @@ const config = {
                 label: 'Service Providers',
                 to: '/docs/intro',
               },
+			  			  {
+                label: 'Release Notes',
+                to: '/docs/category/release-notes',
+              },
+			  {
+                label: 'Subscribers',
+                to: '/docs/Subscribers/intro',
+              },
             ],
           },
           {

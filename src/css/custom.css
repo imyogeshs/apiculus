@@ -44,17 +44,17 @@ body {
 /* Set H1 color to navy and font size to 40px */
 h1 {
   color: navy;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 /* Set H2 font size to 32px */
 h2 {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 /* Set H3 font size to 26px */
 h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 a {
@@ -87,4 +87,8 @@ img:active {
   cursor: zoom-out; /* Change cursor to zoom-out */
   z-index: 1000; /* Bring zoomed image above all other elements */
   
+}
+
+.footer {
+  background-color: #138808; /* Replace with your desired color */
 }

@@ -34,8 +34,6 @@ const FeatureList = [
        <a href="/docs/Subscribers/intro" target="_self" rel="noopener noreferrer">
           Click here
         </a> to access detailed documentation on all services supported and deliverable via the Apiculus CloudConsole.
-
-.
       </>
 	 
 

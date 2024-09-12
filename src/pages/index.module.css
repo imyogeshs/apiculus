@@ -11,7 +11,7 @@ body {
   background-attachment: fixed; /* Keeps the background fixed during scroll */
 }
 .heroBanner {
-  padding: 2rem 0;
+  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;

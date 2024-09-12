@@ -50,7 +50,7 @@ const FeatureList = [
     
 	description: (
       <>
-        <a href="/docs/releaseNotes" target="_self" rel="noopener noreferrer">
+        <a href="/docs/category/release-notes" target="_self" rel="noopener noreferrer">
           Click here 
         </a> to learn about the new features, enhancements, known issues, and bugs in all the releases till date.
       </>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print to PDF Test</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <div class="pdf-content">
+    <h1>Test Document</h1>
+    <p>This is a test document for printing to PDF.</p>
+  </div>
+  <button onclick="printToPDF()" style="position:fixed;bottom:20px;right:20px;padding:10px;background-color:#007bff;color:white;border:none;border-radius:5px;cursor:pointer;">
+    Print to PDF
+  </button>
+
+  <script>
+    function printToPDF() {
+      const element = document.querySelector('.pdf-content');
+      if (element) {
+        html2pdf().from(element).save('test-document.pdf');
+      } else {
+        console.error('Content to print not found');
+      }
+    }
+  </script>
+</body>
+</html>

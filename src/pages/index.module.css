@@ -4,7 +4,7 @@
  */
 body {
   
-  background-color: white; 
+  
   /* background-image: url('cloud-image.png'); */
   background-size: cover; /* Make sure the image covers the entire page */
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #FF9933;
+  background-color: #C0C0C0;
 }
 
 @media screen and (max-width: 996px) {

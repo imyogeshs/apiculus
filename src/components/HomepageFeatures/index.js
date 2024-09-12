@@ -9,12 +9,12 @@ const FeatureList = [
 	Service Providers
 	</a>
 	),
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/sps.svg').default,	
     description: (
       <>
         <a href="/docs/intro" target="_self" rel="noopener noreferrer">
           Click here
-        </a> to read the documents that offer guidance on platform setup, user management, billing, and customer support, and much more to deliver efficient and high-quality services.
+        </a> to read the documents that offer guidance on platform setup, user management, billing, customer support, etc.
 
 		
 		</>
@@ -28,7 +28,7 @@ const FeatureList = [
 	Subscribers
 	</a>
 	),
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/sbs.svg').default,
     description: (
       <>
        <a href="/docs/Subscribers/intro" target="_self" rel="noopener noreferrer">
@@ -45,14 +45,14 @@ const FeatureList = [
 	Release Notes
 	</a>
 	),
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/rn.svg').default,
 	
     
 	description: (
       <>
         <a href="/docs/releaseNotes" target="_self" rel="noopener noreferrer">
           Click here 
-        </a> for the information on all the releases till date.
+        </a> to learn about the new features, enhancements, known issues, and bugs in all the releases till date.
       </>
     ),
   },

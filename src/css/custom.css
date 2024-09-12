@@ -57,9 +57,17 @@ h3 {
   font-size: 20px;
 }
 
+/* Dark mode heading color */
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3 {
+  color: #ffffff; /* White text for headings in dark mode */
+}
+
+
 a {
    /* text-decoration: none;  Removes underline from links */
-    color: navy; /* Default link color */
+    color: #0066cc; /* Default link color */
   /* transition: color 0.3s ease;  Smooth transition for color change */
 
   transition: text-shadow 0.3s ease; /* Smooth transition for glow effect */
@@ -69,6 +77,10 @@ a:hover {
   text-shadow: 0 0 1px rgba(0, 0, 255, 0.8); /* Creates a blue glow effect */
 }
 
+/* Dark mode link color */
+[data-theme='dark'] a {
+  color: #87CEEB; /* Sky blue link color for dark mode */
+}
 
 /* Custom CSS for Image Zoom Effect */
 
@@ -90,5 +102,15 @@ img:active {
 }
 
 .footer {
-  background-color: #138808; /* Replace with your desired color */
+  background-color: #708090; /* Replace with your desired color */
 }
+
+.navbar .button--primary {
+  background-color: #003366; /* Custom background color */
+  color: white; /* Text color */
+  border: none; /* Optional: remove border */
+  border-radius: 20px; /* Optional: rounded corners */
+  padding: 8px 16px; /* Optional: padding for better appearance */
+  font-weight: bold; /* Optional: make the text bold */
+}
+

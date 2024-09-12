@@ -53,6 +53,10 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+		  
+	
+		
+		
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
     //      editUrl:
@@ -62,12 +66,14 @@ const config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
-        theme: {
+        
+		theme: {
           customCss: './src/css/custom.css',
         },
       }),
     ],
   ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -78,6 +84,7 @@ const config = {
 		hideable: true,
 
       },
+	 
 	  
     },
       // Replace with your project's social card
@@ -100,39 +107,38 @@ const config = {
 		  {
             type: 'docSidebar',
             sidebarId: 'sidebar4',
-            position: 'left',
+            position: 'right',
             label: 'Release Notes',
-			position: "left",
           },
 		   {
             type: 'docSidebar',
             sidebarId: 'sidebar3',
-            position: 'left',
+            position: 'right',
             label: 'Management APIs',
-			position: "left",
           },
 		   {
             type: 'docSidebar',
             sidebarId: 'sidebar2',
-            position: 'right',
+            position: 'left',
             label: 'Subscribers',
-			position: "right",
           },
     //      {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://swagger.apiculus.io',
             label: 'Global APIs',
-            position: 'left',
-          },
-		  {
-            href: 'https://try.apiculus.io',
-            label: 'Try Apiculus',
             position: 'right',
           },
+		  
+		  {
+          to: 'https://try.apiculus.io', // Change to the desired link
+          label: 'Try Apiculus', // The label of your button
+          position: 'right',
+          className: 'button button--primary', // Add button classes here
+        },
 		  	  
 		  ],
       },
-      footer: {
+    /*  footer: {
         style: 'dark',
         links: [
           {
@@ -179,7 +185,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Apiculus, Inc.`,
       },
-	  
+	  */
 	  
 	  // Algolia Search is here.
 	  
@@ -201,3 +207,4 @@ const config = {
 };
 
 export default config;
+

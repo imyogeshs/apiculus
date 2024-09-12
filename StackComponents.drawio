@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="KNRP-U8ovZog_ptbBU1Z">
+    <mxGraphModel dx="1500" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sf499-6IcXdTgfagLvzI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="800" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-7" value="&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; color: rgb(47, 57, 65); font-family: &amp;quot;Lucida Grande&amp;quot;, &amp;quot;Lucida Sans&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; color: rgb(67, 67, 67);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Apiculus End-user CMP&lt;/font&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;div&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; color: rgb(67, 67, 67);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/em&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; color: rgb(47, 57, 65); font-family: &amp;quot;Lucida Grande&amp;quot;, &amp;quot;Lucida Sans&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, sans-serif; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-8" value="&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Lucida Grande, Lucida Sans, Lucida Sans Unicode, sans-serif&quot; color=&quot;#434343&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;i&gt;Apiculus Admin Ops and Monetisable Cloud Service Offerings&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; color: rgb(47, 57, 65); font-family: &amp;quot;Lucida Grande&amp;quot;, &amp;quot;Lucida Sans&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box; color: rgb(47, 57, 65); font-family: &amp;quot;Lucida Grande&amp;quot;, &amp;quot;Lucida Sans&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, sans-serif; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="258" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="150" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-2" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#0000ff&quot;&gt;&lt;b&gt;Self Service&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-9">
+          <mxGeometry width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Billing&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontColor=#0000FF;fontSize=18;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-9">
+          <mxGeometry x="152" width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;IAM &amp;amp; RBAC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontSize=18;fontColor=#0000FF;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-9">
+          <mxGeometry x="304" width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-5" value="&lt;b&gt;&lt;i&gt;&lt;font color=&quot;#0000ff&quot; style=&quot;font-size: 18px;&quot;&gt;Marketplace&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-9">
+          <mxGeometry x="455.99999999999994" width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-6" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#0000ff&quot;&gt;White Label&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-9">
+          <mxGeometry x="608" width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-16" value="" style="group;fontStyle=2" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="270" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-11" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#0000ff&quot;&gt;&lt;b style=&quot;font-style: normal; font-size: 20px;&quot;&gt;Admin Ops&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-16">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-12" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Traditional IaaS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#0000FF;fontSize=18;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-16">
+          <mxGeometry x="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Cloud-native IaaS&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;fontColor=#0000FF;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-16">
+          <mxGeometry x="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-14" value="&lt;font size=&quot;1&quot; color=&quot;#0000ff&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-style: normal; font-size: 20px;&quot;&gt;Marketplace&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-16">
+          <mxGeometry x="570" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="330" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-18" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#0000ff&quot;&gt;&lt;b&gt;Ticketing&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-17">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-19" value="&lt;font color=&quot;#330000&quot; style=&quot;font-size: 18px;&quot;&gt;Vitrual Compute&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontColor=#0000FF;fontSize=18;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-17">
+          <mxGeometry x="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-20" value="&lt;font color=&quot;#330000&quot; style=&quot;font-size: 18px;&quot;&gt;Container Orchestration&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontSize=18;fontColor=#0000FF;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-17">
+          <mxGeometry x="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-21" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font color=&quot;#330000&quot;&gt;Cybersecurity&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-17">
+          <mxGeometry x="570" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="390" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-23" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#0000ff&quot;&gt;&lt;b&gt;Monitoring&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-22">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-24" value="&lt;font color=&quot;#330000&quot; style=&quot;font-size: 18px;&quot;&gt;Bare Metal&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontColor=#0000FF;fontSize=18;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-22">
+          <mxGeometry x="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-25" value="&lt;font color=&quot;#330000&quot;&gt;Cluster Management&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontSize=18;fontColor=#0000FF;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-22">
+          <mxGeometry x="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-26" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font color=&quot;#330000&quot;&gt;DNS Management&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-22">
+          <mxGeometry x="570" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="450" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-28" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#0000ff&quot;&gt;&lt;b&gt;Analytics&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-27">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-29" value="&lt;font color=&quot;#330000&quot;&gt;Virtual Networks &amp;amp; NFV&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontColor=#0000FF;fontSize=18;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-27">
+          <mxGeometry x="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontSize=18;fontColor=#0000FF;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-27">
+          <mxGeometry x="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-31" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font color=&quot;#330000&quot;&gt;Backup &amp;amp; DR&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-27">
+          <mxGeometry x="570" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="510" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-33" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#0000ff&quot;&gt;&lt;b&gt;Marketing&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-32">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-34" value="&lt;font color=&quot;#330000&quot;&gt;Block &amp;amp; Object Storage&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontColor=#0000FF;fontSize=18;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-32">
+          <mxGeometry x="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontSize=18;fontColor=#0000FF;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-32">
+          <mxGeometry x="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-36" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font color=&quot;#330000&quot;&gt;AWS Cloud Brokerage&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-32">
+          <mxGeometry x="570" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="630" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-38" value="&lt;font color=&quot;#009900&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-style: normal;&quot;&gt;Hardware&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="Sf499-6IcXdTgfagLvzI-42">
+          <mxGeometry width="253.33333333333331" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-39" value="&lt;font style=&quot;font-style: normal;&quot; color=&quot;#009900&quot;&gt;Data Centre&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontColor=#0000FF;fontSize=18;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-42">
+          <mxGeometry x="253.33333333333331" width="253.33333333333331" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-40" value="&lt;font style=&quot;font-style: normal;&quot; color=&quot;#009900&quot;&gt;Network Connectivity&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontSize=18;fontColor=#0000FF;" vertex="1" parent="Sf499-6IcXdTgfagLvzI-42">
+          <mxGeometry x="506.66666666666663" width="253.33333333333331" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf499-6IcXdTgfagLvzI-43" value="&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Lucida Grande, Lucida Sans, Lucida Sans Unicode, sans-serif&quot; color=&quot;#434343&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;i&gt;Service Provider Assets&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box; color: rgb(47, 57, 65); font-family: &amp;quot;Lucida Grande&amp;quot;, &amp;quot;Lucida Sans&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, sans-serif; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="606" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

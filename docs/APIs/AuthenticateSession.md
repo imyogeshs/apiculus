@@ -17,18 +17,17 @@ Session authentication using this endpoint is not supported if 2FA is turned ON.
 - Method: `POST`
 </div>
 
-**Request parameters:**
+## Request Parameters
 
 |Parameter name|Required|Description|
 |---|---|---|
 |email|`true`|Email ID of a valid/existing user|
 |password|`true`|Password for the valid/existing user|
 
-### Sample Request
+## Sample Request
 <div className="custom-block-green">
  **POST**: `https://<api_url>/auth/login`
 </div>
-
 
 
 <Tabs>

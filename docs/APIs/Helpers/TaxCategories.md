@@ -6,62 +6,80 @@ import TabItem from '@theme/TabItem';
 
 # Tax Categories
 
-This endpoint will authenticate the user session based on a valid `email` and `password` combination and return a valid `token`.
+This API will return available tax categories, tax types and currencies.
 
 :::note
-Session authentication using this endpoint is not supported if 2FA is turned ON.
+This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
 :::
 
 <div className="custom-block-peach">
-- Endpoint: `/auth/login` 
-- Method: `POST`
+- Endpoint: `/api/pass/signUpHelper` 
+- Method: `GET`
 </div>
 
-**Request parameters:**
+## Request Headers
 
-|Parameter name|Required|Description|
-|---|---|---|
-|email|`true`|Email ID of a valid/existing user|
-|password|`true`|Password for the valid/existing user|
+| Header name    | Required | Description                                                          |
+| -------------- | -------- | -------------------------------------------------------------------- |
+| x-access-token | `true`   | Pass the `<user_token>` as obtained from the `/auth/login` endpoint. |
 
-### Sample Request
+## Sample Request
 <div className="custom-block-green">
- **POST**: `https://<api_url>/auth/login`
+ **GET**: `https://<api_url>/api/pass/signUpHelper`
 </div>
 
-
-
+## Sample Response
 <Tabs>
-  <TabItem value="Body" label="Body" default>
-      ```jsx title="JSON"
-{ 
-"email": "sample@gmail.com", 
-"password": "Py%@hTff3"
-}
-```
-  </TabItem>
-  <TabItem value="ResponseJSON" label="Response JSON">
+    <TabItem value="ResponseJSON" label="Response JSON">
       ```jsx title="JSON"
 {
    "httpStatus": 200,
    "success": true,
+   "error": {},
+   "sync": true,
+   "jobId": "9db5b9e8-3dc4-4dc7-8df8-a60fef3a8d88",
+   "jobStatusCode": 1,
+   "cached": false,
+   "replayed": false,
    "result": {
-       "token": "<user_token>",
-       "onboarded": true,
-       "account_type": 0,
-       "currency": "INR",
-       "last_logged_in": "2022-12-09T06:36:51.000Z",
-       "paymentCurrency": "INR"
+       "currency": ["INR", "RWF", "OMR"],
+       "acsRegion": ["noida"],
+       "tax_category": [
+           {
+               "displayText": "Indian Organisation or Individual (Non-SEZ)",
+               "value": "Taxable"
+           },
+           {
+               "displayText": "Indian Organisation or Individual (Located in a SEZ)",
+               "value": "SEZ"
+           },
+           {
+               "displayText": "Non-Indian Organisation or Individual (Located Outside India)",
+               "value": "EMBASSY"
+           }
+       ],
+       "tax_types": [
+           {
+               "name": "CNPJ",
+               "validation": {
+                   "alpha_num": true,
+                   "required": true,
+                   "min": 11,
+                   "max": 15
+               }
+           },
+           {
+               "name": "GSTIN",
+               "validation": {
+                   "alpha_num": true,
+                   "required": false,
+                   "min": 10,
+                   "max": 10
+               }
+           }
+       ]
    }
 }
 ```
-  </TabItem>
-  <TabItem value="AccountTypes" label="Account Types">
-  ```jsx title="JSON"
-0: Retail user (subscriber), created from the self-service signup UI
-1: Enterprise user (subscriber), created using API or with admin intervention on the UI
-11: Admin user, can be created from the SP admin UI.
-12: Superadmin user, can not be created from the UI or using API.
-```
-  </TabItem>
+</TabItem>
 </Tabs>

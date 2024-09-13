@@ -6,62 +6,49 @@ import TabItem from '@theme/TabItem';
 
 # ACS Keys and Regions
 
-This endpoint will authenticate the user session based on a valid `email` and `password` combination and return a valid `token`.
-
-:::note
-Session authentication using this endpoint is not supported if 2FA is turned ON.
-:::
+This endpoint will return the configured CloudStack regions and their keys based on the user’s `token`.
 
 <div className="custom-block-peach">
-- Endpoint: `/auth/login` 
-- Method: `POST`
+- Endpoint: `/api/v1/op_listkeys` 
+- Method: `GET`
 </div>
 
-**Request parameters:**
+## Request Headers
 
-|Parameter name|Required|Description|
-|---|---|---|
-|email|`true`|Email ID of a valid/existing user|
-|password|`true`|Password for the valid/existing user|
-
-### Sample Request
+| Header name    | Required | Description                                                          |
+| -------------- | -------- | -------------------------------------------------------------------- |
+| x-access-token | `true`   | Pass the `<user_token>` as obtained from the `/auth/login` endpoint. |
+## Sample Request
 <div className="custom-block-green">
- **POST**: `https://<api_url>/auth/login`
+ **GET**: `https://<api_url>/api/v1/op_listkeys`
 </div>
 
-
-
-<Tabs>
-  <TabItem value="Body" label="Body" default>
-      ```jsx title="JSON"
-{ 
-"email": "sample@gmail.com", 
-"password": "Py%@hTff3"
-}
-```
-  </TabItem>
+## Sample Response
+<Tabs>  
   <TabItem value="ResponseJSON" label="Response JSON">
       ```jsx title="JSON"
 {
    "httpStatus": 200,
    "success": true,
+   "jobId": "68b7e162-05cd-444b-9c61-5727acfde928",
    "result": {
-       "token": "<user_token>",
-       "onboarded": true,
-       "account_type": 0,
-       "currency": "INR",
-       "last_logged_in": "2022-12-09T06:36:51.000Z",
-       "paymentCurrency": "INR"
+       "properties": {
+           "records": [ {
+                   "key": "apiKey",
+                   "value": "<api_key_value>",
+                   "region": "karnataka"
+               },  {
+                   "key": "secretKey",
+                   "value": "<secret_key_value>",
+                   "region": "karnataka"
+               }, {
+                   "key": "userid",
+                   "value": "<user_id>",
+                   "region": "karnataka"
+               } ]
+       }
    }
 }
 ```
-  </TabItem>
-  <TabItem value="AccountTypes" label="Account Types">
-  ```jsx title="JSON"
-0: Retail user (subscriber), created from the self-service signup UI
-1: Enterprise user (subscriber), created using API or with admin intervention on the UI
-11: Admin user, can be created from the SP admin UI.
-12: Superadmin user, can not be created from the UI or using API.
-```
-  </TabItem>
+</TabItem> 
 </Tabs>

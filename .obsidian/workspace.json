@@ -11,8 +11,12 @@
             "id": "c4e2a5f97cc4d7f0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/APIs/AccountManagement/TerminateAccount.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/APIs/AccountManagement/TerminateAccount.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/APIs/AccountManagement/TerminateAccount.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/APIs/AccountManagement/TerminateAccount.md"
+              }
             }
           }
         ],
@@ -141,6 +149,18 @@
   },
   "active": "c4e2a5f97cc4d7f0",
   "lastOpenFiles": [
+    "docs/APIs/AccountManagement/RestrictAccount.md",
+    "docs/APIs/AccountManagement/DisableAccount.md",
+    "docs/APIs/AccountManagement/EnableAccount.md",
+    "docs/APIs/AuthenticateSession.md",
+    "docs/APIs/CloseSession.md",
+    "docs/APIs/CreateAccount.md",
+    "docs/APIs/Helpers/TaxCategories.md",
+    "docs/APIs/Helpers/StatesList.md",
+    "docs/APIs/Helpers/CountryList.md",
+    "docs/APIs/Helpers/ACSKeysandRegions.md",
+    "docs/APIs/apioverview.md",
+    "docs/APIs/AccountManagement/TerminateAccount.md",
     "build/docs/APIs/Helpers/CountryList/index.html",
     "build/docs/APIs/Helpers/StatesList/index.html",
     "build/docs/APIs/AccountManagement/EnableAccount/index.html",
@@ -151,7 +171,6 @@
     "build/docs/APIs/AccountManagement/RestrictAccount/index.html",
     "build/docs/GettingStarted/SignupConfigurations/SignupSettings/index.html",
     "build/docs/GettingStarted/SignupConfigurations/ConfiguringAccountDefaults/index.html",
-    "build/docs/GettingStarted/PlatformAdministration/ManagingServiceProviderProfile/index.html",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_mountain.svg",
@@ -163,22 +182,10 @@
     "build/img/logo.svg",
     "build/img/rn.svg",
     "docs/intro.md",
-    "docs/APIs/Helpers/StatesList.md",
-    "docs/APIs/Helpers/CountryList.md",
     "docs/Administration/ServicesManagement/Overview.md",
-    "docs/APIs/CloseSession.md",
-    "docs/APIs/AccountManagement/TerminateAccount.md",
-    "docs/APIs/AccountManagement/EnableAccount.md",
-    "docs/APIs/AccountManagement/DisableAccount.md",
-    "docs/APIs/AccountManagement/RestrictAccount.md",
     "docs/APIs/AccountManagement/listPublicIpAddresses.md",
     "docs/APIs/AccountManagement/associateIpAddress.md",
-    "docs/APIs/AuthenticateSession.md",
     "docs/APIs/HelperAPIs/listAccounts.md",
-    "docs/APIs/Helpers/TaxCategories.md",
-    "docs/APIs/Helpers/ACSKeysandRegions.md",
-    "docs/APIs/apioverview.md",
-    "docs/APIs/CreateAccount.md",
     "docs/APIs/intro.md",
     "docs/APIs/AccountManagement/disassociateIpAddress.md",
     "docs/Subscribers/AboutServiceProviderAdministration/ZabbixDashboardandNMS.md",

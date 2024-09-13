@@ -6,62 +6,53 @@ import TabItem from '@theme/TabItem';
 
 # States List
 
-This endpoint will authenticate the user session based on a valid `email` and `password` combination and return a valid `token`.
+Use this API endpoint to get the list of states/regions within a country for new account creation.
 
 :::note
-Session authentication using this endpoint is not supported if 2FA is turned ON.
+This endpoint does not require authentication.
 :::
 
 <div className="custom-block-peach">
-- Endpoint: `/auth/login` 
-- Method: `POST`
+- Endpoint: `/api/v1/stateList` 
+- Method: `GET`
 </div>
 
-**Request parameters:**
+## Query Parameters
 
-|Parameter name|Required|Description|
-|---|---|---|
-|email|`true`|Email ID of a valid/existing user|
-|password|`true`|Password for the valid/existing user|
+| Parameter name    | Required | Description                                                          |
+| -------------- | -------- | -------------------------------------------------------------------- |
+| code | `true`   | Pass the `<objectId>` value as obtained from the `/api/v1/countryList endpoint`. |
 
-### Sample Request
+## Sample Request
 <div className="custom-block-green">
- **POST**: `https://<api_url>/auth/login`
+ **GET**: `https://<api_url>/api/v1/stateList?code=<country_object_code>`
 </div>
 
 
-
+## Sample Response
 <Tabs>
-  <TabItem value="Body" label="Body" default>
-      ```jsx title="JSON"
-{ 
-"email": "sample@gmail.com", 
-"password": "Py%@hTff3"
-}
-```
-  </TabItem>
+  
   <TabItem value="ResponseJSON" label="Response JSON">
       ```jsx title="JSON"
 {
-   "httpStatus": 200,
-   "success": true,
    "result": {
-       "token": "<user_token>",
-       "onboarded": true,
-       "account_type": 0,
-       "currency": "INR",
-       "last_logged_in": "2022-12-09T06:36:51.000Z",
-       "paymentCurrency": "INR"
-   }
+       "state": [
+           {
+               "_id": "6007e49c2cf42e21e8782809",
+               "objectId": "DlHQBjd2Ke",
+               "Country_Code": "IN",
+               "Subdivision_Code": "AR",
+               "Subdivision_Name": "Arunachal Pradesh",
+               "Subdivion_Type": "State",
+               "__v": 0,
+               "updatedAt": "2020-02-19T14:32:39.837Z",
+               "createdAt": "2020-02-17T21:53:47.773Z"
+           },
+	    {...}
+	 ..]
+     }
 }
 ```
   </TabItem>
-  <TabItem value="AccountTypes" label="Account Types">
-  ```jsx title="JSON"
-0: Retail user (subscriber), created from the self-service signup UI
-1: Enterprise user (subscriber), created using API or with admin intervention on the UI
-11: Admin user, can be created from the SP admin UI.
-12: Superadmin user, can not be created from the UI or using API.
-```
-  </TabItem>
+ 
 </Tabs>

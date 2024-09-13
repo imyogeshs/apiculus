@@ -26,6 +26,6 @@ The fully qualified domain name (FQDN) for the API endpoint will be shared separ
 |Authenticate session|Update profile|
 |Restrict account|KYC actions & information|
 |Disable account|`RETAIL` account creation|
-|Terminate account||
-|Enable account||
-|Close session||
+|Terminate account|-|
+|Enable account|-|
+|Close session|-|

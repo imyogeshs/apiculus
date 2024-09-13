@@ -6,62 +6,47 @@ import TabItem from '@theme/TabItem';
 
 # Country List
 
-This endpoint will authenticate the user session based on a valid `email` and `password` combination and return a valid `token`.
-
+Use this API endpoint to get a list of countries for new account creation.
 :::note
-Session authentication using this endpoint is not supported if 2FA is turned ON.
+This endpoint does not require authentication.
 :::
 
 <div className="custom-block-peach">
-- Endpoint: `/auth/login` 
-- Method: `POST`
+- Endpoint: `/api/v1/countryList` 
+- Method: `GET`
 </div>
 
-**Request parameters:**
-
-|Parameter name|Required|Description|
-|---|---|---|
-|email|`true`|Email ID of a valid/existing user|
-|password|`true`|Password for the valid/existing user|
-
-### Sample Request
+## Sample Request
 <div className="custom-block-green">
- **POST**: `https://<api_url>/auth/login`
+ **GET**: `https://<api_url>/api/v1/countryList`
 </div>
 
+## Sample Response
 
-
-<Tabs>
-  <TabItem value="Body" label="Body" default>
-      ```jsx title="JSON"
-{ 
-"email": "sample@gmail.com", 
-"password": "Py%@hTff3"
-}
-```
-  </TabItem>
+<Tabs>  
   <TabItem value="ResponseJSON" label="Response JSON">
       ```jsx title="JSON"
 {
-   "httpStatus": 200,
-   "success": true,
-   "result": {
-       "token": "<user_token>",
-       "onboarded": true,
-       "account_type": 0,
-       "currency": "INR",
-       "last_logged_in": "2022-12-09T06:36:51.000Z",
-       "paymentCurrency": "INR"
-   }
+    "result": {
+       "countries": [
+           {
+               "_id": "5fdc52bf3e0f50213399537c",
+               "objectId": "DlHQBjd2Ke",
+               "code": "IN",
+               "name": "India",
+               "native": "भारत",
+               "phone": "91",
+               "capital": "New Delhi",
+               "currency": "INR",
+               "geonameid": "1269750",
+               "__v": 0,
+               "updatedAt": "2020-04-13T18:17:08.498Z",
+               "createdAt": "2019-12-10T03:49:44.431Z"
+           },
+	    {..}
+..]
+    }
 }
 ```
-  </TabItem>
-  <TabItem value="AccountTypes" label="Account Types">
-  ```jsx title="JSON"
-0: Retail user (subscriber), created from the self-service signup UI
-1: Enterprise user (subscriber), created using API or with admin intervention on the UI
-11: Admin user, can be created from the SP admin UI.
-12: Superadmin user, can not be created from the UI or using API.
-```
-  </TabItem>
+  </TabItem> 
 </Tabs>

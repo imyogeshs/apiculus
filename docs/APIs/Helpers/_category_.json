@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Let us learn the most important concepts."
+    "description": "Helper API are used for getting information needed for account creation. These may also be required for use with the Apiculus Gateway API for API-based resource provisioning."
   }
 }

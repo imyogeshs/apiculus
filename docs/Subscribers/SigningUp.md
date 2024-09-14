@@ -1,14 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 # Signing Up
 
-Apiculus offers an easy way of signing up for a subscriber cloud account. Clicking on the **Sign Up** link on [Access Central](/docs/Introduction/AccessCentral) will navigate to the signup form. Users can simply fill up this form and follow the next steps to get access to their account.
-
-:::note
-Account signup is governed by the [Signup Mode](/docs/GettingStarted/SignupConfigurations/SignupSettings.md) as defined under platform configurations.
-:::
-
+Apiculus offers an easy way of signing up for a subscriber cloud account. Clicking on the **Sign Up** link on [Access Central](/docs/Subscribers/AccessCentral) will navigate to the signup form. Users can simply fill up this form and follow the next steps to get access to their account.
 
 ## Self-service Signup
 

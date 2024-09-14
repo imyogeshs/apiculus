@@ -7,14 +7,15 @@ import TabItem from '@theme/TabItem';
 # Country List
 
 Use this API endpoint to get a list of countries for new account creation.
-:::note
-This endpoint does not require authentication.
-:::
 
 <div className="custom-block-peach">
 - Endpoint: `/api/v1/countryList` 
 - Method: `GET`
 </div>
+
+:::note
+This endpoint does not require authentication.
+:::
 
 ## Sample Request
 <div className="custom-block-green">

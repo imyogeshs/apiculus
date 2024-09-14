@@ -8,15 +8,14 @@ import TabItem from '@theme/TabItem';
 
 This API will return available tax categories, tax types and currencies.
 
-:::note
-This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
-:::
-
 <div className="custom-block-peach">
 - Endpoint: `/api/pass/signUpHelper` 
 - Method: `GET`
 </div>
 
+:::note
+This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
+:::
 ## Request Headers
 
 | Header name    | Required | Description                                                          |

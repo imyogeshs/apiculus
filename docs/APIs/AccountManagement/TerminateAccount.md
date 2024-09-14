@@ -8,14 +8,14 @@ import TabItem from '@theme/TabItem';
 
 This will put the account in a `terminated` state and the subscriber will not be able to do any action or view any information. Further, the account will be removed from all systems. This action is **not reversible**.
 
-:::note
-This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
-:::
-
 <div className="custom-block-peach">
 - Endpoint: `/api/v1/serv_terminateUserAccount/<user_id>` 
 - Method: `PUT`
 </div>
+
+:::note
+This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
+:::
 
 ## Request Headers
 

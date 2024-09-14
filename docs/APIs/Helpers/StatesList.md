@@ -8,14 +8,14 @@ import TabItem from '@theme/TabItem';
 
 Use this API endpoint to get the list of states/regions within a country for new account creation.
 
-:::note
-This endpoint does not require authentication.
-:::
-
 <div className="custom-block-peach">
 - Endpoint: `/api/v1/stateList` 
 - Method: `GET`
 </div>
+
+:::note
+This endpoint does not require authentication.
+:::
 
 ## Query Parameters
 

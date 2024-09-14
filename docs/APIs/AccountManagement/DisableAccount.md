@@ -7,14 +7,14 @@ import TabItem from '@theme/TabItem';
 # Disable Account
 This will put the account in a `disabled` state and the subscriber will not be able to purchase any new resources or access any existing resources. Accounts in this state can only make payments which will automatically enable their accounts. This action is reversible using the **Enable Account** endpoint.
 
-:::note
-This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
-:::
-
 <div className="custom-block-peach">
 - Endpoint: `/api/v1/serv_disableUserAccount/<user_id>` 
 - Method: `PUT`
 </div>
+
+:::note
+This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
+:::
 
 ## Request Headers
 

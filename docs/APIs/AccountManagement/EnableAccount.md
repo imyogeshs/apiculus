@@ -8,14 +8,14 @@ import TabItem from '@theme/TabItem';
 
 This will reverse the `disabled` or `restricted` account states and reactivate the account.
 
-:::note
-This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
-:::
-
 <div className="custom-block-peach">
 - Endpoint: `/api/v1/serv_enableUserAccount/<user_id>` 
 - Method: `PUT`
 </div>
+
+:::note
+This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
+:::
 
 ## Request Headers
 

@@ -8,6 +8,11 @@ import TabItem from '@theme/TabItem';
 
 Use this API endpoint to create a subscriber account.
 
+<div className="custom-block-peach">
+- Endpoint: `/api/pass/createNewUser` 
+- Method: `POST`
+</div>
+
 :::note
 This endpoint will only work with authenticated admin tokens, i.e., `<user_token>` obtained from the `/auth/login` endpoint with valid admin credentials.
 :::
@@ -15,11 +20,6 @@ This endpoint will only work with authenticated admin tokens, i.e., `<user_token
 :::note
 This endpoint will create subscriber accounts with `account_type` as `1`, i.e., tagged as `Enterprise`, with all business rules applicable as defined for `Enterprise` accounts. The account will be created with the identifier `E` in the account ID.
 :::
-
-<div className="custom-block-peach">
-- Endpoint: `/api/pass/createNewUser` 
-- Method: `POST`
-</div>
 
 ## Request Headers
 

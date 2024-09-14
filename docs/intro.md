@@ -70,7 +70,7 @@ Apiculus ships with SLA-backed integrated support and all the tools needed to en
 | Integrable with External Billing and ITSM Systems   | Get our team of solution experts to onboard you and accelerate your GTM with our Cloud Accelerator programme.                                                   |
 
 ## Services Catalogue
-The Apiculus cloud catalogue is offered for all production [Availability Zones](https://docs.apiculus.com/hc/en-in/articles/13056714784029), as shown below.
+The Apiculus cloud catalogue is offered for all production [Availability Zones](/docs/administration/ServicesManagement/WorkingwithAvailabilityZones), as shown below.
 
 | #   | Service                                    | Type     | ISV                       |
 | --- | ------------------------------------------ | -------- | ------------------------- |

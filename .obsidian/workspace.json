@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/APIs/AccountManagement/TerminateAccount.md",
+                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/APIs/AccountManagement/TerminateAccount.md",
+                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/APIs/AccountManagement/TerminateAccount.md",
+                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/APIs/AccountManagement/TerminateAccount.md"
+                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md"
               }
             }
           }
@@ -149,51 +149,52 @@
   },
   "active": "c4e2a5f97cc4d7f0",
   "lastOpenFiles": [
-    "docs/APIs/AccountManagement/RestrictAccount.md",
-    "docs/APIs/AccountManagement/DisableAccount.md",
-    "docs/APIs/AccountManagement/EnableAccount.md",
-    "docs/APIs/AuthenticateSession.md",
-    "docs/APIs/CloseSession.md",
-    "docs/APIs/CreateAccount.md",
-    "docs/APIs/Helpers/TaxCategories.md",
-    "docs/APIs/Helpers/StatesList.md",
-    "docs/APIs/Helpers/CountryList.md",
-    "docs/APIs/Helpers/ACSKeysandRegions.md",
-    "docs/APIs/apioverview.md",
-    "docs/APIs/AccountManagement/TerminateAccount.md",
+    "docs/Subscribers/AccountCenter/SupportandTickets.md",
+    "docs/Subscribers/AccountCenter/StandardAgreements.md",
+    "docs/Subscribers/AccountCenter/Payments.md",
+    "docs/Subscribers/AccountCenter/WalletandTransactions.md",
+    "docs/Subscribers/AccountCenter/InvoicesandCreditNotes.md",
+    "docs/Subscribers/AccountCenter/UnbilledCharges.md",
+    "docs/Subscribers/AccountCenter/SubscriptionsandServices.md",
+    "docs/Subscribers/AccountCenter/TeamandChildUserManagement.md",
+    "docs/Subscribers/AccountCenter/Organisation-AccountProfile.md",
+    "docs/Subscribers/AccountCenter/Overview.md",
+    "docs/Subscribers/Compute/Autoscale/CreatingAutoscaleGroups.md",
+    "docs/Subscribers/Compute/Autoscale/RequirementsforAutoscale.md",
+    "docs/Subscribers/Compute/Autoscale/Overview.md",
+    "docs/Subscribers/Compute/Kubernetes/ClusterOperations.md",
+    "docs/Subscribers/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
+    "docs/Subscribers/Compute/Kubernetes/AccessingtheClusterDashboard.md",
+    "docs/Subscribers/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
+    "docs/Subscribers/Compute/Kubernetes/CreatingaKubernetesCluster.md",
+    "docs/Subscribers/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
+    "docs/Subscribers/Compute/Kubernetes/ScalingKubernetesClusters.md",
+    "docs/Subscribers/Compute/Kubernetes/Overview.md",
+    "docs/Subscribers/Compute/WindowsInstances/WindowsInstanceOperations.md",
+    "docs/Subscribers/Compute/WindowsInstances/ReconfiguringWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
+    "docs/Subscribers/Compute/WindowsInstances/NetworkingManagementonWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/VolumeManagementwithWindowsInstances.md",
+    "docs/Subscribers/CloudExperienceManagement/img/CloudConsoleOverview.png",
+    "docs/Subscribers/CloudExperienceManagement/img/CloudConsoleOverview.png.crdownload",
+    "docs/Subscribers/CloudExperienceManagement/img",
+    "docs/Subscribers/CloudExperienceManagement/New folder",
+    "docs/Subscribers/CloudExperienceManagement/ApiculusCentral.png",
+    "docs/Subscribers/CloudExperienceManagement/_category_.json",
+    "docs/Subscribers/CloudExperienceManagement",
+    "docs/welcome1.png",
+    "docs/Subscribers/ApiculusCentral.png",
+    "docs/StackComponents.svg",
+    "docs/StackComponents.png",
     "build/docs/APIs/Helpers/CountryList/index.html",
     "build/docs/APIs/Helpers/StatesList/index.html",
     "build/docs/APIs/AccountManagement/EnableAccount/index.html",
     "build/docs/APIs/Helpers/TaxCategories/index.html",
     "build/docs/APIs/Helpers/ACSKeysandRegions/index.html",
-    "build/docs/APIs/AccountManagement/TerminateAccount/index.html",
-    "build/docs/APIs/AccountManagement/DisableAccount/index.html",
-    "build/docs/APIs/AccountManagement/RestrictAccount/index.html",
-    "build/docs/GettingStarted/SignupConfigurations/SignupSettings/index.html",
-    "build/docs/GettingStarted/SignupConfigurations/ConfiguringAccountDefaults/index.html",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_mountain.svg",
     "build/img/sps.svg",
-    "build/img/sps.png",
-    "build/img/sbs.svg",
-    "build/img/sbs.png",
-    "build/img/rn.png",
-    "build/img/logo.svg",
-    "build/img/rn.svg",
-    "docs/intro.md",
-    "docs/Administration/ServicesManagement/Overview.md",
-    "docs/APIs/AccountManagement/listPublicIpAddresses.md",
-    "docs/APIs/AccountManagement/associateIpAddress.md",
-    "docs/APIs/HelperAPIs/listAccounts.md",
-    "docs/APIs/intro.md",
-    "docs/APIs/AccountManagement/disassociateIpAddress.md",
-    "docs/Subscribers/AboutServiceProviderAdministration/ZabbixDashboardandNMS.md",
-    "docs/Subscribers/AboutServiceProviderAdministration/Role-basedAccessonAdminConsole.md",
-    "docs/Subscribers/AboutServiceProviderAdministration/OTRSTicketingandServiceInterface.md",
-    "docs/Subscribers/AboutServiceProviderAdministration/MetabaseBusinessIntelligenceDashboards.md",
-    "docs/Subscribers/AboutServiceProviderAdministration/ManagingSupportTickets.md",
-    "docs/Subscribers/AboutServiceProviderAdministration/ISVConsoles.md",
     "Untitled.canvas"
   ]
 }

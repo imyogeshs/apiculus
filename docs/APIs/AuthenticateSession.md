@@ -8,14 +8,14 @@ import TabItem from '@theme/TabItem';
 
 This endpoint will authenticate the user session based on a valid `email` and `password` combination and return a valid `token`.
 
-:::note
-Session authentication using this endpoint is not supported if 2FA is turned ON.
-:::
-
 <div className="custom-block-peach">
 - Endpoint: `/auth/login` 
 - Method: `POST`
 </div>
+
+:::note
+Session authentication using this endpoint is not supported if 2FA is turned ON.
+:::
 
 ## Request Parameters
 

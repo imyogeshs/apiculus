@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md",
+                "file": "docs/intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md",
+                "file": "docs/intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md",
+                "file": "docs/intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Subscribers/AccountCenter/StandardAgreements.md"
+                "file": "docs/intro.md"
               }
             }
           }
@@ -149,8 +149,19 @@
   },
   "active": "c4e2a5f97cc4d7f0",
   "lastOpenFiles": [
-    "docs/Subscribers/AccountCenter/SupportandTickets.md",
+    "build/assets/js/main.b50c250d.js",
+    "build/docs/category/windows-instances-3/index.html",
+    "build/docs/category/windows-instances-3",
+    "build/docs/category/windows-instances-2/index.html",
+    "build/docs/category/windows-instances-2",
+    "build/docs/category/windows-instances-1/index.html",
+    "build/docs/category/windows-instances-1",
+    "build/docs/category/windows-instances/index.html",
+    "build/docs/category/windows-instances",
+    "build/docs/category/virtual-private-clouds-1/index.html",
+    "build/docs/category/virtual-private-clouds-1",
     "docs/Subscribers/AccountCenter/StandardAgreements.md",
+    "docs/Subscribers/AccountCenter/SupportandTickets.md",
     "docs/Subscribers/AccountCenter/Payments.md",
     "docs/Subscribers/AccountCenter/WalletandTransactions.md",
     "docs/Subscribers/AccountCenter/InvoicesandCreditNotes.md",
@@ -174,23 +185,12 @@
     "docs/Subscribers/Compute/WindowsInstances/ReconfiguringWindowsInstances.md",
     "docs/Subscribers/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
     "docs/Subscribers/Compute/WindowsInstances/NetworkingManagementonWindowsInstances.md",
-    "docs/Subscribers/Compute/WindowsInstances/VolumeManagementwithWindowsInstances.md",
     "docs/Subscribers/CloudExperienceManagement/img/CloudConsoleOverview.png",
-    "docs/Subscribers/CloudExperienceManagement/img/CloudConsoleOverview.png.crdownload",
-    "docs/Subscribers/CloudExperienceManagement/img",
-    "docs/Subscribers/CloudExperienceManagement/New folder",
     "docs/Subscribers/CloudExperienceManagement/ApiculusCentral.png",
-    "docs/Subscribers/CloudExperienceManagement/_category_.json",
-    "docs/Subscribers/CloudExperienceManagement",
     "docs/welcome1.png",
     "docs/Subscribers/ApiculusCentral.png",
     "docs/StackComponents.svg",
     "docs/StackComponents.png",
-    "build/docs/APIs/Helpers/CountryList/index.html",
-    "build/docs/APIs/Helpers/StatesList/index.html",
-    "build/docs/APIs/AccountManagement/EnableAccount/index.html",
-    "build/docs/APIs/Helpers/TaxCategories/index.html",
-    "build/docs/APIs/Helpers/ACSKeysandRegions/index.html",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_mountain.svg",

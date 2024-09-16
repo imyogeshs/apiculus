@@ -3,16 +3,18 @@ sidebar_position: 7
 ---
 # Volume Management with Windows Instances
 
-The built using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
+From [Operating Windows Instances](https://docs.apiculus.com/hc/en-in/articles/13280072414749), navigate into a Windows Instance and access the **Volumes** tab to see the disks attached to this Instance.
 
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
+Windows Instances on Apiculus work with the [Block Volumes Service](https://docs.apiculus.com/hc/en-in/articles/13232676912797) and let you carry out basic disk operations.
 
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
+![Volume Management](img/VolumeManagement.png)
 
+There are three quick actions available i.e.,
 
+1. **_Create Template_** - Click on it, and enter the image name and description.
+2. **_Create Snapshot_** - Clicking on this will create a Volume snapshot.
+3. **_Detach/attach_** - This will attach/detach the volume to/from the instance.
 
 :::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
+Volume-level operations are available as part of the Block Volumes Service.
 :::

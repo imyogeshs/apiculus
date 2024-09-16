@@ -2,4 +2,8 @@
 sidebar_position: 5
 ---
 # Unbilled Charges
-Apiculus admin console is the top-most experience management layer on the Apiculus solution stack. This is the control panel where service providers' Product, Marketing and Business teams will spend most of their time and manage various facets of the cloud delivery and management experience for the end customers.
+All subscriptions incur prorated charges during an account’s billing cycle. These incurred charges are also known as unbilled charges and can be accessed from the **Billing > Unbilled Charges** section on the main navigation panel.
+
+![Unbilled Charges](img/UnbilledCharges.png)
+
+Unbilled charges for fixed (recurring or non-recurring) subscriptions are prorated daily by default. Unbilled charges for usage subscriptions show the actual incurred charges till the last hour.

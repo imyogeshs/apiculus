@@ -3,4 +3,7 @@ sidebar_position: 1
 ---
 # Overview
 
-Apiculus admin console is the top-most experience management layer on the Apiculus solution stack. This is the control panel where service providers' Product, Marketing and Business teams will spend most of their time and manage various facets of the cloud delivery and management experience for the end customers.
+Account Centre on Apiculus CloudConsole is the non-technical (commercial and support) dashboard that can be used for viewing and managing all non-technical aspects of your Apiculus Cloud account. The Account Centre can be accessed by clicking on any item in the user menu on the top-right, on the help/support icon in the header, or on the wallet icon in the header.
+
+![Account Centre](img/AccountCentre.png)
+_Apiculus CloudConsole offers a one-click view switcher between Account Centre and the Cloud Dashboard._

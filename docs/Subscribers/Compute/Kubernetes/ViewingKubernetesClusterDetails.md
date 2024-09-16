@@ -3,16 +3,45 @@ sidebar_position: 3
 ---
 # Viewing Kubernetes Cluster Details
 
-The built using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
+Apiculus CloudConsole offers a detailed view of Kubernetes clusters on the UI. Apiculus also brings the full power and accessibility of cluster management via the kubectl interface.
 
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
+To view cluster details on the UI, follow these steps:
 
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
+1. Navigate to **Compute > Kubernetes**
+2. All the Kubernetes clusters for your account will be listed here with the following details.
+    1. _Kubernetes Cluster Name (Along with the configuration details)_
+    2. _Public IP address_
+    3. _Autoscaling Enabled/Disabled_
+    4. _Created_ 
 
+Clicking on the Kubernetes Cluster name, you can view a list of sections and the various operations or actions you can perform inside the particular section. Below the cluster name is an informational view where you can find the below details.
 
+- _Configuration_
+- _Availability Zone_
+- _Cluster Pack_
+- _High Availability Enabled/Disabled_
 
-:::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
-:::
+A quick option is available in the top right corner, i.e., to  **POWER OFF/ON** the cluster.
+
+At this stage, the following details can be accessed for the cluster:
+
+1. Configuration and Availability
+    1. The cluster’s status, **RUNNING**, is displayed in Green, whereas **STOPPED** is displayed in greyed out.
+    2. Information about the VPC networking zone
+
+2. Nodes Information- This displays the basic information about the nodes as listed below.
+    1. _Cluster Size_ 
+    2. _Computed Pack_
+    3. _Root disk size_
+3. Internal Information- This displays the information used for internal identification of this Cluster and communication with other internal services.
+    1. _Kubernetes Version_
+    2. _Virtual router internal name_
+    3. _Created on_
+
+Additionally, other sections will be available on the left which can then be used to view and access various aspects of managing the Kubernetes cluster. These are:
+
+- **Access** - to view detailed instructions on how to access the cluster using kubectl;
+- **Nodes** - to view the cluster nodes (control and worker) and also scale the cluster;
+- **Dashboard** - to view detailed instructions on how to access the Kubernetes dashboard for the cluster;
+- **Networking** - to manage ingress networking rules;
+- **Operations** - to perform basic management operations on the cluster.

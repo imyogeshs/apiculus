@@ -3,16 +3,14 @@ sidebar_position: 1
 ---
 # Overview
 
-The built using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
+Apiculus offers CloudConsole users the ability to deploy highly-available Kubernetes clusters for their cloud-native development, deployment and DevOps use cases. The Apiculus Kubernetes Service (AK8s) extends basic and advanced cluster management functionalities via the CloudConsole UI and the kubectl utility.
 
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
+To access all available Kubernetes clusters, navigate to **Compute > Kubernetes**. From here, the following operations can be initiated:
 
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
-
-
-
-:::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
-:::
+- [Creating Kubernetes clusters](https://docs.apiculus.com/hc/en-in/articles/13251919190941)
+- [Viewing cluster details](https://docs.apiculus.com/hc/en-in/articles/13252034409245)
+- [Scaling a Cluster](https://docs.apiculus.com/hc/en-in/articles/13254721739293)
+- [Accessing a cluster (using kubectl)](https://docs.apiculus.com/hc/en-in/articles/13253956574749)
+- [Accessing the Kubernetes dashboard](https://docs.apiculus.com/hc/en-in/articles/13254328041373)
+- [Managing cluster networking (ingress)](https://docs.apiculus.com/hc/en-in/articles/13254448637853)
+- [Cluster management operations](https://docs.apiculus.com/hc/en-in/articles/13254617003037)

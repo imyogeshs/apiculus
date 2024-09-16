@@ -3,16 +3,6 @@ sidebar_position: 3
 ---
 # Connecting to a Windows Instance
 
-The built using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
+Unlike Linux Instances that use SSH connections, Windows Instances use the remote desktop protocol (RDP).
 
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
-
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
-
-
-
-:::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
-:::
+To connect to a Windows Instance, any RDP client may be used. While [Microsoft Remote Desktop](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) works ubiquitously across Windows, MacOS and Linux machines (and also Android/Chromebook and iPad OS), a [list of popular RDP tools](https://geekflare.com/remote-desktop-client-software/) can be found here.

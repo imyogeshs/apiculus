@@ -3,16 +3,7 @@ sidebar_position: 2
 ---
 # Requirements for Autoscale
 
-Thesing an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
-
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
-
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
-
-
-
-:::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
-:::
+1. Apiculus now uses the native Autoscale feature of ACS. This feature is available with ACS version 4.18.0.0 onwards. 
+2. On Apiculus, there should be a minimum of one VPC created.
+3. One network tier should be created with a load-balancing public tier in the VPC.
+4. There should be one IPv4 address being used as a load balancer.

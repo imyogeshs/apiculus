@@ -2,4 +2,8 @@
 sidebar_position: 7
 ---
 # Wallet and Transactions
-Apiculus admin console is the top-most experience management layer on the Apiculus solution stack. This is the control panel where service providers' Product, Marketing and Business teams will spend most of their time and manage various facets of the cloud delivery and management experience for the end customers.
+For all practical purposes, the _service balance_ acts as your wallet balance or purchase capacity at any given point in time. The service balance is an aggregation of your credit limit, total payments made and the total charges incurred on your account. Your service balance is always displayed on the top bar and gets updated in real-time when a transaction or a charge is recorded.
+
+The service balance and transactions listing on the main navigation panel can also be accessed from the **Billing > Wallet & Transactions** section. This section lists all the transactions that have been made towards your service balance, along with providing a means to add money to your wallet.
+
+![# Wallet and Transactions](img/WalletandTransactions.png)

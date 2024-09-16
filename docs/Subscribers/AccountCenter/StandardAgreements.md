@@ -2,4 +2,11 @@
 sidebar_position: 10
 ---
 # Standard Agreements
-Apiculus admin console is the top-most experience management layer on the Apiculus solution stack. This is the control panel where service providers' Product, Marketing and Business teams will spend most of their time and manage various facets of the cloud delivery and management experience for the end customers.
+Standard agreements and documents are available on the Apiculus CloudConsole Account Centre. Whenever any of these documents is amended or updated, you will be prompted to accept the modified documents on your next login.
+
+The following documents are available:
+
+- Service Level Agreement
+- Terms and Conditions
+- Privacy Policy
+- Frequently Asked Questions (optional)

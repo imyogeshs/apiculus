@@ -3,16 +3,32 @@ sidebar_position: 4
 ---
 # Viewing Details of Windows Instances
 
-The built using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
+From [Operating Windows Instances](https://docs.apiculus.com/hc/en-in/articles/13280072414749), navigate into a Windows Instance and access the **Overview** tab to see its details.
 
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
+1. Configuration and Availability
+    1. The instance's status, **RUNNING**, is displayed in Green, whereas **STOPPED** is displayed in greyed out.
+    2. Information about the networking zone, whether it is a VPC networking zone or a Basic/Flat/EC networking zone.
 
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
+![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances1.png)
 
+2. Internal Information- This displays the information that is used for internal identification of this instance and communication with other internal services.
+    1. _Template Name_
+    2. _Internal Name_
+    3. _Created On_
 
+![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances2.png)
 
-:::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
-:::
+3. Security and Access Control- Depending on the networking zone, the information and operations will be available here.
+4.  If it's a VPC Networking zone, then the below information will be shown
+    1. _Network Name_
+    2. _VPC Name_
+    3. _Access Control_
+
+![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances3.png)
+
+5. If it’s a Basic/Flat EC networking zone, then the following information will be shown.
+    1. Default Guest Network
+    2. MAC Address
+    3. IP Address
+    4. Netmask
+    5. Gateway

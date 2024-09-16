@@ -2,17 +2,4 @@
 sidebar_position: 1
 ---
 # Overview
-
-Thesing an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
-
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
-
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
-
-
-
-:::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
-:::
+The autoscale feature allows a system to adjust its computing resources based on the changing workload automatically. In virtual machines or instances, autoscaling helps ensure that an application or service has the right amount of resources to handle varying levels of demand efficiently. The key concept behind autoscaling is dynamic resource allocation. When demand for a particular application or service increases, autoscaling automatically adds more computing resources (such as instances or virtual machines) to handle the load. Conversely, during periods of lower demand, autoscaling reduces the number of resources to optimize cost and efficiency.

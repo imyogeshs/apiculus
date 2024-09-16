@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "25c4737a545ef14c",
+        "id": "b8d330314a929cb8",
         "type": "tabs",
         "children": [
           {
-            "id": "c4e2a5f97cc4d7f0",
+            "id": "d2deb784555b2e21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/intro.md",
+                "file": "docs/Subscribers/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/intro.md",
+                "file": "docs/Subscribers/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/intro.md",
+                "file": "docs/Subscribers/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/intro.md"
+                "file": "docs/Subscribers/Networking/FirewallandSecurity/DeletingaVFINetwork.md"
               }
             }
           }
@@ -147,54 +147,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4e2a5f97cc4d7f0",
+  "active": "d2deb784555b2e21",
   "lastOpenFiles": [
-    "build/assets/js/main.b50c250d.js",
-    "build/docs/category/windows-instances-3/index.html",
-    "build/docs/category/windows-instances-3",
-    "build/docs/category/windows-instances-2/index.html",
-    "build/docs/category/windows-instances-2",
-    "build/docs/category/windows-instances-1/index.html",
-    "build/docs/category/windows-instances-1",
-    "build/docs/category/windows-instances/index.html",
-    "build/docs/category/windows-instances",
-    "build/docs/category/virtual-private-clouds-1/index.html",
-    "build/docs/category/virtual-private-clouds-1",
-    "docs/Subscribers/AccountCenter/StandardAgreements.md",
-    "docs/Subscribers/AccountCenter/SupportandTickets.md",
-    "docs/Subscribers/AccountCenter/Payments.md",
-    "docs/Subscribers/AccountCenter/WalletandTransactions.md",
-    "docs/Subscribers/AccountCenter/InvoicesandCreditNotes.md",
-    "docs/Subscribers/AccountCenter/UnbilledCharges.md",
-    "docs/Subscribers/AccountCenter/SubscriptionsandServices.md",
-    "docs/Subscribers/AccountCenter/TeamandChildUserManagement.md",
-    "docs/Subscribers/AccountCenter/Organisation-AccountProfile.md",
-    "docs/Subscribers/AccountCenter/Overview.md",
-    "docs/Subscribers/Compute/Autoscale/CreatingAutoscaleGroups.md",
-    "docs/Subscribers/Compute/Autoscale/RequirementsforAutoscale.md",
-    "docs/Subscribers/Compute/Autoscale/Overview.md",
-    "docs/Subscribers/Compute/Kubernetes/ClusterOperations.md",
-    "docs/Subscribers/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
-    "docs/Subscribers/Compute/Kubernetes/AccessingtheClusterDashboard.md",
-    "docs/Subscribers/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
-    "docs/Subscribers/Compute/Kubernetes/CreatingaKubernetesCluster.md",
-    "docs/Subscribers/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
-    "docs/Subscribers/Compute/Kubernetes/ScalingKubernetesClusters.md",
-    "docs/Subscribers/Compute/Kubernetes/Overview.md",
-    "docs/Subscribers/Compute/WindowsInstances/WindowsInstanceOperations.md",
-    "docs/Subscribers/Compute/WindowsInstances/ReconfiguringWindowsInstances.md",
-    "docs/Subscribers/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
-    "docs/Subscribers/Compute/WindowsInstances/NetworkingManagementonWindowsInstances.md",
-    "docs/Subscribers/CloudExperienceManagement/img/CloudConsoleOverview.png",
-    "docs/Subscribers/CloudExperienceManagement/ApiculusCentral.png",
-    "docs/welcome1.png",
-    "docs/Subscribers/ApiculusCentral.png",
-    "docs/StackComponents.svg",
-    "docs/StackComponents.png",
-    "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_tree.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.svg",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork4.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork4.png.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork3.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork3.png.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork2.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork2.png.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork1.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/DeletingaVFINetwork1.png.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
+    "docs/Subscribers/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
+    "docs/Subscribers/Networking/FirewallandSecurity/ViewingVFINetworkDetails.md",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/ViewingVFINetworkDetails2.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/ViewingVFINetworkDetails2.png.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/ViewingVFINetworkDetails1.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/ViewingVFINetworkDetails1.png.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
+    "docs/Subscribers/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/CreatingaVirtualFirewall10.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/CreatingaVirtualFirewall9.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/CreatingaVirtualFirewall8.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/CreatingaVirtualFirewall7.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/CreatingaVirtualFirewall1.png",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/CreatingaVirtualFirewall10",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/Unconfirmed 327226.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/CreatingaVirtualFirewall9",
+    "docs/Subscribers/Networking/FirewallandSecurity/img/Unconfirmed 279090.crdownload",
+    "docs/Subscribers/Networking/FirewallandSecurity/Overview.md",
+    "docs/Subscribers/Networking/LoadBalancerInstances/ActivatingtheNetScalerVPX.md",
+    "docs/Subscribers/Networking/LoadBalancerInstances/CreatingaLoadBalancerInstance.md",
+    "docs/Subscribers/Networking/LoadBalancerInstances/Overview.md",
+    "docs/Subscribers/Networking/DNSManagement/SwitchingtoAnotherDNSProvider.md",
+    "docs/Subscribers/Networking/DNSManagement/ManagingDNSRecords.md",
+    "docs/Subscribers/Networking/DNSManagement/LinkingDomainstoApiculusCloudConsole.md",
+    "docs/Subscribers/Networking/DNSManagement/Overview.md",
+    "docs/Subscribers/Networking/IPv4-basedNetworking/ManagingVPNGatewaysandSite-to-SiteVPN.md",
+    "docs/Subscribers/Networking/IPv4-basedNetworking/Overview.md",
+    "docs/Subscribers/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
+    "docs/Subscribers/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
+    "docs/Subscribers/Networking/IPv4-basedNetworking/ISVConsoles.md",
+    "docs/Subscribers/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md",
+    "docs/Subscribers/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md",
+    "docs/Subscribers/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
+    "docs/Subscribers/Networking/VirtualPrivateClouds/ManagingAccessControlonVPCSubnets.md",
+    "docs/Subscribers/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
+    "docs/Subscribers/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
+    "img/CreateVPC1/png.md",
     "Untitled.canvas"
   ]
 }

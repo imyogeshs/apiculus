@@ -3,16 +3,16 @@ sidebar_position: 8
 ---
 # Networking Management on Windows Instances
 
-The built using an 'integrations' approach using ISV products that are enterprise-grade and deliver powerful technical orchestration capabilities.
+From [Operating Windows Instances](https://docs.apiculus.com/hc/en-in/articles/13280072414749), navigate into a Windows Instance and access the **Networking** tab to see the networks that this Instance is attached to.
 
-A standard Apiculus deployment includes the following ISV on which, service provider teams get restricted access:
+The Networking and NICs section will list all the networks that a Windows Instance is attached to.
 
-- Apache CloudStack
-- Cloudian HyperStore (if object storage is enabled)
-- PowerDNS (if DNS management is enabled)
+![Networking Management](img/NetworkingManagement.png)
 
+The following actions are available:
 
+- If the Instance is inside a VPC, you can associate the Instance to multiple tiers within the VPC or share the Instance with other VPC networks in the same Availability Zone by using the **ADD NETWORK** option.
+- Network/tier associations can be removed from this section by using the _unlink_ action.
+- If the Instance is in a Basic/Flat Networking AZ, you'll see the NIC details. _Presently, only one NIC is supported on Basic/Flat Networking Instances._
 
-:::note
-Restricted access is provided as any modifications done on the ISV systems can severely impact the quality of service and experience delivered via Apiculus.
-:::
+_Advanced networking configurations can be done using the [Virtual Private Clouds](https://docs.apiculus.com/hc/en-in/articles/13228935544093) service._

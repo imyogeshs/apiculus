@@ -11,12 +11,12 @@ You can use these graphs to understand Instance utilisation patterns and create 
 
 The following graphs are available on a 24-hour time-scale graph with a 30-day trend line for the following parameters:
 
-1. CPU utilisation
-2. RAM utilisation
-3. Disk utilisation
-4. 1-min load average
-5. 5-min load average
-6. 15-min load average
+- CPU utilisation
+- RAM utilisation
+- Disk utilisation
+- 1-min load average
+- 5-min load average
+- 15-min load average
 
 ## Utilisation (Historical)
 

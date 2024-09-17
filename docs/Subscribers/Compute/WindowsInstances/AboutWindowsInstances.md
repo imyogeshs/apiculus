@@ -14,10 +14,10 @@ Apiculus offers a highly usable and visual way of working with and operating Win
 
 1. Navigate to **Compute > Windows Instances**.
 2. All the Windows Instances for your account will be listed here with the following details
-    1. Instance Name (Along with the configuration details)
-    2. OS- Icon will be displayed.
-    3. Default IP Address
-    4. Created
+    - Instance Name (Along with the configuration details)
+    - OS- Icon will be displayed.
+    - Default IP Address
+    - Created
 
 ![Overview](img/Windows1.png)
 

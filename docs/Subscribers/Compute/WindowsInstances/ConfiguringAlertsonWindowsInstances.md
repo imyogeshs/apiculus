@@ -11,7 +11,7 @@ Subscribers can configure alerts for instances running on the Apiculus. Subscrib
 
 # Instance Alerts
 
-The Alerts tab can be accessed from the instances details. It will list all the alerts already configured for that particular VM. In addition, it will show the details, i.e., _ID, the name for the alert,_ _Parameter, Trigger When, Value, and Reading Duration._
+The Alerts tab can be accessed from the instances details. It will list all the alerts already configured for that particular VM. In addition, it will show the details, i.e., ID, the name for the alert, Parameter, Trigger When, Value, and Reading Duration.
 
 ![Configuring Alerts on Windows Instances](img/ConfiguringAlerts1.png)
 
@@ -23,16 +23,16 @@ Subscribers can create or add alerts simply by clicking on the **Add Alert** b
 
 The various fields of the add alert page are described below:
 
-1. Name- You can define the name for your alert.
-2. Choose parameter - This option will allow you to define what parameter needs to be monitored to trigger the alert email. Apiculus Cloud supports CPU, RAM, Disk, 1-min Load Average, 5- min Load Average, 15- min Load Average parameter_s.
-3. Trigger when - This set of options lets you define whether to trigger above or below a custom value.
-4. Value – You can define the Value. 
-5. Reading duration - This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email.
-6. Send alert to -Email ids can be added here, or also you can add them by using the configure recipients 
+- Name- You can define the name for your alert.
+- Choose parameter - This option will allow you to define what parameter needs to be monitored to trigger the alert email. Apiculus Cloud supports CPU, RAM, Disk, 1-min Load Average, 5- min Load Average, 15- min Load Average parameter_s.
+- Trigger when - This set of options lets you define whether to trigger above or below a custom value.
+- Value – You can define the Value. 
+- Reading duration - This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email.
+- Send alert to -Email ids can be added here, or also you can add them by using the configure recipients 
 
-- 1-min Load Average -How many processes were active, executed, or awaiting execution at the last minute.
-- 5-min Load Average -How many processes were active, executed, or awaiting execution in the last five minutes.
-- 15-min Load Average -How many processes were active, executed, or awaiting execution in the last fifteen minutes.
+- 1-min Load Average - How many processes were active, executed, or awaiting execution at the last minute.
+- 5-min Load Average - How many processes were active, executed, or awaiting execution in the last five minutes.
+- 15-min Load Average - How many processes were active, executed, or awaiting execution in the last fifteen minutes.
 
 # Configuring Recipients
 

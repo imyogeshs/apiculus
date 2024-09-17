@@ -9,11 +9,11 @@ Windows Instances on Apiculus work with the [Block Volumes Service](/docs/Subsc
 
 ![Volume Management](img/VolumeManagement.png)
 
-There are three quick actions available i.e.,
+The following quick actions available:
 
-1. **Create Template** - Click on it, and enter the image name and description.
-2. **Create Snapshot** - Clicking on this will create a Volume snapshot.
-3. **Detach/attach** - This will attach/detach the volume to/from the instance.
+- **Create Template** - Click on it, and enter the image name and description.
+- **Create Snapshot** - Clicking on this will create a Volume snapshot.
+- **Detach/attach** - This will attach/detach the volume to/from the instance.
 
 :::note
 Volume-level operations are available as part of the Block Volumes Service.

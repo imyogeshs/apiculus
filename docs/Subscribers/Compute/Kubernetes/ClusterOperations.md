@@ -15,8 +15,8 @@ Kubernetes clusters can be powered ON/OFF using the _power_ button on top of t
 
 Kubernetes clusters can be stopped or restarted from the **Operations** section of cluster details.
 
-- **_Stop Cluster_** - To stop the Kubernetes cluster. No data will be lost, and the cluster can be started again.
-- **_Restart Cluster_** - This action will restart the Virtual Router and the cluster nodes; can/should be used if a Kubernetes Cluster has become unresponsive or unreachable.
+- **Stop Cluster** - To stop the Kubernetes cluster. No data will be lost, and the cluster can be started again.
+- **Restart Cluster** - This action will restart the Virtual Router and the cluster nodes can/should be used if a Kubernetes Cluster has become unresponsive or unreachable.
 
 ## Deleting a Cluster
 

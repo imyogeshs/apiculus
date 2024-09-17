@@ -11,7 +11,7 @@ Subscribers can configure alerts for instances running on the Apiculus. Subscrib
 
 ## Instance Alerts
 
-The Alerts tab lists all the alerts already configured for that particular Linux Instance. In addition, it will show the details, i.e., _ID, the name for the alert,_ _Parameter, Trigger When, Value, and Reading Duration._
+The Alerts tab lists all the alerts already configured for that particular Linux Instance. In addition, it will show the details, i.e., ID, the name for the alert, Parameter, Trigger When, Value, and Reading Duration.
 
 ![Configuring Alerts on Linux Instances](img/ConfiguringAlerts1.png)
 
@@ -23,12 +23,12 @@ You can create or add alerts simply by clicking on the **Add Alert** button. T
 
 The various fields of the add alert page are described below:
 
-1. **Name** - _You can define the name for your alert_.
-2. **Parameter** - _This option will allow you to define what parameter needs to be monitored to trigger the alert email. Apiculus Cloud supports CPU, RAM, Disk, 1-min Load Average, 5- min Load Average, 15- min Load Average parameter_s.
-3. **Trigger** - _This set of options lets you define whether to trigger above or below a custom value._
-4. **Value** - _You can define the trigger value/threshold._
-5. **Reading duration** - _This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email_.
-6. **Send alert to** - _Email IDs can be added here, or also you can add them by using the configure recipients._
+1. **Name** - You can define the name for your alert.
+2. **Parameter** - This option will allow you to define what parameter needs to be monitored to trigger the alert email. Apiculus Cloud supports CPU, RAM, Disk, 1-min Load Average, 5- min Load Average, 15- min Load Average parameters.
+3. **Trigger** - This set of options lets you define whether to trigger above or below a custom value._
+4. **Value** - You can define the trigger value/threshold.
+5. **Reading duration** - This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email.
+6. **Send alert to** - Email IDs can be added here, or also you can add them by using the configure recipients.
 
 ## Configuring Recipients
 

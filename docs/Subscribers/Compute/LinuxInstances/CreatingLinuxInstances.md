@@ -12,7 +12,7 @@ Before creating a Linux instance, it is important to plan the architecture, netw
 
 To create a Linux instance on a basic/flat networking zone, follow the below steps:
 
-1. Navigate to **Compute > Linux Instances**
+1. Navigate to **Compute > Linux Instances**.
 2. Click on the **_+_ NEW LINUX INSTANCE** from the top right.
 3. Enter the name for your Linux instance by following the naming convention mentioned below in the helper text.
 4. Choose an Availability Zone, which is the geographical region where your Instance will be deployed. The chosen option should be the Basic/Flat/EC type networking zones from all available AZs.
@@ -24,7 +24,7 @@ To create a Linux instance on a basic/flat networking zone, follow the below ste
 10. Choose an authentication method, i.e., Use an SSH key pair or the root user password. 
     1. Clicking on the Use SSH key pair option, all the SSH key pairs present in your account will be listed; if your account doesn’t have any SSH key pair, then you can use the Generate a new key pair option, and also you can upload the key by selecting Upload a key pair.
     2. On selecting Use root user password, Also email me the password option will be displayed. If you select this option, the password, along with the details, for instance, will be emailed to your registered email ID.
-11. Verify the Estimated Cost of your Linux Instance based on the specifications you have chosen from the Summary and Estimated Costs Section( _Here both Hourly and Monthly Prices summary will be displayed)_
+11. Verify the Estimated Cost of your Linux Instance based on the specifications you have chosen from the Summary and Estimated Costs Section (Here both Hourly and Monthly Prices summary will be displayed).
 12. Click on the check box after going through the policies mentioned by your cloud service provider.
 13. Clicking on the BUY HOURLY or BUY MONTHLY button, a confirmation pop-over will open up, and the price summary will be displayed along with the discount codes if you have any in your account. 
     1. You can apply any of the discount codes listed by clicking on the **APPLY** button. 

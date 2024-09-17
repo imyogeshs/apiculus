@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ReleaseNotes/Ver2310.md",
+                "file": "docs/Subscribers/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ReleaseNotes/Ver2310.md",
+                "file": "docs/Subscribers/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ReleaseNotes/Ver2310.md",
+                "file": "docs/Subscribers/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ReleaseNotes/Ver2310.md"
+                "file": "docs/Subscribers/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md"
               }
             }
           }
@@ -162,52 +162,52 @@
   },
   "active": "2c29f91674bc8f63",
   "lastOpenFiles": [
+    "build/blog/rss.xsl",
+    "build/opensearch.xml",
+    "build/sitemap.xml",
+    "build/docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/DNSRequirements",
+    "build/docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About/index.html",
+    "build/docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/About",
+    "build/docs/Subscribers/Storage/ObjectStogageBucket/FrequentlyAskedQuestions/index.html",
+    "build/docs/Subscribers/Storage/ObjectStogageBucket/SystemRequirements/index.html",
+    "build/docs/Subscribers/Storage/ObjectStogageBucket/FeatureListandIntegrationDetails/index.html",
+    "build/docs/Subscribers/Storage/ObjectStogageBucket/AboutApiculusObjectStorage/index.html",
+    "docs/Subscribers/Compute/WindowsInstances/WindowsInstanceOperations.md",
+    "docs/Subscribers/Compute/WindowsInstances/VolumeManagementwithWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/ViewingGraphsandUtilisationofWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/ViewingDetailsofWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/ReconfiguringWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/NetworkingManagementonWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/CreatingWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
+    "docs/Subscribers/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
+    "docs/Subscribers/Compute/WindowsInstances/AboutWindowsInstances.md",
+    "docs/Subscribers/Compute/LinuxInstances/WorkingwithLinuxInstanceSnapshots.md",
+    "docs/Subscribers/Compute/LinuxInstances/VolumeManagementwithLinuxInstances.md",
+    "docs/Subscribers/Compute/LinuxInstances/ViewingGraphsandUtilizationofLinuxInstances.md",
+    "docs/Subscribers/Compute/LinuxInstances/ViewingDetailsofLinuxInstances.md",
+    "docs/Subscribers/Compute/LinuxInstances/ReconfiguringLinuxInstances.md",
+    "docs/Subscribers/Compute/LinuxInstances/NetworkingManagementwithLinuxInstances.md",
+    "docs/Subscribers/Compute/LinuxInstances/LinuxInstanceOperations.md",
+    "docs/Subscribers/Compute/LinuxInstances/CreatingLinuxInstances.md",
+    "docs/Subscribers/Compute/LinuxInstances/ConnectingtoaLinuxInstance.md",
+    "docs/Subscribers/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
     "docs/Subscribers/Compute/LinuxInstances/AboutLinuxInstances.md",
-    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements/index.html",
-    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList/index.html",
-    "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/About/index.html",
-    "build/docs/ServicesandSystemRequirements/AWSLinkage/Prerequisites/index.html",
-    "build/docs/ServicesandSystemRequirements/AWSLinkage/AboutAWSLinkage/index.html",
-    "build/docs/ServicesandSystemRequirements/AWSLinkage/IntegrationDetails/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/SystemRequirements/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FeatureListandIntegrationDetails/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/AboutApiculusObjectStorage/index.html",
-    "docs/Subscribers/CloudExperienceManagement/CloudOperationsManagement.md",
-    "docs/Subscribers/CloudExperienceManagement/CloudConsoleOverview.md",
-    "docs/Subscribers/AccountCentre/AboutApiculusAccountCentre.md",
-    "docs/Subscribers/AccountCentre/Organisation-AccountProfile.md",
-    "build/assets/images/AccountProfile2-25c8abcad2a814f2a8749ed18c00bab3.png",
-    "build/assets/images/ConfiguringAutomationPolicies6-b1eea12d54cb4c0d5655c22e06b72f1b.png",
-    "build/assets/images/TurningofftheProtectionPlan5-362677c8bc237d1064dd75cd77dfb1e4.png",
-    "build/assets/images/AccountProfile1-b1da214f8987a93f97b586902571fd6a.png",
-    "build/assets/images/TurningofftheProtectionPlan4-6f56af9510205a19f92451ad147bcb6f.png",
-    "build/assets/images/TurningofftheProtectionPlan2-de076a83e33e8be57bcb20bbcaaddc07.png",
-    "build/assets/images/TurningofftheProtectionPlan3-2c1c15a4b30cb3c687d7c0a813fe6661.png",
-    "build/assets/images/TurningofftheProtectionPlan1-23488c764beb65fd1eaf137974df4592.png",
-    "build/assets/images/Coupons4-128f42ba69ef0edc009d63db84480c39.png",
-    "build/assets/images/Coupons2-736729996865d7f592a960bb4d7d6bf9.png",
-    "docs/Subscribers/AccountCentre/WalletandTransactions.md",
-    "docs/Subscribers/AccountCentre/UnbilledCharges.md",
-    "docs/Subscribers/AccountCentre/TeamandChildUserManagement.md",
-    "docs/Subscribers/AccountCentre/SupportandTickets.md",
-    "docs/Subscribers/AccountCentre/SubscriptionsandServices.md",
-    "docs/Subscribers/AccountCentre/InvoicesandCreditNotes.md",
-    "docs/Subscribers/ToolsandUtilities/AboutToolsandUtilities.md",
-    "docs/Subscribers/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md",
-    "docs/Subscribers/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
-    "docs/Subscribers/ToolsandUtilities/ManagingSSHKeysandKeyPairs.md",
-    "docs/Subscribers/InstanceProtection/EnablingInstanceProtection.md",
-    "docs/Subscribers/InstanceProtection/ChangingtheProtectionPlan.md",
-    "docs/Subscribers/InstanceProtection/ViewingProtectedInstances.md",
-    "docs/Subscribers/InstanceProtection/TurningofftheProtectionPlan.md",
-    "docs/Subscribers/InstanceProtection/AboutInstanceprotection.md",
-    "docs/Subscribers/Storage/ObjectStogageBucket/SystemRequirements.md",
-    "docs/Subscribers/Storage/ObjectStogageBucket/FrequentlyAskedQuestions.md",
-    "docs/Subscribers/Storage/ObjectStogageBucket/FeatureListandIntegrationDetails.md",
-    "docs/Subscribers/Storage/ObjectStogageBucket/AboutApiculusObjectStorage.md",
-    "docs/Subscribers/Storage/BlockVolumes/AboutBlockVolumes.md",
-    "docs/Subscribers/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes.md",
+    "docs/Subscribers/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
+    "docs/Subscribers/Compute/Kubernetes/ScalingKubernetesClusters.md",
+    "docs/Subscribers/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
+    "docs/Subscribers/Compute/Kubernetes/CreatingaKubernetesCluster.md",
+    "build/assets/images/WorkingwithInstanceVolumes3-10948a5809b475d7675be6cb3f7c59df.png",
+    "build/assets/images/ZabbixDashboardandNMS-c2527f0b200a02597ac742e94af5a959.png",
+    "build/assets/images/WorkingwithInstanceVolumes1-12ec44de4d94a6468f181be2360df1cd.png",
+    "build/assets/images/WorkingwithVolumeSnapshots-c897e055a14dfa237b7df4e34942d01b.png",
+    "build/assets/images/WorkingwithInstanceVolumes2-e9ad4771096096b56b2e00a5e368ec18.png",
+    "build/assets/images/WorkingwithDiscountCodes7-33c4dd24fc7d924f4aaf8712f1989d54.png",
+    "build/assets/images/WorkingwithDiscountCodes8-3c029b00e303846b5dbaece44344bb0c.png",
+    "build/assets/images/WorkingwithDiscountCodes9-20fc6541fdd4044d0bd5b2d91359a32f.png",
+    "build/assets/images/WorkingwithDiscountCodes5-a2f08222eff1ed6c10b602525a417464.png",
+    "build/assets/images/WorkingwithDiscountCodes6-bf2731aaac826890535ceafe5cd4bc6e.png",
     "Untitled.canvas"
   ]
 }

@@ -17,10 +17,12 @@ To create a Kubernetes cluster on an advanced VPC AZ, follow the below steps:
     2. Specify the cluster size, i.e., the no. of worker nodes. 
     3. Specify the node root disk size; a minimum of 8GB is required 
     4. Choose Kubernetes version
-9. Verify the Estimated Cost of your Kubernetes Cluster based on the specifications you have chosen from the Summary and Estimated Costs Section( _Here, both the Hourly and Monthly Prices summary will be displayed)_
+9. Verify the Estimated Cost of your Kubernetes Cluster based on the specifications you have chosen from the Summary and Estimated Costs Section (Here, both the Hourly and Monthly Prices summary will be displayed)
 10. Click on the check box after going through the policies your cloud service provider mentioned.
 11. Click on the BUY HOURLY or BUY MONTHLY button and Click on the **CONFIRM** to create the Kubernetes Cluster.
 
-Please note that this might take up to 5-8 minutes. You may use the CloudConsole during this time, but it is advised that you do not refresh the browser window.
+:::note
+This might take up to 5-8 minutes. You may use the CloudConsole during this time, but it is advised that you do not refresh the browser window.
+:::
 
 Once ready, you’ll be notified of this purchase on your email address on record. The newly created Kubernetes cluster can be accessed from **Compute >** **Kubernetes** on the main navigation panel.

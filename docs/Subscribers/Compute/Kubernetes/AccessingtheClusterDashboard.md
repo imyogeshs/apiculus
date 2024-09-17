@@ -35,3 +35,4 @@ kubectl --kubeconfig /custom/path/kube.conf describe secret $(kubectl --kubeconf
 
 :::note
 More information about accessing the Kubernetes Dashboard UI can be found on [https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/#accessing-the-dashboard-ui](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/#accessing-the-dashboard-ui) 
+:::

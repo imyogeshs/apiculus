@@ -21,29 +21,30 @@ sidebar_position: 3
 
   10.  Next is to define the **Scale Up policy** (Multiple policies can be configured; if multiple conditions are specified, all of them need to be met for the Autoscale Group to execute). You need to specify the following:
 
-- **_Policy Name_**
-- _**Duration (in mins):** This is the duration in which the conditions have to be true before action is taken._
-- _**Quiet Time (in mins):** The cool-down period in which the policy should not be evaluated after the action has been taken._
-- _**Parameter:** Name of the counter for which the policy will be evaluated._
+- **Policy Name**
+- **Duration (in mins):** This is the duration in which the conditions have to be true before action is taken.
+- **Quiet Time (in mins):** The cool-down period in which the policy should not be evaluated after the action has been taken.
+- **Parameter:** Name of the counter for which the policy will be evaluated.
     - Parameters: The performance parameters expose the state of the monitored Instances. As of now, there are five new parameters to work with that feature:
-	- _Instance CPU - average percentage._
-	- _Instance Memory - average percentage._
-	- _Public Network - mbps received per Instance._
-	- _Public Network - mbps transmit per Instance._
-	- _Load Balancer - average connections per Instance_.
+	- Instance CPU - average percentage.
+	- Instance Memory - average percentage.
+	- Public Network - mbps received per Instance.
+	- Public Network - mbps transmit per Instance.
+	- Load Balancer - average connections per Instance
         
 - **Breach:** Relational Operator to be used with threshold. This will be Greater Than by default.
-- _**Threshold:** This is the value for which the Counter will be evaluated with the Operator selected.![Creating Autoscale Groups](img/CreatingAutoscaleGroups4.png)![Creating Autoscale Groups](img/CreatingAutoscaleGroups5.png)_
+- **Threshold:** This is the value for which the Counter will be evaluated with the Operator selected.
+	![Creating Autoscale Groups](img/CreatingAutoscaleGroups4.png)![Creating Autoscale Groups](img/CreatingAutoscaleGroups5.png)
 
 11. Then click on the  **ADD CONDITION** to add the policy. If you want to add more policies, click on the **+ ADD NEW** button present beside the Policy name.
 
-12. Then, Define the **Scale Down Policy**; the parameters are similar to the Scale UP policy. Only the _breach parameter will be greater_ than by default.
+12. Then, Define the **Scale Down Policy**; the parameters are similar to the Scale UP policy. Only the breach parameter will be greater than by default.
 
 ![Creating Autoscale Groups](img/CreatingAutoscaleGroups6.png)![Creating Autoscale Groups](img/CreatingAutoscaleGroups7.png)
 
-13. Next is to set up the SSH Key. if your account doesn’t have any SSH key pair, then you can use the **_Generate a new key pair_** option, and you can also upload the key by selecting _**Upload a key pair**.![Creating Autoscale Groups](img/CreatingAutoscaleGroups8.png)_
+13. Next is to set up the SSH Key. if your account doesn’t have any SSH key pair, then you can use the **Generate a new key pair** option, and you can also upload the key by selecting **Upload a key pair**.![Creating Autoscale Groups](img/CreatingAutoscaleGroups8.png)_
 
-14. If you want to notify your users or custom email addresses upon the execution of this Autoscale Group, then you can select the appropriate option available under Notify on email. I.e., N_otify to account users, Notify to comma-separated email addresses._
+14. If you want to notify your users or custom email addresses upon the execution of this Autoscale Group, then you can select the appropriate option available under Notify on email. i.e., Notify to account users, Notify to comma-separated email addresses.
 
 15. Last is to specify the name of your autoscale group. (Use the naming convention mentioned in the helper text below.)
 

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Subscribers/Compute/LinuxInstances/AboutLinuxInstances.md",
+                "file": "docs/ReleaseNotes/Ver2310.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Subscribers/Compute/LinuxInstances/AboutLinuxInstances.md",
+                "file": "docs/ReleaseNotes/Ver2310.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Subscribers/Compute/LinuxInstances/AboutLinuxInstances.md",
+                "file": "docs/ReleaseNotes/Ver2310.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Subscribers/Compute/LinuxInstances/AboutLinuxInstances.md"
+                "file": "docs/ReleaseNotes/Ver2310.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "2c29f91674bc8f63",
   "lastOpenFiles": [
+    "docs/Subscribers/Compute/LinuxInstances/AboutLinuxInstances.md",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/SystemRequirements/index.html",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/FeatureList/index.html",
     "build/docs/ServicesandSystemRequirements/LoadBalancerInstances/About/index.html",
@@ -172,7 +173,6 @@
     "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FrequentlyAskedQuestions/index.html",
     "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/FeatureListandIntegrationDetails/index.html",
     "build/docs/ServicesandSystemRequirements/ApiculusObjectStorage/AboutApiculusObjectStorage/index.html",
-    "build/docs/ServicesandSystemRequirements/ApiculusAuthoritiveNameserver/SystemRequirements/index.html",
     "docs/Subscribers/CloudExperienceManagement/CloudOperationsManagement.md",
     "docs/Subscribers/CloudExperienceManagement/CloudConsoleOverview.md",
     "docs/Subscribers/AccountCentre/AboutApiculusAccountCentre.md",

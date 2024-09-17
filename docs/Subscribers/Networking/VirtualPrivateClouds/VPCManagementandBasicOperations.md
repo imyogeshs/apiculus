@@ -11,8 +11,9 @@ The **Reconfigure** section/tab will list your current subscription details an
 
 ![VPC Management and Basic Operations](img/VPCManagement1.png)
 
-_**Note** - you can only reconfigure with the same billing interval. If you wish just to change the billing interval, please use the Switch Plan button. We recommend switching the plan first before reconfiguring the Instance if you wish to use both the Reconfigure and Switch Plan options. In either case, you will be charged as per the reconfiguration and not the existing.  
-_
+:::note
+You can only reconfigure with the same billing interval. If you wish just to change the billing interval, please use the Switch Plan button. We recommend switching the plan first before reconfiguring the Instance if you wish to use both the Reconfigure and Switch Plan options. In either case, you will be charged as per the reconfiguration and not the existing.  
+:::
 
 ## Powering ON/OFF the Virtual Router
 
@@ -26,4 +27,6 @@ Additionally, a VPC restart is possible using the **RESTART VIRTUAL ROUTER** o
 
 A VPC can be deleted using the **DELETE VPC NETWORK** button under the **Operations** section/tab of VPC details. Deleting a VPC will remove it permanently.
 
-_**Note** - before attempting to delete this VPC, ensure that all Tiers, IPv4 Addresses, and Instances are removed from this VPC. This action is irreversible, and you may not be able to recover any data for this VPC._
+:::note
+Before attempting to delete this VPC, ensure that all Tiers, IPv4 Addresses, and Instances are removed from this VPC. This action is irreversible, and you may not be able to recover any data for this VPC.
+:::

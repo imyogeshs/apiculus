@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Viewing Details of Linux Instances
 
-From [Operating Linux Instances](https://docs.apiculus.com/hc/en-in/articles/12794520211357), navigate into a Linux Instance and access the **Overview** tab to see its details.
+From [Operating Linux Instances](AboutLinuxInstances), navigate into a Linux Instance and access the **Overview** tab to see its details.
 
 1. Configuration and Availability
     1. The instance's status, **RUNNING**, is displayed in Green, whereas STOPPED is displayed in greyed out.

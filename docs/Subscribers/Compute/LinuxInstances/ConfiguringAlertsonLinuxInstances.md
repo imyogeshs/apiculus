@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 # Configuring Alerts on Linux Instances
 
-From [Operating Linux Instances](https://docs.apiculus.com/hc/en-in/articles/12794520211357), navigate into a Linux Instance and access the **Alerts** tab to view the configured alerts or configure new ones.
+From [Operating Linux Instances](AboutLinuxInstances), navigate into a Linux Instance and access the **Alerts** tab to view the configured alerts or configure new ones.
 
 Alerts get triggered whenever a configured condition is met. You can create multiple alerts on an instance. Alerts are sent to recipients that you can define and manage.
 

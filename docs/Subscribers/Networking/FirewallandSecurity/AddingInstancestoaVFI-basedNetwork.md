@@ -15,7 +15,7 @@ Instances can be created and placed in the L2-LAN (called Free Networks) create
 - Check the summary and estimated costs for both Hourly and Monthly 
 - Click on buy Hourly or Monthly as per your requirement and then click on confirm on the confirmation popover.
 
-Once the Instance has been created, it can be managed in the same way as [Linux Instances](https://docs.apiculus.com/hc/en-in/articles/12794520211357).
+Once the Instance has been created, it can be managed in the same way as [Linux Instances](/docs/Subscribers/Compute/LinuxInstances/AboutLinuxInstances).
 
 :::note
 In its current scope, VFI-based networks only support a single VLAN/subnet and only special Linux Instances can be added to them.

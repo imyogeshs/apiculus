@@ -21,4 +21,6 @@ Clicking on **ADD NETWORK TIER** will create the tier or subnet to be used as 
 
 There are three icons available on the right side for quick actions like restarting the network, replacing the access control list, and deleting the tier.
 
-_**Note** - only empty tiers can be deleted, which means that in order to delete a tier, ensure that there are no Instances and no NAT rule(s) associated with it._
+:::note
+Only empty tiers can be deleted, which means that in order to delete a tier, ensure that there are no Instances and no NAT rule(s) associated with it.
+:::

@@ -15,4 +15,6 @@ The **ADD INSTANCE** button can be used to view all Instances that are availab
 
 ![Managing VPC Instances](img/ManagingVPCInstances2.png)
 
-_**Note** - an Instance created in any VPC/advanced Availability Zone must be attached to at least one subnet._
+:::note
+An Instance created in any VPC/advanced Availability Zone must be attached to at least one subnet.
+:::

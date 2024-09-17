@@ -1,0 +1,9 @@
+{
+  "label": "Instance Protection",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "description": "Instance protection safeguards virtual machine instances and workloads by creating backups using Acronis backup solutions.
+"
+  }
+}

@@ -3,7 +3,7 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Service providers, on Apiculus, get access to the following collection of interfaces and control panels to operate various aspects of their cloud operations.
+    "description": "Apiculus supports the delivery and management of Virtual Firewall Instances (VFI) in an as-a-service model.
 "
   }
 }

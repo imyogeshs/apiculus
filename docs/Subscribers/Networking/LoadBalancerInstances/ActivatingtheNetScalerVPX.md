@@ -16,6 +16,8 @@ reboot
 ```
 
 
-_**Note** - all the required details can be found in the parent VPC and/or on the LBI details sections of Apiculus CloudConsole._
+:::note
+All the required details can be found in the parent VPC and/or on the LBI details sections of Apiculus CloudConsole.
+:::
 
 Once the above steps are completed, the NetScaler VPX UI can be accessed by using the **LAUNCH LOAD BALANCER MANAGEMENT INTERFACE** button in the **Access** section of LBI details.

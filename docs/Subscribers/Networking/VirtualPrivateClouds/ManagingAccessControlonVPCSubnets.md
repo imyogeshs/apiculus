@@ -5,7 +5,9 @@ sidebar_position: 5
 
 Access control policies can be created using Access Control Lists (ACL) and configuring rules within these ACL (called ACL Rules). An ACL can then be applied to any tier within the VPC. These policies govern what traffic is allowed or restricted into and from your VPC network tiers.
 
-_**Note** - each VPC comes with **default_allow** and **default_deny** ACL, which can be edited but not deleted._
+:::note
+Each VPC comes with **default_allow** and **default_deny** ACL, which can be edited but not deleted.
+:::
 
 ACL can be accessed from the **Access Control Lists** menu/tab item under VPC details. From here, the following actions can be taken on any available ACL:
 

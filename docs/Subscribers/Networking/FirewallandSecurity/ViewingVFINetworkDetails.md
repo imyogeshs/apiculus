@@ -10,7 +10,7 @@ As the VFI and the VFI-based network are created, CloudConsole users can view th
 3. Availability Zone
 4. L2-WAN IPV4
 5. No. Of Instances associated with the particular Virtual Firewall
-6. Quick operations like [accessing the VFI control panel](https://docs.apiculus.com/hc/en-in/articles/13260379789981) and deleting the Virtual Firewall
+6. Quick operations like [accessing the VFI control panel](AccessingtheVFIControlPanel) and deleting the Virtual Firewall
 
 ![Viewing VFI Network Details](img/ViewingVFINetworkDetails1.png)
 

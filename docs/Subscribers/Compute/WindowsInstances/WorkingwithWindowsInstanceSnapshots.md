@@ -3,7 +3,7 @@ sidebar_position: 9
 ---
 # Working with Windows Instance Snapshots
 
-From [Operating Windows Instances](https://docs.apiculus.com/hc/en-in/articles/13280072414749), navigate into a Windows Instance and access the **Snapshots** tab to see all the snapshots taken for this Instance.
+From [Operating Windows Instances](AboutWindowsInstances), navigate into a Windows Instance and access the **Snapshots** tab to see all the snapshots taken for this Instance.
 
 Instance Snapshots allow you to create point-in-time images of Instances that preserve all their data volume as well as (optionally) their CPU/memory states. You can use Snapshots to quickly restore Instances.
 
@@ -13,11 +13,11 @@ The Snapshots section shows all Windows Instances snapshots, which can be used t
 
 Snapshot will list down the following details:
 
-- _Snapshot Name_
-- _Description_
-- _Internal Name_
-- _Type_
-- _Created On_
+- Snapshot Name
+- Description
+- Internal Name
+- Type
+- Created On
 
 Two quick options are available, one is to revert the Instance from the snapshot, and the other is to delete the particular snapshot.
 

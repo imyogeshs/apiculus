@@ -17,7 +17,9 @@ Primarily, IPv4 Addresses can be used for configuring access and NAT-ing via:
 
 As a first step, a new IPv4 Address needs to be added to the VPC, which can be done using the **ADD PUBLIC IPv4 ADDRESS** button.
 
-_**Note** - public IPv4 addresses may carry a price which may vary depending on availability of IPv4 addresses in the country of operation, and/or how the service provider has priced them._
+:::note
+Public IPv4 addresses may carry a price which may vary depending on availability of IPv4 addresses in the country of operation, and/or how the service provider has priced them.
+:::
 
 ## Configuring Load Balancing 
 
@@ -40,7 +42,9 @@ Once the load balancer rule has been created, you can now go into the load balan
 
 To test whether the load balancer has been configured correctly, you can log into the virtual machines that are behind this load balancer individually, create an index.html on each virtual machine (with different content), and access the public IP address directly from your browser. If configured correctly, each browser page refresh should take turns in loading the two index.html pages.
 
-_**Note** - a load balancer IP rule can only be configured if the tier/subnet type is set up_ **_Public IP_**_._
+:::note
+A load balancer IP rule can only be configured if the tier/subnet type is set up_ **_Public IP_**_.
+:::
 
 ## Configuring Port Forwarding
 

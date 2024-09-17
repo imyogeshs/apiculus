@@ -20,7 +20,7 @@ To create a Windows instance on a basic/flat networking zone, follow the below s
 6. Choose an Image to run on your Instance. This can be an operating system or a custom image that is available under **MY IMAGES.**
 7. Choose a compute pack from the available compute collections.
 8. Choose a Root disk from the available Disk packs, or you can use the free size option to specify the Root Disk.
-9. Verify the Estimated Cost of your Windows Instance based on the specifications you have chosen from the Summary and Estimated Costs Section( _Here, both Hourly and Monthly Prices summary will be displayed)_
+9. Verify the Estimated Cost of your Windows Instance based on the specifications you have chosen from the Summary and Estimated Costs Section ( Here, both Hourly and Monthly Prices summary will be displayed).
 10. Click on the check box after going through the policies mentioned by your cloud service provider.
 11. Clicking on the BUY HOURLY or BUY MONTHLY button, a confirmation pop-over will open up, and the price summary will be displayed along with the discount codes if you have any in your account. 
     1. You can apply any of the discount codes listed by clicking on the **APPLY** button. 
@@ -28,7 +28,9 @@ To create a Windows instance on a basic/flat networking zone, follow the below s
     3. Clicking on the **CANCEL** button, this action will be canceled.
 12. Click on the **CONFIRM** to create the Windows Instance.
 
-_**Note** - this might take up to 5-8 minutes. You may use the CloudConsole during this time, but it is advised that you do not refresh the browser window._
+:::note
+This might take up to 5-8 minutes. You may use the CloudConsole during this time, but it is advised that you do not refresh the browser window.
+:::
 
 Once ready, you’ll be notified of this purchase on your email address on record. The newly created Windows Instances can be accessed from **COMPUTE >** **Windows Instances** on the main navigation panel.
 

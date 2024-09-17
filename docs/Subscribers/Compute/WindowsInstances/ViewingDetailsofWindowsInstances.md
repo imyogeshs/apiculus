@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # Viewing Details of Windows Instances
 
-From [Operating Windows Instances](https://docs.apiculus.com/hc/en-in/articles/13280072414749), navigate into a Windows Instance and access the **Overview** tab to see its details.
+From [Operating Windows Instances](AboutWindowsInstances), navigate into a Windows Instance and access the **Overview** tab to see its details.
 
 1. Configuration and Availability
     1. The instance's status, **RUNNING**, is displayed in Green, whereas **STOPPED** is displayed in greyed out.
@@ -12,17 +12,17 @@ From [Operating Windows Instances](https://docs.apiculus.com/hc/en-in/articles/1
 ![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances1.png)
 
 2. Internal Information- This displays the information that is used for internal identification of this instance and communication with other internal services.
-    1. _Template Name_
-    2. _Internal Name_
-    3. _Created On_
+    1. Template Name
+    2. Internal Name
+    3. Created On
 
 ![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances2.png)
 
 3. Security and Access Control- Depending on the networking zone, the information and operations will be available here.
-4.  If it's a VPC Networking zone, then the below information will be shown
-    1. _Network Name_
-    2. _VPC Name_
-    3. _Access Control_
+4.  If it's a VPC Networking zone, then the below information will be shown:
+    1. Network Name
+    2. VPC Name
+    3. Access Control
 
 ![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances3.png)
 
